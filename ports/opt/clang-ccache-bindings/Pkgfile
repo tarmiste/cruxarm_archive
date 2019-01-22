@@ -1,0 +1,25 @@
+# Description: Masquerade directory to use ccache with clang.
+# URL: http://llvm.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: ccache clang
+
+name=clang-ccache-bindings
+version=1
+release=1
+source=()
+
+build() {
+	install -d $PKG/usr/lib/ccache
+
+	local clang="$(clang++ -v 2>&1 | grep version | sed 's/.*version \([0-9]*.[0-9]*\).[0-9]* .*/\1/g')"
+
+	if [ -z $clang ]; then
+		echo 'Failed to find clang version'
+		exit 1
+	fi
+
+	ln -s ../../bin/ccache $PKG/usr/lib/ccache/clang
+	ln -s ../../bin/ccache $PKG/usr/lib/ccache/clang-$clang
+	ln -s ../../bin/ccache $PKG/usr/lib/ccache/clang++
+}
+

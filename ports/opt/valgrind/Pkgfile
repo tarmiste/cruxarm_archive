@@ -1,0 +1,23 @@
+# Description: A debugging and profiling system for Linux programs
+# URL:         http://valgrind.org
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Packager:    Tilman Sauerbeck, tilman at crux dot nu
+# Nice to have: gdb
+
+name=valgrind
+version=3.13.0
+release=1
+source=(ftp://sourceware.org/pub/valgrind/valgrind-${version}.tar.bz2)
+
+build() {
+  cd $name-$version
+
+  autoconf
+
+  sed -i 's/2.18/2.19/' configure
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+
+  rm -rf $PKG/usr/share/doc
+}

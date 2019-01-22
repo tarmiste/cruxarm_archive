@@ -1,0 +1,34 @@
+# Description: Mesa 3D Graphics Library
+# URL: http://www.mesa3d.org
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: elfutils expat libdrm libvdpau llvm xorg-dri3proto xorg-glproto xorg-libxdamage xorg-libxshmfence xorg-libxvmc xorg-presentproto xorg-libxxf86vm
+
+name=mesa3d
+version=18.3.1
+release=1
+source=(ftp://ftp.freedesktop.org/pub/mesa/mesa-$version.tar.xz)
+
+build() {
+  cd mesa-$version
+
+  ./configure --prefix=/usr \
+              --sysconfdir=/etc \
+              --disable-llvm \
+              --enable-gbm \
+              --enable-gles1 \
+              --enable-gles2 \
+              --enable-glx-tls \
+              --enable-osmesa \
+              --enable-texture-float \
+              --enable-xa \
+              --enable-vdpau \
+              --enable-llvm-shared-libs \
+              --disable-dependency-tracking \
+              --with-dri-drivers=swrast \
+              --with-gallium-drivers=swrast,freedreno \
+              --with-platforms=x11,drm
+
+  make
+  make DESTDIR=$PKG install
+}

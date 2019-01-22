@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeql+CsaQnBRE6NC38ESEYdAdvgYNFXdlM6iyBCbbHP1413Tn0xqIxAghp4Z83SNTXtodS9gnfEdYbuHNUnghYRAQ=
+SHA256 (Pkgfile) = 675336e324b0b68b4f0af8bb8c8f7ac4f773a413f626c498306f9cddfc1b30ad
+SHA256 (.footprint) = b8e1d3a6dbafe0dd404692f60b272666e0d9a8de057422af161419a66a8a630a
+SHA256 (tzdb-2018i.tar.lz) = 1b7f91de728295d6363791cc728e4ea18af8493e07d947a6c2f217751294016a

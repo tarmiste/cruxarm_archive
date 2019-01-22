@@ -1,0 +1,20 @@
+# Packager:     Simone Rota, sip at crux dot nu
+# Maintainer:   Thomas Penteker, tek at serverop dot de
+# Description:  an interactive process viewer
+# URL:          http://hisham.hm/htop
+# Depends on:   python
+
+name=htop
+version=2.1.0
+release=1
+source=(https://hisham.hm/htop/releases/$version/htop-$version.tar.gz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+   
+    rm -rf $PKG/usr/{include,lib}
+    rm -rf $PKG/usr/share/{applications,pixmaps}
+}

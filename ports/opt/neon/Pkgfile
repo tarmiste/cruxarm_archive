@@ -1,0 +1,25 @@
+# Description: Neon is an HTTP and WebDAV client library
+# URL:         http://www.webdav.org/neon
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  openssl expat
+
+name=neon
+version=0.30.2
+release=2
+source=(https://fossies.org/linux/www/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --with-ssl \
+                --with-expat \
+                --enable-shared \
+                --disable-static \
+                --disable-debug
+
+    make
+    make DESTDIR=$PKG install
+
+    rm -rf $PKG/usr/share/{doc,locale}
+}

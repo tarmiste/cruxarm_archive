@@ -1,0 +1,32 @@
+# Description: Userspace interface to kernel DRM services
+# URL: http://dri.freedesktop.org/
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: libpthread-stubs xorg-libpciaccess 
+
+name=libdrm
+version=2.4.96
+release=1
+source=(https://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --mandir=/usr/man \
+    --disable-manpages \
+    --disable-valgrind \
+    --disable-cairo-tests \
+    --disable-intel \
+    --disable-radeon \
+    --disable-nouveau \
+    --disable-vmwgfx \
+    --disable-amdgpu \
+    --enable-omap-experimental-api \
+    --enable-exynos-experimental-api \
+    --enable-tegra-experimental-api
+
+  make
+  make DESTDIR=$PKG install
+}

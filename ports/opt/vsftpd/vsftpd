@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+# /etc/rc.d/vsftpd: start/stop vsftpd daemon
+#
+
+SSD=/sbin/start-stop-daemon
+PROG=/usr/sbin/vsftpd
+OPTS=""
+
+CRT=/etc/ssl/certs/vsftpd.crt
+KEY=/etc/ssl/keys/vsftpd.key
+
+
+case $1 in
+start)
+	if [ ! -s $CRT -o ! -s $KEY ]; then 
+		/usr/bin/mksslcert $KEY $CRT
+	fi
+	$SSD --start --exec $PROG -- $OPTS
+	;;
+stop)
+	$SSD --stop --retry 10 --exec $PROG
+	;;
+restart)
+	$0 stop
+	$0 start
+	;;
+status)
+	$SSD --status --exec $PROG
+	case $? in
+	0) echo "$PROG is running with pid $(pgrep -o -x vsftpd )" ;;
+	3) echo "$PROG is not running" ;;
+	4) echo "Unable to determine the program status" ;;
+	esac
+	;;
+*)
+	echo "usage: $0 [start|stop|restart|status]"
+	;;
+esac
+
+# End of file

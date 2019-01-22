@@ -1,0 +1,25 @@
+# Description: A library that handles input devices for display servers
+# URL:         http://wayland.freedesktop.org/libinput/doc/latest/index.html
+# Maintainer:  CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on:  mtdev xorg-libevdev meson ninja
+
+name=libinput
+version=1.12.6
+release=1
+source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	meson build \
+		--prefix /usr \
+		--libexecdir /usr/lib \
+		--buildtype release \
+		-Ddebug-gui=false \
+		-Ddocumentation=false \
+		-Dtests=false \
+		-Dlibwacom=false \
+		-Dudev-dir=/lib/udev
+
+	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
+}

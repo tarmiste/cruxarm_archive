@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/aVfZrCoVT7wRLU7JNkAnSXLcqK4cX8o9mcW1OZDBkT++DsklgrD+u4AWjgamyN15ebZa37jDRFfRrJ8KXxeawo=
+SHA256 (Pkgfile) = f484e464cdf06d1d1ff5f81fa76d059a5d5a48a856fd5e07b21907854612a677
+SHA256 (.footprint) = 54ed936b06ad1b347e41ef28c41b95e133178c7f04ad5ab1adb76f8bcf93185b
+SHA256 (texlive-20180414-texmf.tar.xz) = bae2fa05ea1858b489f8138bea855c6d65829cf595c1fb219c5d65f4fe8b1fad
+SHA256 (texlive-20180414-source.tar.xz) = fe0036d5f66708ad973cdc4e413c0bb9ee2385224481f7b0fb229700a0891e4e
+SHA256 (texi2html-5.0.tar.bz2) = e8a98b0ee20c495a6ab894398a065ef580272dbd5a15b1b19e8bd1bc89d9f9fa
+SHA256 (texlive-poppler-0.64.patch) = 8f42a828ac7d607fce59c1360e78bf8e2996979ffb902e81ecc41f13a4871b39

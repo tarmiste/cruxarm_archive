@@ -1,0 +1,16 @@
+# Description: pangox compatibility library (no longer provided by pango)
+# URL: http://www.pango.org/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: pango
+
+name=pangox-compat
+version=0.0.2
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

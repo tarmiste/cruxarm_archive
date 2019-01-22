@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/U+mEECruHKUnCfHPdzJuDSxJe6FXiZ9eKRFwAuzHssM/RNrPkO6doPuxUJGU95A80m1OX0puEalKc0Z8yCAeQg=
+SHA256 (Pkgfile) = d8259196e898340d593e871f599b9a07eba1db017b1db534286a24868d1765d1
+SHA256 (.footprint) = 9f22dadf8a261144792f38749a4e2b2704027fba3408f15b56609713ee74b9d7
+SHA256 (linux-firmware-20181223.tar.xz) = 8bb876f40d0f32166b371848090a001f4a7b8af7a05c69a47c5f7e1f143eb80c

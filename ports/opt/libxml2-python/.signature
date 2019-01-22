@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/T1Slo0jVlZYHihDz9C4IS2+7PxGp2+8ujCJDyy8jJcuU40FlkVurVzQMz0dgm/STmZqjhbtc4fOdWEvnO/NnAU=
+SHA256 (Pkgfile) = 7da41bdcadef4e0cbfec36bdf035ef1a7ceddd9f7c52b3896ea4856246d8535f
+SHA256 (.footprint) = 73d3d6093bbec225c90f39dcd85f9a56caa55daff311efa0fad3bd6e3cf1cb44
+SHA256 (libxml2-2.9.9.tar.gz) = 94fb70890143e3c6549f265cee93ec064c80a84c42ad0f23e85ee1fd6540a871
+SHA256 (libxml2-python-config.patch) = da00a6e596cdf32dc7b2c99a629a9389ea47672706ad6c8005cad88553d6d009

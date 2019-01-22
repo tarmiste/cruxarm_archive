@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/e+XlneU9UO07DIv3aR5EFW+eHATTKArm++wzb5EvCsi7HTQ9XFXXez0IU9CycTgF54ewSt2MrQofbK4jz1/zAA=
+SHA256 (Pkgfile) = c4b8d406ccdf804fa9b3266d9faa6a6adf4efd99c4fb95c7de8260d2ea2e1ca5
+SHA256 (.footprint) = a08313f457ad9004bd28ef81eb2d578d6ee09b234012ea3303d5090ca71c3f53
+SHA256 (socket_wrapper-1.1.7.tar.gz) = a3488125a3eee4e5189a69f3ff132e5d637b56bc208bbd6ecee6017d66edf89a

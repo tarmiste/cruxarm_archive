@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Q5MtmkTbOrd+smPwAcNCkM7qohjUAKqKdMo6IVq5lLHwFy8o7eLVRHdAvkiGJ4r3jwERqft+chr3xyLMH84rgo=
+SHA256 (Pkgfile) = 1b1593fb088126efbc84f99f3b64d2a66512999ffa9643d43808b0f5761083b5
+SHA256 (.footprint) = ac6f18c5b5d3a30d104fd9911f3677c7eac8bd6c4459c7ef14791cf788bf604a
+SHA256 (libjpeg-turbo-2.0.1.tar.gz) = e5f86cec31df1d39596e0cca619ab1b01f99025a27dafdfc97a30f3a12f866ff

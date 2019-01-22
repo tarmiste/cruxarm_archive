@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fJQhUXaoMAalqbOERXPQirlDxeD4MDzYujuHDG63IiZYAKRi/jdVbzBiVFq5xut1A+D6GF0POaysDZeZPXC+wA=
+SHA256 (Pkgfile) = 0d7f5162016eb98dc5a14793b54b3571f35af59c06c8c8521477d8ff5db1ede9
+SHA256 (.footprint) = 487129b93bc7f9145a3dedc9d36dd88c8bb2eea77325bee73de013d005edfb82
+SHA256 (mupdf-1.14.0-source.tar.xz) = 603e69a96b04cdf9b19a3e41bd7b20c63b39abdcfba81a7460fcdcc205f856df

@@ -1,0 +1,28 @@
+# Description: Abstraction for enumerating power devices, listening to device events and querying history and statistics.
+# URL: http://upower.freedesktop.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on: dbus-glib gobject-introspection intltool libgudev libusb
+
+name=upower
+version=0.99.4
+release=1
+source=(http://$name.freedesktop.org/releases/$name-$version.tar.xz
+	fix-critical-action.patch)
+
+build() {
+	cd $name-$version
+
+	patch -p 1 -i $SRC/fix-critical-action.patch
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib/$name \
+		--disable-nls \
+		--disable-man-pages
+
+	make
+	make DESTDIR=$PKG install
+}

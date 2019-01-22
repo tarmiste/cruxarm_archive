@@ -1,0 +1,33 @@
+# Description:	Application development toolkit for controlling system-wide privileges
+# URL:		http://www.freedesktop.org/wiki/Software/PolicyKit
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	glib intltool nspr spidermonkey
+
+name=polkit
+version=0.112
+release=1
+source=(http://www.freedesktop.org/software/$name/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--localstatedir=/var \
+		--mandir=/usr/man \
+		--disable-tests \
+		--disable-nls \
+		--disable-static \
+		--with-polkit-user=polkit \
+		--with-polkit-group=polkit \
+		--with-authfw=shadow \
+		--disable-man-pages
+
+	# --disable-man-pages to bypass a problem with docbook
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/man $PKG/etc/pam.d $PKG/usr/share/locale
+}

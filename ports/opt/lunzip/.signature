@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/R9Iv4ZZE9w/HpX/1Vxf9INr1JGVFwM1f35RwmXI2fCZFpvMPzvd+XARFLoz2ERclqlWBi3MQVQA1kj9Ss+R9Qs=
+SHA256 (Pkgfile) = 9ee2b20b3906b7bfa064b14c9b5672402bac7f0fb5313d6debf464ba8abf5db0
+SHA256 (.footprint) = 7d1aa9b7a30315eff5a7efe06fa73cb68126b976f5f5de6866d920d06a0d578d
+SHA256 (lunzip-1.10.tar.gz) = 7416393bac6a67460c55fe97075d2720f3be0747b01c74033dba6b6bf24a85c7

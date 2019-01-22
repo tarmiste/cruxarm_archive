@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/b1g/QKA+RqnC0NTf3d/kkUZH00rqCOJZzjS4PkRfc+b8/HEzl39QMvzfk1+VtHwFH4Yv6S99cydiJ3auSGM+AI=
+SHA256 (Pkgfile) = bcc5e6f35ff1b0fcc4f71ec1def53d785b0cbee3484f36fa14a1589cb4cb52d0
+SHA256 (.footprint) = 77ea0b5420f04155bc49ef5e1bac88e991aa5509d7b428d3dfc6443768d4ffd6
+SHA256 (prelink-20130503.tar.bz2) = 6339c7605e9b6f414d1be32530c9c8011f38820d36431c8a62e8674ca37140f0
+SHA256 (prelink.conf) = e5a2ad10877107f84f6e223e21f531eadce18be220017da2d6da2a503c80615f

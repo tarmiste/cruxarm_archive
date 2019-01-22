@@ -1,0 +1,23 @@
+# Description: Event library based on talloc
+# URL:         http://tevent.samba.org/
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  talloc
+
+name=tevent
+version=0.9.38
+release=1
+source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	sed '/^WAF_BINARY/s|../.||' -i Makefile
+	export PYTHON=python2
+
+	./configure \
+		--bundled-libraries=NONE \
+		--prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

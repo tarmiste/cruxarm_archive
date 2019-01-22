@@ -1,0 +1,50 @@
+# Description: QtWebKit for qt5.
+# URL: https://www.qt.io/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: qt5 ruby icu hyphen
+
+name=qtwebkit
+version=5.212.0
+_version=$version-alpha2
+release=1
+source=(https://github.com/annulen/webkit/releases/download/$name-$_version/$name-$_version.tar.xz
+	qt5-webkit-gcc7.patch
+	qt5-webkit-null-pointer-dereference.patch
+	qt5-webkit-trojita-1.patch
+	qt5-webkit-trojita-2.patch
+	qt5-webkit-cmake3.10.patch)
+
+build() {
+	cd $name-$_version
+
+	# Fix crashes with GCC7 https://bugs.webkit.org/show_bug.cgi?id=173407
+	patch -p1 -i ../qt5-webkit-gcc7.patch
+
+	# Fix layout issues in trojita https://github.com/annulen/webkit/issues/511
+	patch -p1 -i ../qt5-webkit-trojita-1.patch
+	patch -p1 -i ../qt5-webkit-trojita-2.patch
+
+	# Fix null point dereference (Fedora) https://github.com/annulen/webkit/issues/573
+	patch -p1 -i ../qt5-webkit-null-pointer-dereference.patch
+
+	# Fix build with cmake 3.10
+	patch -p1 -i ../qt5-webkit-cmake3.10.patch
+
+	install -d build
+	cd build
+
+	cmake .. \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DPORT=Qt \
+		-DENABLE_TOOLS=OFF
+
+	make
+	make DESTDIR=$PKG install
+
+	# Fix pkgconfig files
+	sed -e 's|qt/Qt5WebKit|qt/QtWebKit|' -i $PKG/usr/lib/pkgconfig/Qt5WebKit.pc
+	sed -e 's|qt/Qt5WebKitWidgets|qt/QtWebKitWidgets|' -i $PKG/usr/lib/pkgconfig/Qt5WebKitWidgets.pc
+	sed -e '/Name/a Description: Qt WebKit module' -i $PKG/usr/lib/pkgconfig/Qt5WebKit.pc
+	sed -e '/Name/a Description: Qt WebKitWidgets module' -i $PKG/usr/lib/pkgconfig/Qt5WebKitWidgets.pc
+}

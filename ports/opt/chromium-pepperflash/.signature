@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/eNtAlYOM6dGF7arjPgPPNfzOLjewoUrics53mE2nayrI/P68G8Ro+OriGFJVu0jXLnx9KMkKSzDAlUp0xMRqQ8=
+SHA256 (Pkgfile) = 72f6781262853a526af03c640265083cf7733ca2b5d8d43756fba27d4ad7d79e
+SHA256 (.footprint) = d9ceda51f4b2fa3085273e0d9621824579dd1c30a217581c5857d85e2a9ff223
+SHA256 (flash_player_ppapi_linux.x86_64-27.0.0.183.tar.gz) = 144325c00f40dfa704eda72fda6518ef797eb5be37715626099de8e722f80d22

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WE8XCzJXN7/NeRb0+XXqa66B+GbixyaaPqafjs1LA3cw2Pu9bAQUx7TYCGfqDXcpMdkeq5wR7WR8RB56d7+vwg=
+SHA256 (Pkgfile) = 7113fc6f7fbe33bfff8340fbccaa6f73f7e36f61767778432f9cdbf005657443
+SHA256 (.footprint) = a82358b9eab64c5e001cb7c78779d60342ccea53d30012a454d580befaf6efe6
+SHA256 (confuse-3.2.1.tar.xz) = 23c63272baf2ef4e2cbbafad2cf57de7eb81f006ec347c00b954819824add25e

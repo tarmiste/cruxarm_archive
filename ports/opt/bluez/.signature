@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Vn5VwpHcYB3zdHJQFefPBfyEVR6t9vmC6wsZzWOHFLu53aolqY+APUx68IuxGB7yY2vdU03ewtbNRk6FbSdsAw=
+SHA256 (Pkgfile) = d507dd5b984a2318f1f7396833f963320f7979a26fe8f143d1116928bb36c0a9
+SHA256 (.footprint) = 2d6aa1ed3254ec65ed77e30f5e3c6bc2aa4bfeb0df1e15745d89129529f48db2
+SHA256 (bluez-4.101.tar.xz) = 41f9578bef39b8c94a2d6ddeaa556afd22d136936d0f03100e422fe970a45a7d
+SHA256 (bluetoothd) = 3cd23999762c0ca3e0559af307a8dbd4b7f8a58fc4bb2701d278dc49ec14a0b9
+SHA256 (bluetooth.h) = 83fcd8435ef1010170b9c67cb7adb936e340f88e5eb84f5033d07278aa79071a

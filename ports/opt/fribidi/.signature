@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/bQPGb19X8Ap0WWIxcmWiwKqNUPAsYmJDzlz9AiE6eqNeVK26e6s0BgvTsMbiDGxfNxp3Ru+I73Y7KTt7RIW4As=
+SHA256 (Pkgfile) = d38abb96db379fe1fc4d73e2e51278b3a299ce6ed020521b32490c8a8299f89f
+SHA256 (.footprint) = 6dfeee48b77b5d85ee67c7c574485374c9037c7320193a167c4d9af33298c12d
+SHA256 (fribidi-0.19.7.tar.bz2) = 08222a6212bbc2276a2d55c3bf370109ae4a35b689acbc66571ad2a670595a8e

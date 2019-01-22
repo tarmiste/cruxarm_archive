@@ -1,0 +1,38 @@
+# Description: GTK+ based IRC client.
+# URL: http://hexchat.github.io/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: autoconf-archive gtk iso-codes libnotify pciutils xorg-libxdamage
+# Optional: enchant libcanberra lua
+
+name=hexchat
+version=2.12.4
+release=3
+source=(http://dl.hexchat.net/hexchat/$name-$version.tar.xz
+	hexchat-enchant2.0.patch
+	hexchat-enchant2.0_name.patch)
+
+build() {
+	cd $name-$version
+
+	patch -p1 -i $SRC/hexchat-enchant2.0.patch
+	patch -p1 -i $SRC/hexchat-enchant2.0_name.patch
+
+	local LUA
+	if [ "$(pkginfo -i | grep '^lua ')" ]; then
+		LUA='--enable-lua'
+	else
+		LUA='--disable-lua'
+	fi
+
+	autoreconf -vi
+
+	./configure \
+		--prefix=/usr \
+		--enable-python=python2 \
+		--enable-textfe $LUA
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}

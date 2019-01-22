@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/f4V75vGtiRLmSiasvhfHnUknDqsrT/IoS3CL7fPvJKn/Zwcr8bGmMhTDgUOJoglDBdiPfunlZbLXMsKVf6wHQY=
+SHA256 (Pkgfile) = c3af099310acdf801158d417182411a329254deebb0dcbdb0953dbbfd4d49597
+SHA256 (.footprint) = 94debfbe33267ae854c2396c514463ded29063741d4f2efa618421202950c602
+SHA256 (cmocka-1.1.1.tar.xz) = f02ef48a7039aa77191d525c5b1aee3f13286b77a13615d11bc1148753fc0389

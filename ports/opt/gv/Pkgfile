@@ -1,0 +1,18 @@
+# Description: GhostView, Postscript/PDF viewer
+# URL:         http://www.gnu.org/software/gv/
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  xaw3d, ghostscript
+
+name=gv
+version=3.7.4
+release=3
+source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
+
+build () {
+    cd $name-$version
+    sed -r -i 's/(-sDEVICE=)pswrite/\1ps2write/' src/Makefile.in
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/info
+}

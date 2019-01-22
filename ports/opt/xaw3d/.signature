@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Za/fSvanXnBPQKynsQuucFysVeyCLrfXrktEhipyv+skUMrC3jJ5fmsRovjVgREDDc6is2K9pY0xkI7ID7aHA0=
+SHA256 (Pkgfile) = 7422445dfd40b20056f931137127addcd05e7b3d862a353c3b0a8666ef8e6f33
+SHA256 (.footprint) = e9e4f2d166fff8e5f9a0078abf1130a0e0a4df87e348283aca38f73574ce80f3
+SHA256 (libXaw3d-1.6.3.tar.bz2) = 2dba993f04429ec3d7e99341e91bf46be265cc482df25963058c15f1901ec544

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/ZZDuW6lRmhA+r/ITZbk95JiFqYKGN82E54q01BfYshaq08ih18j3OO/5a+tAMWwAuXNB3j441ZwMI4cqgdWjgE=
+SHA256 (Pkgfile) = 678baf6c29475d5eb853f236a094349a89459a2901e6178ea0e32e75b6bfae0b
+SHA256 (.footprint) = 31bd6452c547be38139d0d1b4a47f51a3f59f1432c29ef50e74f244562528009
+SHA256 (pangox-compat-0.0.2.tar.xz) = 552092b3b6c23f47f4beee05495d0f9a153781f62a1c4b7ec53857a37dfce046

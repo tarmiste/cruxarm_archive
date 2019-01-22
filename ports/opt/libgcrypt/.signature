@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/acxY3euzXObVVZOgfi93WH+O4nuXe41JYCdE30am/vIzSY1e/JONdL0bklAdTFuK+FCIVPXWNatiDfSoWgyFwo=
+SHA256 (Pkgfile) = f76fb2e52ca1971e947d1ad4d5f0757f4534843d5bc2fa50a8dc1ee517399032
+SHA256 (.footprint) = 6c0d831b509530cf0812d44ea97995012a75d30ec1e604a2c450b4a781f462fb
+SHA256 (libgcrypt-1.8.3.tar.bz2) = 66ec90be036747602f2b48f98312361a9180c97c68a690a5f376fa0f67d0af7c

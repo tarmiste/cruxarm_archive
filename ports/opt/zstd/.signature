@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/XbNjv5ZSB6JfoJwLhYyXtBxquWg/ClqVIS0q/ekNPTrhBA2ZC9kVQmejj4Z84BLrXkYJqeGTNczAEdyM5kDigk=
+SHA256 (Pkgfile) = 6f9aa1690b9307a6261afe884d6ce198671452c6ed30da271886c774dd4d25f5
+SHA256 (.footprint) = 5f9b231c9291a4c5b95486ec5fa43e0434f6795164888f4409c74f39482718b4
+SHA256 (zstd-v1.3.8.tar.gz) = 90d902a1282cc4e197a8023b6d6e8d331c1fd1dfe60f7f8e4ee9da40da886dc3

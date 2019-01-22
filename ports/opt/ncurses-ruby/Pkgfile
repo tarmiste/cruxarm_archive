@@ -1,0 +1,18 @@
+# Description: Ruby module for accessing the ncurses library
+# URL:         https://github.com/eclubb/ncurses-ruby
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  ruby 
+
+name=ncurses-ruby
+version=20140731
+release=4
+source=(http://crux.s3.amazonaws.com/dist/$name-$version.tar.xz)
+
+build () {
+    cd $name-$version/ext/ncurses
+    mkdir lib
+    cp $SRC/$name-$version/lib/ncurses.rb lib
+    ruby extconf.rb --vendor
+    make
+    make DESTDIR=$PKG install
+}

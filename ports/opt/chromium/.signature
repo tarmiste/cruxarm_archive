@@ -1,0 +1,11 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Z3xpwEfM4Q9/9Ijb8vZudoetipL4uL0scSqs8CgLGerd/YbOw4Pd37nZEy3iDhYUjfcmxhlsy336sxXBjEm6QQ=
+SHA256 (Pkgfile) = 7b117ccf7bdb817b98a423288661d1619003c59780875400d9c4fe827d7ce88d
+SHA256 (.footprint) = 95eb53a45199694e600d1fb7e055c8d1fd3ad4033de075267cd2a7750a0f7b12
+SHA256 (chromium-65.0.3325.181.tar.xz) = 93666448c6b96ec83e6a35a64cff40db4eb92a154fe1db4e7dab4761d0e38687
+SHA256 (last-commit-position.patch) = d3dc397956a26ec045e76c25c57a1fac5fc0acff94306b2a670daee7ba15709e
+SHA256 (chromium.sh) = 7b182d0ae1e9ef841f8cd0b403a304babd548bf60b5e3808b2144bebdbb7c154
+SHA256 (chromium-skia-harmony.patch) = feca54ab09ac0fc9d0626770a6b899a6ac5a12173c7d0c1005bc3964ec83e7b3
+SHA256 (chromium-clang-r2.patch) = 4495e8b29dae242c79ffe4beefc5171eb3c7aacb7e9aebfd2d4d69b9d8c958d3
+SHA256 (chromium-math.h-r0.patch) = fe0ab86aa5b0072db730eccda3e1582ebed4af25815bfd49fe0da24cf63ca902
+SHA256 (chromium-stdint.patch) = c00d2506f1078b38a8ebec474a7318e76a61db1298afb40088a34210f137210f

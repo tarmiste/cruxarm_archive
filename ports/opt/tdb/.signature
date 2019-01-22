@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Vx62K7CrziEoGoxJG4JHtMaaDa1NWnDjNCBBEnaFCfgFj0mzOSBRLodZelsTwv4U7p/g3nn1d7bX80DYkHedQQ=
+SHA256 (Pkgfile) = 7dc6404bc1f9f85b1f0d8bb62495b05841f7c591ab84a03ec37bdccd0d13766c
+SHA256 (.footprint) = 98e7e0ecfa78eecca68c57e8f001b6296dc90a1b520b3420eb2cd8c4bb978d45
+SHA256 (tdb-1.3.17.tar.gz) = 1cb4399394c60a773430ca54848359adcf54fb6f136afdcfcbbe62b5f4245614
+SHA256 (tdb-man-pages.tar.xz) = 4ba01bfb0ea6d3572a00b1993783053d42170299cda5fa842629a231b957ae2f

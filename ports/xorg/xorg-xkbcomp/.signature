@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndLNATGus/QrjnDZmV8pN8A5wnxzVk2rLmq6Pw21f23g8Pxpe6EkgQVoW7BKFjDeTjLXHRGxlOlAwwJW2R5d0mw4=
+SHA256 (Pkgfile) = 4726d29c173fc5ef3e5c78a980f06aa9050cb78076b53bd5be2b9f99bcc4b3b2
+SHA256 (.footprint) = 3f16926137f36ad3121b9e5e262b03ce1afa58653b1b3795f8499d04f062b435
+SHA256 (xkbcomp-1.4.2.tar.bz2) = 6dd8bcb9be7e85bd7294abe261b8c7b0539d2fc93e41b80fb8bd013767ce8424

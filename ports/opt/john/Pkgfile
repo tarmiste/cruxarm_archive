@@ -1,0 +1,33 @@
+# Description: John the Ripper is a fast password cracker
+# URL:         http://www.openwall.com/john/
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Depends on:  libpcap python
+
+name=john
+version=1.8.0-jumbo-1
+release=2
+source=(http://www.openwall.com/$name/j/$name-$version.tar.xz
+	gcc5.patch)
+
+build() {
+  cd $name-$version/src
+
+  sed -i 's|/usr/libexec|/usr/lib|g' params.h
+  
+  # fix compilation with gcc 5.x
+  patch -p2 -i $SRC/gcc5.patch
+
+  CONFIG_SHELL=/bin/bash \
+  ./configure --prefix=/usr CFLAGS="${CFLAGS}"
+  
+  make
+
+  install -d $PKG/usr/lib/$name
+  install -m 0755 -t $PKG/usr/lib/$name ../run/*
+
+  install -d $PKG/usr/bin
+  echo -e '#!/bin/sh\n/usr/lib/john/john "$@"\n' > $PKG/usr/bin/john
+  chmod 0755 $PKG/usr/bin/john
+
+  /usr/bin/python -mcompileall $PKG
+}

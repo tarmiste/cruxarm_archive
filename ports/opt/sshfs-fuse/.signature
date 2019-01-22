@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/S1rmaJD1Zxg9RNg+gcSxPmxv+PbjcavmpZsUgJqeeK6Y5MSZZlz5mslYsZD9lzZJvSPbsoeJmqLeiK6lzBX/QQ=
+SHA256 (Pkgfile) = f99f0ac4cabfa7ae7a103a0ffa7be0cc41369a13865efbbdf58f973fbb56a5db
+SHA256 (.footprint) = 55809a24ab7e2ee0ae7278618a24a3532806af781f07c1f9c651d089933d2527
+SHA256 (sshfs-3.5.1.tar.xz) = b505105980cd552481ab9f311bcf6fdb6134cdd200d5ac8aa828b31769d0b10b
+SHA256 (sshfs.1) = 42c34c125251a6e94336f2bc11eee3575cfd63cf20b2b69919c198b4ed33f2ce

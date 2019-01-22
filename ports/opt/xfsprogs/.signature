@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TUGnV1iUkKuw0SwwuivcPkL9nJJ4PSGJiNgtz5+J/WevOJgAk1KGBtRb/yxLwAIQprDpMm97gSkJDxKZVDI8gw=
+SHA256 (Pkgfile) = 60553f3993065b08318370ce5cf59ab08d34689028ee327a17dc9ac918e7b433
+SHA256 (.footprint) = 5c16ba2abc6dc82ab1e9781f657d2bffba20b9a2d2676f342846efb26164ec7c
+SHA256 (xfsprogs-4.19.0.tar.xz) = 47e1133bdca47f05f6f72a56655cb6c77657e477f3b82df021cee98741fcafa2

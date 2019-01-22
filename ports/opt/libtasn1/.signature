@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Yrp1pa/LYBO5X2JzrdXJSCIoHb1GJWBvOy6ij1mBGURm+TFLDOWLa/6BCscizuTL1Ww5lTxbUZWTwT8VdijcgY=
+SHA256 (Pkgfile) = cd4d2f23a0f91dad49ac979932ed3284d8810824609052efa26f648e6750589a
+SHA256 (.footprint) = 9c42a86141bffbea8bea0268b6da0332a07492cc1c1383932ae5362ab631ff2c
+SHA256 (libtasn1-4.13.tar.gz) = 7e528e8c317ddd156230c4e31d082cd13e7ddeb7a54824be82632209550c8cca

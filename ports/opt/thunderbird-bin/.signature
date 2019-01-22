@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Tb3Y3gr6UqN92MzTfbAX64WALC0rR082o+2SnBcTbM8iXKRCGzTQLndeSlAEOnyIIkQ/i4fkTVCXtT1MhUOoAw=
+SHA256 (Pkgfile) = 065338936726ff99ec5e950d27c77b1a80f55f8014bd0337dc97b1703fc3edd5
+SHA256 (.footprint) = d3a9d9f8b1a0d857f1c670a77145f5abb4707155e9dddc296517c4f9410c06b7
+SHA256 (thunderbird-60.4.0.tar.bz2) = a184543b691d658dd5b4a8b7263646647d96fd7b09b13361b7b14cad46e4378c

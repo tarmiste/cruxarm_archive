@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndChBEm7IB4lfbOlw6SJy82zPd0zwF2T0EVEId/+W+xcaFZAusR3lCz3aTRvd1XLluWU8aPxXhC3N+Tw2we1nUwc=
+SHA256 (Pkgfile) = 8a65a5a60ac80541d04a26bec368bdae5f400d7b88e85c6dc29154dd639987a2
+SHA256 (.footprint) = 907d1448aa7bcd34098f676d89c0eacce295688ac071d4bccc922f768ac83789
+SHA256 (xtrans-1.3.5.tar.bz2) = adbd3b36932ce4c062cd10f57d78a156ba98d618bdb6f50664da327502bc8301

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndK8Kqngm/U9gIXKO73Um7iUc9tjP+0hZQLs4N1n5KDervC/3P2b7nm+l/gbmqRaFOlhJ0DRMzRDWx+FBQxfGRQo=
+SHA256 (Pkgfile) = 3fc2d30882e663b62af9bfd461c1777ff6163b2e7a8ac9899586a0146c562a8a
+SHA256 (.footprint) = 2c3114fa5c79e7d9d46e105d08d9c91fc959d14f6a4cf6fb00b224bb40709abd
+SHA256 (xkeyboard-config-2.24.tar.bz2) = 91b18580f46b4e4ea913707f6c8d68ab5286879c3a6591462f3b9e760d3ac4d7

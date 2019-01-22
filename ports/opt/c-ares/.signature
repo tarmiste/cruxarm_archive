@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/RDdAojqDIeQjsh83tdW7lDyQJcXBIvNOhsGsfvFoG18b3tbBCtQuH5CDlhOtAHJQPcaYcjuiAK/qzMVmz21GAs=
+SHA256 (Pkgfile) = 2e930a36a6abe9d6fdbbf79d49fcec8424406f2b2d66386ea7fc24ba2c307e41
+SHA256 (.footprint) = 6ff185b4593dbccb6701bd9388e4e029a52613fd2300f1efa7c8541df3043188
+SHA256 (c-ares-1.15.0.tar.gz) = 6cdb97871f2930530c97deb7cf5c8fa4be5a0b02c7cea6e7c7667672a39d6852

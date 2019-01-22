@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/f5TouNg6VreIjIvDEGIMENIGw7UtSrMovklYlQO++WPaF5HzHHBJ8vVHQvqS3BpCdS6htlsZwrV1eiIvYBFJgk=
+SHA256 (Pkgfile) = 42822b6c76a37e62cb9b1e2fd7c314276e428bad36e18f4532e58d73c04fc7af
+SHA256 (.footprint) = 97d93c91b6ec4f9a78365ddd6ec4a6d49ec8c7ff4bd3de80991a91586b2af93a
+SHA256 (LVM2.2.02.183.tgz) = 4382a81553ae62885a83a37d7400d75094549d5f05f6d003a4db85a79bae6468

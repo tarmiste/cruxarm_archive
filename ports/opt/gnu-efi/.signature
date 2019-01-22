@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/aJ8vBOhuLGINNNiNqU9sIAhBqPhItB9oXUysZUYIA/lt8WLT3tyqqq8l2ZqKHcePdk/r6ABEY8fQ+H+znWKkww=
+SHA256 (Pkgfile) = 3ea18e6999117242072f802be1f256f365f5ae2ec7ad4cfaf0341c55ce1d73cf
+SHA256 (.footprint) = 4c1713571f194e4363e206df29718fff385f7e4848c3b8a3ce2d88bfc3b07905
+SHA256 (gnu-efi-3.0.8.tar.bz2) = 76006d8ea8d67bcf72f35d09d43e9ef6a69400d6d5d4bf64baf1ab7434e2b722

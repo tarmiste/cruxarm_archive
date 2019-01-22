@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Re69/WQLvM8wYbRqBd8/KbNzxoqCx/iwMnawKzB4uT/8zcEHU5eJZguQa+Q24VE/UIJUzWrZsdrQwiikP2nkQE=
+SHA256 (Pkgfile) = 3348d0dd30da08283af4f46f5271f19a2ce45abb6b739156e56b8be6989b8186
+SHA256 (.footprint) = c010cada4f4a5c9708e5b850e39daf6bf4662e2e9a17009e6da3956256dd4144
+SHA256 (v2.7.1.tar.gz) = 8179a7a843d257ddb585f4c65599844bc0e516fe85e97f6f87a7ceade4eb5165
+SHA256 (ffmpeg.diff) = 22e807acb5e944e2cc2189d2b2e41d69796703f31cf676230a6f63c22c282873

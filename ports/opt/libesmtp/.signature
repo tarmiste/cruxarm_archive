@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dlgZC7CWvihgYOAS0ZkWOurLTEyGxIPKvkDmerJZylZlI3wk5D9w/NKnbyVrQeiVmNQUPSEjg7MbklvfkLFKwU=
+SHA256 (Pkgfile) = c32d8c9719d10179a6b8c060f7469a368d7f92fe0e46a47961fbeb8fafe588d7
+SHA256 (.footprint) = 0ab43d99a738ede6695a94f8caa028e955111e634353e7d7741cc08aad8d3b68
+SHA256 (libesmtp-1.0.6.tar.bz2) = d0a61a5c52d99fa7ce7d00ed0a07e341dbda67101dbed1ab0cdae3f37db4eb0b

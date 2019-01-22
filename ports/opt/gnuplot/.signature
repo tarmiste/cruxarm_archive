@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/SCJvdcqdxEgWL1gL4vA77fmLQ9rH7AMdA6HDg84xjL9MSuB4jslHU3CF2xp7EwgelGAy/6kj64yRDRgfIBNcQM=
+SHA256 (Pkgfile) = 9248ecf6d2fe6dac40e2859c122214c4d34cb8a7dd782f4b8809e05be3130de7
+SHA256 (.footprint) = 644b9258a28904e0e8e764f185f0b1f5e501e6ef4559214273ccaf0abad59a75
+SHA256 (gnuplot-5.2.6.tar.gz) = 35dd8f013139e31b3028fac280ee12d4b1346d9bb5c501586d1b5a04ae7a94ee

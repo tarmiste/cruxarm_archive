@@ -1,0 +1,24 @@
+# Description: Thunderbird binary
+# URL: http://www.mozilla.com
+# Maintainer: Fredrik Rinnestam, fredrik at crux dot nu
+# Depends on: gtk3, dbus-glib
+
+name=thunderbird-bin
+version=60.4.0
+release=1
+source=(http://ftp.mozilla.org/pub/thunderbird/releases/$version/linux-x86_64/en-US/thunderbird-$version.tar.bz2)
+
+build() {
+	cd thunderbird
+
+	install -d $PKG/usr/{lib,bin}
+	mv $SRC/thunderbird $PKG/usr/lib/thunderbird
+	ln -s /usr/lib/thunderbird/thunderbird $PKG/usr/bin/thunderbird
+
+	mkdir -p $PKG/usr/lib/thunderbird/lib
+	find $PKG/usr/lib/thunderbird -name '*.so' -exec cp '{}' lib/ \;
+
+        mkdir -p $PKG/etc/revdep.d
+        echo "/usr/lib/thunderbird/lib" > $PKG/etc/revdep.d/thunderbird-bin
+
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/eQx9LuKAmuqjFov0ii05PC5ZFo+PPxOJw5FSoXk3QZd0JFbSnZhMYh2jhEzp/bQKtXaX8BcHkSJM3ugdFQscAc=
+SHA256 (Pkgfile) = 3ad2518e55171217ff85b0de7df2dd4662e317c5b25b0d6bb12075780545b1e6
+SHA256 (.footprint) = 2eb7bc1bfdd181bbca4584c93ca7cdaa7094d73e4fc76ebe2c71da1d0eb79714
+SHA256 (libva-1.7.3.tar.bz2) = 22bc139498065a7950d966dbdb000cad04905cbd3dc8f3541f80d36c4670b9d9

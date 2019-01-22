@@ -1,0 +1,22 @@
+# Description: Gettext module for PHP
+# URL:         http://www.php.net
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Packager:    Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:
+
+name=php-gettext
+version=7.2.14
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.xz)
+
+build() {
+    cd php-$version
+
+    ./configure --disable-all --with-gettext=shared,/usr
+    make build-modules
+
+    install -d $PKG/{etc/php/conf.d,usr/lib/php/extensions}
+    install -m 755 modules/gettext.so $PKG/usr/lib/php/extensions/
+
+    printf 'extension=%s\n' gettext.so > $PKG/etc/php/conf.d/gettext.ini
+}

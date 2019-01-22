@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/f0BrfBwKDsmR+a85aneu6Tzm2erbvx7CMwQp0Urn/62qB5d3fUkhKmpWEWCmCgulfBdG2HBcNE2KAwTiCcGiAQ=
+SHA256 (Pkgfile) = 4852b75f9a22f332d4239fd6a121dc229bfe3998b6e8fb957c96afa730dec7eb
+SHA256 (.footprint) = 02ba8f49c773c5bb70a42ff518804a8343a501ca650fa08a9465a736cece84f2
+SHA256 (ppp-2.4.7.tar.gz) = 02e0a3dd3e4799e33103f70ec7df75348c8540966ee7c948e4ed8a42bbccfb30
+SHA256 (ppp-nofilter.patch) = ac6100526d256e341183aa6470515f85cfb6195277b801339c4f7930942132fa
+SHA256 (0029-pppoe-include-netinet-in.h-before-linux-in.h.patch) = 7239409d9e28d2874da41db189e6c45a0c8f3894879783966ddcea0b5462779a
+SHA256 (glibc-2.28.patch) = 3f199d83d2632274dbbe7345e5369891469f64642f28e4afb471747a88888b62

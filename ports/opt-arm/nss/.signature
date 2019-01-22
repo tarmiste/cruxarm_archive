@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-arm.pub
+RWQh9Dk2FlLauEnZ3YgURiekb2ubiGmVor348wfNihN2xhc3zZVEVMUo3dAgzYY6jiU3tkwJD0TDkE5f3aTn8aUhdhkd3g5XSAI=
+SHA256 (Pkgfile) = add0f2b9f2bdec2866b192be05656cd079e9d77f86b0c17850ba201391258352
+SHA256 (.footprint) = 0a4d27e330acd0d1d51a4c00efcc2b4f12faee05259b022162fccfa6a48616f1
+SHA256 (nss-3.41.tar.gz) = ab2e18f5d0dd0079c0005396f9beb9a41e9a1bbc7e6c1d0a99affcef0471712d
+SHA256 (nss-config.in) = 08dbc1202186308e86125b5c5e7e2d0e1bd1bd5ed65eab011b9af210f656aff5
+SHA256 (nss.pc.in) = 135fbde6866e422b7a436e18d5b8e0defbb67dde6b8e1dc9e84de14b5c645626

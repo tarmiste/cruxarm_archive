@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/d6+1B01vm69HWqOp0O27KdEWlTsVh06OgEdSXDhmI5hxR0Y47FawQXTwL4SvGVa03s6vKGKzAZ9OGnQJECemQQ=
+SHA256 (Pkgfile) = 35b9684ea7f9fede1e52b8d7af3ed3a11aafa48f7b77b0cf41e22ea68041008f
+SHA256 (.footprint) = 2bd7a4a57961df53436ef49f6e09f9d216c15e9f2801f82e37d610f3d05fb56b
+SHA256 (pyparsing-2.3.0.tar.gz) = f353aab21fd474459d97b709e527b5571314ee5f067441dc9f88e33eecd96592

@@ -1,0 +1,17 @@
+# Description: Software construction tool.
+# URL: http://www.scons.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: python
+
+name=scons
+version=3.0.1
+release=1
+source=(https://download.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	/usr/bin/python setup.py build
+	/usr/bin/python setup.py install --root=$PKG --optimize=1 \
+		--install-data=/usr/share
+}

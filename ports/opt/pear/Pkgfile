@@ -1,0 +1,21 @@
+# Description: Framework and distribution system PHP
+# URL: http://pear.php.net/
+# Maintainer: Jose V Beneyto, sepen at crux dot nu
+# Packager: Antti Nykanen, aon at iki dot fi
+# Depends on: php
+
+name=pear
+version=1.10.7
+release=1
+source=(https://pear.php.net/install-pear-nozlib.phar)
+
+build() {
+
+    export PHP_PEAR_SYSCONF_DIR=/etc/php
+    export INSTALL_ROOT=$PKG
+
+    php -n $SRC/install-pear-nozlib.phar
+
+    rm -r $PKG/.{filemap,lock,depdb*,channels,registry}
+    rm -r $PKG/usr/lib/php/pear/{docs,tests}
+}

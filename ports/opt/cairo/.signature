@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/aRdo2GC/KehluvfBx78PLXc0AEhALgCmzRD6UGCiZB/TW0M3AOTMrw3t/zA6SDoO48d18J4hJuWPTSWuEDTDwo=
+SHA256 (Pkgfile) = 671d81bf11fb22522d8f2b23aa11ba1c9255edcc1ad86d4e3ebdef4d79dd127d
+SHA256 (.footprint) = 742a6524df8abaf10bc5b1bc5ffc934be8e2302c233bf44112a26e466fb0eb86
+SHA256 (cairo-1.16.0.tar.xz) = 5e7b29b3f113ef870d1e3ecf8adf21f923396401604bda16d44be45e66052331
+SHA256 (cairo-xlib-endianness.patch) = 58d39311edee6d8ddf76deac1d2e3526b4c02d4aa1f35a6ca16ff50c8e65429f
+SHA256 (cairo-get_bitmap_surface-bsc1036789-CVE-2017-7475.diff) = 4c8b8095a41f244ddfbc9b24e2f73a6fd8d697f43903617e0519b95b27b30726
+SHA256 (CVE-2018-19876.patch) = 78923093cd9b80a4d604e4141ae553f1aa4521d59a9aed8735d1e1be9cca3d99

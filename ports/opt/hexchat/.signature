@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TzGa7BIeiTbgtRqB5Y2pLzC+UEfiDuoFRYwvW1RUeh4WlkJOcKD4NM1fwIieQXHmQBl1FjIXWbk7Eoc1/QRCgc=
+SHA256 (Pkgfile) = e584c24caebc1e61f924e1ce8068f5734a3111920adc24794b097a958f5893ee
+SHA256 (.footprint) = 23bf408e9ed745eb12003a6b2270de16b3a651b03374c34b29edec11ceac6cdd
+SHA256 (hexchat-2.12.4.tar.xz) = fa35913158bbc7d0d99de79371b6df3e8d21802f1d2c7c92f0e5db694acf2c3a
+SHA256 (hexchat-enchant2.0.patch) = d5f1e70b696337b15d40386292748483d2b27631a9bba6cfa5c97eae4f6987f1
+SHA256 (hexchat-enchant2.0_name.patch) = b9687999f8e013716ec997458de1db0d3618382a6963d5f6eb578fea253daa24

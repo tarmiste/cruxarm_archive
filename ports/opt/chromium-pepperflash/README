@@ -1,0 +1,5 @@
+Start chromium with the flag
+--ppapi-flash-path=/usr/lib/PepperFlash/libpepflashplayer.so
+
+If you have the flash-player-plugin port installed, chromium still prefers
+PepperFlash.

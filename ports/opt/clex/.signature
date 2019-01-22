@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Zh4hWxPrglJey/mY6YP+nFx7t5BbkwGHEyw8j/P2JnpZXykrAibYSDIc0ABnnigvnUsxZwpwwyabRhixe2NSw4=
+SHA256 (Pkgfile) = 68a9864d854e5dadf596bbdbe439af085eac58535d4358b1d7c4fe8ceb42ba85
+SHA256 (.footprint) = c000c5c6ba683a0b545ae2b3f805dcec534dfdf3d55b482115495cab26d2e356
+SHA256 (clex-4.6.patch9.tar.gz) = 4c866d9d7bb4e276f1c54fb897d71f1d6390ec1535ffb174798a8334d1f545e2

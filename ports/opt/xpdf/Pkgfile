@@ -1,0 +1,30 @@
+# Description: PDF viewer
+# URL:         http://www.xpdfreader.com
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Packager:    Robert McMeekin, viper at mcmeekin dot info
+# Depends on:  lesstif, qt4
+# Nice to have: qt5 (instead of qt4)
+
+name=xpdf
+version=4.00
+release=2
+source=(https://xpdfreader-dl.s3.amazonaws.com/xpdf-${version}.tar.gz)
+
+build() {
+    cd $name-$version
+
+    mkdir build
+    cd build
+
+    cmake -DCMAKE_BUILD_TYPE=Release \
+          -DCMAKE_INSTALL_PREFIX=/usr \
+          -DA4_PAPER=ON -LAH .. 
+
+    cd xpdf-qt
+
+    sed -i 's|man/man1|share/man/man1|g' cmake_install.cmake
+
+    make
+    make install DESTDIR=$PKG
+
+}

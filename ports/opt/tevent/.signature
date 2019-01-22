@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/RZrxopkfaFvRbrUEYYaKg74SRepKWOjnQMlKXrV9u34LM3ZmVz4Gi5PDaOrCMJ5xdL64v0OHxdeguiof6SAug4=
+SHA256 (Pkgfile) = 424471c8cefc400aff81cca7e2998f0ade06572187d97acd173c3a904fc62973
+SHA256 (.footprint) = 833baf58e1ca433a7c960de9ee595465dd7ec3936a8d019c60e627e41ae30fd6
+SHA256 (tevent-0.9.38.tar.gz) = 9e464550d995c6445045a2a8135db81b7d54e9e95163f337c745f7a89c7d0d62

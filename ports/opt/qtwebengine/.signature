@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fQEP193evnPkfGFUIp8nhI8u1syeVbXyO+pvY/iy+eorAFyzdGTXNYKc+2k7iJN38KxU0fJDgUvseMQKnP26wg=
+SHA256 (Pkgfile) = 1c670224ccf3c3b2d8304804b5c9cff85890b0208cad729c0d6b59e2ee825580
+SHA256 (.footprint) = 4d1819ec55dbdb26dfa7bbca54620d230029a93ef67f862f77b23e2f1e195843
+SHA256 (qtwebengine-everywhere-src-5.11.3.tar.xz) = 5bb49ead71b851db4dc56f8fd97e0db72a268b22104129a06bac201d55d3b8fe

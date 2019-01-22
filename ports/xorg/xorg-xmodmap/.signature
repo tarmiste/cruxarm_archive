@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndGcP/GaxmauOw3DNhYulTsvd6LhtqLIvV8mSnDsiS++0IJ5C1s3aJxQEK7m7bxjjC5bSQlVWus9/jZGRKrJ39w8=
+SHA256 (Pkgfile) = 430136f4f516f8dbb049538d7f25de0fee9d6ffdf27911e57c195232aa39927b
+SHA256 (.footprint) = 55712c642050f10a938ee6a61370ab1103edd54d46c52fb7fa954b9aa443134f
+SHA256 (xmodmap-1.0.9.tar.bz2) = b7b0e5cc5f10d0fb6d2d6ea4f00c77e8ac0e847cc5a73be94cd86139ac4ac478

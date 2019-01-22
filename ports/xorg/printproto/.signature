@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndPsNRHBsNgdaDlrhXwfj4hrHO0LGcDPmzn9ZxemfNCbeyaS1vDolrDf4kdsXNKepokesS1qadPPadO6n76/iCwA=
+SHA256 (Pkgfile) = e49194690b7949492a5842a3847ad5f3f12f7b79d2eabe906bec6f8ed8c83eb3
+SHA256 (.footprint) = 020c92904cab953d95e37420f321817bb0bd65ce73244262474dc72ea2060197
+SHA256 (printproto-1.0.5.tar.bz2) = 1298316cf43b987365ab7764d61b022a3d7f180b67b423eed3456862d155911a

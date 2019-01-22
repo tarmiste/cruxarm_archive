@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/eKTjzD+5DqOCvrvbWit0+qVuXDO99648zXpgNGGLvk2yF0k4i0E2KmEfI6vMZYWco800UXAADG2G1A1ULcjcQ0=
+SHA256 (Pkgfile) = 92a60008518e6ce2f304bb81df275b0cfdc77aeb87feaa06f876e83f1a9c9a47
+SHA256 (.footprint) = ba9f243a850e8eadad49c0409b739b534b7bbf44aef766b87bd6f7f966053bc2
+SHA256 (wine-4.0-rc6.tar.xz) = 98bdc1b48d39918aae085cbd3818c484b5926d60ce281b210cc53810c4e3185e
+SHA256 (wine_gecko-2.47-x86.msi) = 3b8a361f5d63952d21caafd74e849a774994822fb96c5922b01d554f1677643a
+SHA256 (wine_gecko-2.47-x86_64.msi) = c565ea25e50ea953937d4ab01299e4306da4a556946327d253ea9b28357e4a7d
+SHA256 (wine-mono-4.7.3.msi) = d24a8017371c7e8224a1778bb43a113ed7ed9720efd9d0cda175d42db6106d3a

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/f/2J2Gpfm2pewlvbBctH4lLgfL6ytTIwJBecGIp+ud8t5Q3dMqGumT7tlsVoOWe65z2j9+wzg834ZE0qw2XEQ8=
+SHA256 (Pkgfile) = 502740ba700faee6638985a6603d834b286508c28ad7406dbcd72e22f865698f
+SHA256 (.footprint) = bb76a181e0b5b26cd3ffdbd998aa22f4ee11a4400f506ac5edd9916735579a45
+SHA256 (npth-1.5.tar.bz2) = 294a690c1f537b92ed829d867bee537e46be93fbd60b16c04630fbbfcd9db3c2

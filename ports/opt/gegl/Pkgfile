@@ -1,0 +1,21 @@
+# Description: graph based image processing framework
+# URL: http://gegl.org
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Packager: Simone Rota, sip at crux dot nu
+# Depends on: babl gtk json-glib
+# Optional: libsdl ffmpeg3
+
+name=gegl
+version=0.4.12
+release=1
+source=(http://ftp.gimp.org/pub/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+  [ -e '/usr/lib/ffmpeg3/pkgconfig/libavformat.pc' ] || PKGMK_GEGL+=' --without-libavformat'
+  PKG_CONFIG_PATH="/usr/lib/ffmpeg3/pkgconfig:$PKG_CONFIG_PATH" \
+  ./configure $PKGMK_GEGL --prefix=/usr --disable-docs
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/locale
+}

@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TXiAw2jZIDfaoP2+WJNCF1oxibxCc4cdxc6sEIALkUM4riT9Mkvh9d0r2a5NPA0UFFM1o4pLPl6F9TR82QbrQA=
+SHA256 (Pkgfile) = 0635845363b65b467e845290e62cd470e8a9d2ac6af9e2014ac9c74f3749af8d
+SHA256 (.footprint) = 05cffeadc2e4df27b4e84704d493f6f1f9f942d0676aec75587abc0da31cf7f8
+SHA256 (hunspell-en_AU-2017.01.22.zip) = 03e833853149d7156b5a86fd3177764ca4e1e3a1a78d8fa489284171d924abec
+SHA256 (hunspell-en_US-2017.01.22.zip) = 512468d80eee680358fc8a9a877f315c65218dcb14a880c819f8fc9d401d6c6b
+SHA256 (hunspell-en_CA-2017.01.22.zip) = ef8f39eff987b72c788ae5a66f86895b3d0c5dd321b87d18fa5f26aa51d53f04
+SHA256 (hunspell-en_GB-ise-2017.01.22.zip) = 9b509e954ed3bbde90b16b19109d3a93f51ecb013baf0e1ded99104f872af407

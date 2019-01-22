@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dsBEzEOdQDsFH9xGBM65a9WhAVQhlbpivdjV6nYweJLQx0kLMOpDRzfV/e+IyaOuiu3pmuzEqun+wWprXQwHwU=
+SHA256 (Pkgfile) = acf58d09e85adb3305a77559713c8ee70aa1220646b55fea40e775c827071c5b
+SHA256 (.footprint) = 75a24385aa7083a98fecbe8ee9f8da06e6410c48fff446590c887b83652e362e
+SHA256 (libgphoto2-2.5.22.tar.bz2) = 15d7327aa9a986af1e1dbfd8f15ba81352b67450d30e44562ce768ff9435ce58

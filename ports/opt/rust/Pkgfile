@@ -1,0 +1,77 @@
+# Description: The Rust language with Cargo included.
+# URL: http://www.rust-lang.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: llvm python3
+# Optional: sccache
+
+name=rust
+version=1.29.2
+##cat src/stage0.txt
+_date=2018-08-02
+_rustc=1.28.0
+_cargo=0.29.0
+##
+
+release=1
+source=(
+	https://static.rust-lang.org/dist/${name}c-$version-src.tar.gz
+	https://static.rust-lang.org/dist/$_date/rust-std-$_rustc-x86_64-unknown-linux-gnu.tar.gz
+	https://static.rust-lang.org/dist/$_date/rustc-$_rustc-x86_64-unknown-linux-gnu.tar.gz
+	https://static.rust-lang.org/dist/$_date/cargo-$_cargo-x86_64-unknown-linux-gnu.tar.gz
+)
+ 
+build() {
+	cd "${name}c-$version-src"
+
+	mkdir -p build/cache/$_date
+	cp $PKGMK_SOURCE_DIR/rust-std-$_rustc-x86_64-unknown-linux-gnu.tar.gz build/cache/$_date/
+	cp $PKGMK_SOURCE_DIR/rustc-$_rustc-x86_64-unknown-linux-gnu.tar.gz build/cache/$_date/
+	cp $PKGMK_SOURCE_DIR/cargo-$_cargo-x86_64-unknown-linux-gnu.tar.gz build/cache/$_date/
+
+	if [ -n "$(pkginfo -i | grep '^sccache ')" ]; then
+		export RUSTC_WRAPPER=/usr/bin/sccache
+	fi
+
+cat <<- EOF > $SRC/config.toml
+	[llvm]
+	targets = "X86"
+	link-shared = true
+
+	[install]
+	prefix = "/usr"
+
+	[rust]
+	channel = "stable"
+	rpath = false
+	codegen-tests = false
+
+	[target.x86_64-unknown-linux-gnu]
+	llvm-config = "/usr/bin/llvm-config"
+
+	[build]
+	extended = true
+	python = "python3"
+EOF
+
+	if [ -e '/usr/bin/rustc' ]; then
+cat <<- EOF >> $SRC/config.toml
+	cargo = "/usr/bin/cargo"
+	rustc = "/usr/bin/rustc"
+	#local-rebuild = true
+EOF
+	fi
+
+	cat $SRC/config.toml
+
+	export CARGO_HOME="$PKGMK_SOURCE_DIR"
+
+	export RUSTFLAGS="$RUSTFLAGS -C link-args=-lffi"
+	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml -j ${JOBS-1}
+	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
+
+	#cleanup
+	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/zsh
+	rm -r $PKG/etc
+	rm $PKG/usr/lib/rustlib/{components,manifest-rustc,rust-installer-version,uninstall.sh}
+}

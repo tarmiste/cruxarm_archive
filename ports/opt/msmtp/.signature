@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Ympd+AyVBZbPpmmi7ikAmeeChozdk6MJvpEzcoN9+h3VUD6m2Va5ljwZ/fk6J6pR13M6jhXJLYwBrsI2KBQpwA=
+SHA256 (Pkgfile) = f30c66a2c08a509972ce2cb9afc07f132fe1c6bd21646d240e6be182e9b2ac8b
+SHA256 (.footprint) = 51c5576063b2e54138b7ed393b4261984d9ebc5aa69d04c6a07e76b45dc1b3c0
+SHA256 (msmtp-1.6.6.tar.xz) = da15db1f62bd0201fce5310adb89c86188be91cd745b7cb3b62b81a501e7fb5e

@@ -1,0 +1,15 @@
+# Description: Adobe Flash plugin for the chromium browser
+# URL:         http://chromium.org/
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Depends on:  chromium
+
+name=chromium-pepperflash
+version=27.0.0.183
+release=1
+source=(https://crux.nu/~tek/flash_player_ppapi_linux.x86_64-$version.tar.gz)
+
+build() {
+
+  install -Dm644 manifest.json libpepflashplayer.so -t $PKG/usr/lib/PepperFlash/
+
+}

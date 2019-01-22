@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/d4jQ0yEOGcYEKMmuC10IIreBruLXSYUJxbmdeT0XuT49nkHBH/lHx2BxiLVGu8pZTuBBk+3Wu0t1y7tsVN3mQs=
+SHA256 (Pkgfile) = ca72302c88035ca6780c5f813f1bb3d5bea2072d1ddd321b49d5eb98e87eab59
+SHA256 (.footprint) = 6c3931fa50b11969b26b1329cd0a23ca858bb7835bbe55d7d0161817a099253b
+SHA256 (jdk-8u202-linux-x64.tar.gz) = 9a5c32411a6a06e22b69c495b7975034409fa1652d03aeb8eb5b6f59fd4594e0

@@ -1,0 +1,23 @@
+# Description: Ruby interpreter
+# URL: http://www.ruby-lang.org
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: gdbm ncurses openssl readline zlib libffi libyaml
+
+name=ruby
+version=2.5.3
+release=1
+source=(http://cache.ruby-lang.org/pub/$name/${version%.*}/$name-$version.tar.xz)
+
+build () {
+  cd $name-$version
+
+  ./configure --prefix=/usr \
+              --mandir=/usr/man \
+              --enable-shared \
+              --disable-install-doc \
+              --with-ruby-version=minor 
+
+  make
+  make DESTDIR=$PKG install
+}

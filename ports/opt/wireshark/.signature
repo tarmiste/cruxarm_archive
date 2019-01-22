@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WyV9t75ViIkIf2HDDvJuzTp+fZn1BaFvCndw0FOmmb7fcgvDMQnMaC8+UEFv0q5JWAnOnC7Nzz6altIXOvflgU=
+SHA256 (Pkgfile) = 6fd21670829dc44ea5e9bed9ee1568f409f7547f46dfeda96c3048323fb0ca6a
+SHA256 (.footprint) = 513e6dab3812c27824ee40973512eae5ba312389ae4762767663f145aa38c561
+SHA256 (wireshark-2.6.3.tar.xz) = d158a8a626dc0997a826cf12b5316a3d393fb9f93d84cc86e75b212f0044a3ec

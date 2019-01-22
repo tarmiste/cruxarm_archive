@@ -1,0 +1,47 @@
+# Description: Remote desktop protocol implementation.
+# URL: http://www.freerdp.com/
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Depends on: cmake glib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxv
+# Optional: ffmpeg gst-plugins-base alsa-lib cups directfb neon pulseaudio xmlto
+
+name=freerdp2
+version=2.0.0-rc3
+release=1
+source=(https://pub.freerdp.com/releases/freerdp-$version.tar.gz
+	xfreerdp.1)
+
+build() {
+	# Since CMake 3.4.0 there has been a CMAKE_<LANG>_COMPILER_LAUNCHER
+	# variable and corresponding target property <LANG>_COMPILER_LAUNCHER.
+	if [ -e '/usr/bin/ccache' ]; then
+		EXTRA_OPTIONS='-DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache'
+		PATH=$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')
+	elif [ -e '/usr/bin/distcc' ]; then
+                EXTRA_OPTIONS='-DCMAKE_C_COMPILER_LAUNCHER=distcc -DCMAKE_CXX_COMPILER_LAUNCHER=distcc'
+                PATH=$(echo ${PATH} | awk -v RS=: -v ORS=: '/distcc/ {next} {print}' | sed 's/:*$//')
+	fi
+
+	mkdir build; cd build
+
+	cmake ../freerdp-$version ${EXTRA_OPTIONS} \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_SKIP_RPATH=ON \
+		-DWITH_SERVER=OFF \
+		-DWITH_CLIENT=ON \
+		-DWITH_LIBSYSTEMD=OFF \
+		-DWITH_WAYLAND=OFF
+
+	make
+	make DESTDIR=$PKG install
+
+	# avoid conflict with opt/freerdp
+	mv $PKG/usr/bin/xfreerdp $PKG/usr/bin/xfreerdp2
+
+	# install pre-compiled man page if xmlto is missing.
+	# zcat /usr/share/man/man1/xfreerdp.1.gz > xfreerdp.1
+	if [ ! -e '$PKG/usr/share/man/man1/xfreerdp.1' ]; then
+		install -m 0664 $SRC/xfreerdp.1 $PKG/usr/share/man/man1
+	fi
+}

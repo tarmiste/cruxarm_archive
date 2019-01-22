@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dNy0ksnNaWMXFqyr1yK6CXIpLBXtLx2ziuQGHOdIc9HVvLkHSvzNX0kvCWKfMtKbC9KL5Y9wB/GGgXm2wXU4AE=
+SHA256 (Pkgfile) = 2ff1faee2ddcd1103bf9c0544b55e19889e6fac84914a47d4898253ddb353819
+SHA256 (.footprint) = 24d983fca25f91dd80378ea506d7a8a8be8d65c3eb9c1bae1a79fb1ac76023ed
+SHA256 (cifs-utils-6.8.tar.bz2) = e7d1f6050c43f21f82cd77e288eb756755effd22f0c310fc2c525df9d41dff79
+SHA256 (cifs-utils-man.tar.xz) = 14b14f323a66f049e23e639c20ae1898f7bdea8ce8de814166bb7d5d60812e5c
+SHA256 (cifs) = 6dc576a4b23722cc9b7fd630275f3ba721a0e659a8a9642cd0f7c37df09c9e79

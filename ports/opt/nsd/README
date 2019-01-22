@@ -1,0 +1,16 @@
+README for nsd 3.2.x
+
+REQUIREMENTS
+
+PRE-INSTALL
+
+1. Create a user/group nsd with a unused id < 99:
+
+   'groupadd -g 47 nsd'
+   'useradd -u 47 -g nsd -d /var/lib/nsd -s /bin/false nsd'
+   'passwd -l nsd'
+
+   or run the supplied pre-install script.
+
+PRECAUTION
+

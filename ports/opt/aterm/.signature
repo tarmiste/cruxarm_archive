@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/RS5MYEvBp/kQkBMTn+nWMtRBp8afyjoZZbSrLNV8IUkjS9zRF+u6wNjG7kQFC2pXB1E+KbeJtDylvDGLgBucw4=
+SHA256 (Pkgfile) = 4c2a1cb8fc28285e0e0834fe68cd0635a60b5484e1c972e2792505b205090c22
+SHA256 (.footprint) = 5219752af9d60b412e814b7c6e9a052606b049aef9ce4fd7e0a10363774b177a
+SHA256 (aterm-1.0.1.tar.gz) = 0b385c7d00ffdd488f7950e0de109576f55a04b4c056dce426ae2f8ed564f214
+SHA256 (aterm-fake_root.patch) = 3db26944014418ad5a6c8826ab6148070f33062d85bcf3a8ad1c7e2cdc0c7af6
+SHA256 (aterm-fkeys.patch) = 6f494ec23456d04af1170e9a5133bc2447cb5986c49da686b8d7c40c59f98aed
+SHA256 (aterm-1.0.1-display-security-issue.patch) = e135f7ca8489f6614f18c11523d66a885e253dd1fed91cc2a8c054076354a44c

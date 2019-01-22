@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndHokoFREzFUHxQz/URQOLTNrZvsfcHK8uVW7BdQd1idWjqpWmBGTCiWwUJgrJ1jZb+fil5e7Jr0IsUBwLcglUQY=
+SHA256 (Pkgfile) = d0f427b4a45785b0cebf2cdbdeabb0febccd4cca5df6eef11a3d478dc266b359
+SHA256 (.footprint) = 24091de26fa34f69e4e5997b1cd9ca526786b5ba67fd7305eb358d65a2d6f4b4
+SHA256 (imake-1.0.7.tar.bz2) = 690c2c4ac1fad2470a5ea73156cf930b8040dc821a0da4e322014a42c045f37e

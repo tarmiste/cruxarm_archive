@@ -1,0 +1,24 @@
+# Description: Basic networking utilities
+# URL: https://github.com/iputils/iputils
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Depends on: libcap openssl
+
+name=iputils
+version=s20180629
+release=2
+source=(https://github.com/iputils/iputils/archive/$version/$name-$version.tar.gz
+        http://crux.nu/files/distfiles/$name-man-$version-1.tar.xz)
+
+build() {
+    cd $name-$version
+
+    make USE_IDN=no USE_NETTLE=no USE_GCRYPT=no USE_GNUTLS=no CCOPTOPT="$CFLAGS"
+
+    install -d $PKG/{{s,}bin,usr/{bin,sbin,share/man/man8}}
+    install ping $PKG/bin/
+    install arping $PKG/sbin/
+    install tracepath clockdiff rarpd rdisc $PKG/usr/sbin/
+    install traceroute6 $PKG/usr/bin/
+    cp -d $SRC/$name-man-$version/* $PKG/usr/share/man/man8
+    chmod u+s $PKG/bin/ping $PKG/usr/bin/traceroute6
+}

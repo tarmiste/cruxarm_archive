@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/W0AEk2M0snbxru6vhrEH2KvAjiF9dz5VJ8v6k/Na3ulAJjItikJMm8o1DO+Z9HiCLm+A6OFYZHgIADPuTcf+Qs=
+SHA256 (Pkgfile) = c04544744dd5214829440b49f84f833edbfdbb3a0991ed11ece388b3ded98874
+SHA256 (.footprint) = 957203bebd7c38a11c474ee156a427f65b7e6dcae10e90edd8d8e2350789038d
+SHA256 (install-pear-nozlib.phar) = 96eb42707944630552a76865aec8645c0fd4c32698ad34f1b29946affeed1485

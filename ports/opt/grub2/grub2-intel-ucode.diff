@@ -1,0 +1,58 @@
+diff -urN grub-2.02.orig/util/grub.d/10_linux.in grub-2.02/util/grub.d/10_linux.in
+--- grub-2.02.orig/util/grub.d/10_linux.in	2017-04-24 04:15:50.000000000 -0500
++++ grub-2.02/util/grub.d/10_linux.in	2017-05-25 15:58:11.559658295 -0500
+@@ -135,11 +135,27 @@
+ EOF
+   if test -n "${initrd}" ; then
+     # TRANSLATORS: ramdisk isn't identifier. Should be translated.
++		if test -n "${intel_ucode}" ; then
++    message="$(gettext_printf "Loading intel microcode and initial ramdisk ...")"
++    sed "s/^/$submenu_indentation/" << EOF
++	echo	'$(echo "$message" | grub_quote)'
++	initrd	${rel_dirname}/${intel_ucode} ${rel_dirname}/${initrd}
++EOF
++		else
+     message="$(gettext_printf "Loading initial ramdisk ...")"
+     sed "s/^/$submenu_indentation/" << EOF
+ 	echo	'$(echo "$message" | grub_quote)'
+ 	initrd	${rel_dirname}/${initrd}
+ EOF
++		fi
++  else
++    if test -n "${intel_ucode}" ; then
++      message="$(gettext_printf "Loading intel microcode ...")"
++      sed "s/^/$submenu_indentation/" << EOF
++  	echo	'$(echo "$message" | grub_quote)'
++  	initrd	${rel_dirname}/${intel_ucode}
++EOF
++    fi
+   fi
+   sed "s/^/$submenu_indentation/" << EOF
+ }
+@@ -203,6 +219,15 @@
+     fi
+   done
+ 
++  intel_ucode=
++  for i in "early-ucode.cpio" "early-ucode.cpio.gz" \
++	   "intel-ucode.img" "intel-ucode.img.gz"; do
++    if test -e "${dirname}/${i}" ; then
++      intel_ucode="$i"
++      break
++    fi
++  done
++
+   config=
+   for i in "${dirname}/config-${version}" "${dirname}/config-${alt_version}" "/etc/kernels/kernel-config-${version}" ; do
+     if test -e "${i}" ; then
+@@ -216,6 +241,10 @@
+       initramfs=`grep CONFIG_INITRAMFS_SOURCE= "${config}" | cut -f2 -d= | tr -d \"`
+   fi
+ 
++  if test -n "${intel_ucode}" ; then
++    gettext_printf "Found intel-ucode image: %s\n" "${dirname}/${intel_ucode}" >&2
++  fi
++
+   if test -n "${initrd}" ; then
+     gettext_printf "Found initrd image: %s\n" "${dirname}/${initrd}" >&2
+   elif test -z "${initramfs}" ; then

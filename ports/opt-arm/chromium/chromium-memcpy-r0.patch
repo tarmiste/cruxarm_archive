@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!-- git web interface version 1.9.0, (C) 2005-2006, Kay Sievers <kay.sievers@vrfy.org>, Christian Gierke -->
+<!-- git core binaries version 2.15.1 -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="gitweb/1.9.0 git/2.15.1"/>
+<meta name="robots" content="index, nofollow"/>
+<title>crux.nu Git - ports/opt.git/summary</title>
+<link rel="stylesheet" type="text/css" href="gitweb.css"/>
+<link rel="alternate" title="ports/opt.git - log - RSS feed" href="/gitweb/?p=ports/opt.git;a=rss" type="application/rss+xml" />
+<link rel="alternate" title="ports/opt.git - log - RSS feed (no merges)" href="/gitweb/?p=ports/opt.git;a=rss;opt=--no-merges" type="application/rss+xml" />
+<link rel="alternate" title="ports/opt.git - log - Atom feed" href="/gitweb/?p=ports/opt.git;a=atom" type="application/atom+xml" />
+<link rel="alternate" title="ports/opt.git - log - Atom feed (no merges)" href="/gitweb/?p=ports/opt.git;a=atom;opt=--no-merges" type="application/atom+xml" />
+<link rel="shortcut icon" href="git-favicon.png" type="image/png" />
+</head>
+<body>
+<div class="cruxheader">
+  <a href="/" title="">Home</a> :: 
+  <a href="/Main/Documentation">Documentation</a> :: 
+  <a href="/Main/Download">Download</a> :: 
+  <a href="/Main/Development">Development</a> :: 
+  <a href="/Main/Community">Community</a> :: 
+  <a href="/Wiki/HomePage">Wiki</a> :: 
+  <a href="/portdb">Ports</a> :: 
+  <a href="/Main/Bugs" title="">Bugs</a> :: 
+  <a href="/Main/Links" title="">Links</a> :: 
+  <a href="/Main/About" title="">About</a>
+</div>
+<div class="page_header">
+<a href="http://git.or.cz/" title="git homepage"><img alt="git" class="logo" height="27" src="git-logo.png" width="72" /></a><a href="/gitweb/">repositories</a> / <a href="/gitweb/?a=project_list;pf=ports">ports</a> / <a href="/gitweb/?p=ports/opt.git;a=summary">opt.git</a> / summary
+</div>
+<div class="content">
+<div class="page_nav">
+summary | <a href="/gitweb/?p=ports/opt.git;a=shortlog">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log">log</a> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=9e25975843dee35e0bb787114c61916a6d87346b">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=9e25975843dee35e0bb787114c61916a6d87346b">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree">tree</a><br/>
+<br/>
+</div>
+<div class="title">&nbsp;</div>
+<table class="projects_list">
+<tr id="metadata_desc"><td>description</td><td>CRUX opt ports</td></tr>
+<tr id="metadata_owner"><td>owner</td><td>CRUX Ports Team</td></tr>
+<tr id="metadata_lchange"><td>last change</td><td>Tue, 13 Nov 2018 19:04:35 +0000 (20:04 +0100)</td></tr>
+<tr class="metadata_url"><td>URL</td><td>git://crux.nu/ports/opt.git</td></tr>
+<tr class="metadata_url"><td></td><td>ssh://git@crux.nu/ports/opt.git</td></tr>
+</table>
+<div class="header">
+<a class="title" href="/gitweb/?p=ports/opt.git;a=shortlog">shortlog</a>
+</div>
+<table class="shortlog">
+<tr class="dark">
+<td title="2018-11-13"><i>28 hours ago</i></td>
+<td class="author">Fredrik Rinnestam</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=9e25975843dee35e0bb787114c61916a6d87346b">libjpeg-turbo: updated to 2.0.1</a> <span class="refs"> <span class="head" title="heads/3.4"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.4">3.4</a></span></span></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=9e25975843dee35e0bb787114c61916a6d87346b">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=9e25975843dee35e0bb787114c61916a6d87346b">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=9e25975843dee35e0bb787114c61916a6d87346b;hb=9e25975843dee35e0bb787114c61916a6d87346b">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=9e25975843dee35e0bb787114c61916a6d87346b;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-13"><i>29 hours ago</i></td>
+<td class="author">Juergen Daubert</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=5331b5c48c47c8bcd823c51a3482210af02aab88">nano: update to 1.8.2</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=5331b5c48c47c8bcd823c51a3482210af02aab88">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=5331b5c48c47c8bcd823c51a3482210af02aab88">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=5331b5c48c47c8bcd823c51a3482210af02aab88;hb=5331b5c48c47c8bcd823c51a3482210af02aab88">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=5331b5c48c47c8bcd823c51a3482210af02aab88;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-11"><i>3 days ago</i></td>
+<td class="author">Juergen Daubert</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=e1844234da4a5f05f206f456cf4a60f8a35e44bd">krb5: update to 1.16.2</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=e1844234da4a5f05f206f456cf4a60f8a35e44bd">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=e1844234da4a5f05f206f456cf4a60f8a35e44bd">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=e1844234da4a5f05f206f456cf4a60f8a35e44bd;hb=e1844234da4a5f05f206f456cf4a60f8a35e44bd">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=e1844234da4a5f05f206f456cf4a60f8a35e44bd;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-11"><i>3 days ago</i></td>
+<td class="author">Juergen Daubert</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=404b5ed2605076aae02bfde78fd359eada51b082">geeqie: fix maintainer email address</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=404b5ed2605076aae02bfde78fd359eada51b082">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=404b5ed2605076aae02bfde78fd359eada51b082">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=404b5ed2605076aae02bfde78fd359eada51b082;hb=404b5ed2605076aae02bfde78fd359eada51b082">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=404b5ed2605076aae02bfde78fd359eada51b082;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-11"><i>3 days ago</i></td>
+<td class="author">Juergen Daubert</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1">flash-player-plugin: update to 31.0.0.122</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1;hb=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=c190e6da1f5f7ef1d9ee9bcecb11bf96e2b10fc1;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Thomas Penteker</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=2e830e4b7db0b9f41780dab32de8d8b1b0496002">gdb: update footprint, fixes FS#1688</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=2e830e4b7db0b9f41780dab32de8d8b1b0496002">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=2e830e4b7db0b9f41780dab32de8d8b1b0496002">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=2e830e4b7db0b9f41780dab32de8d8b1b0496002;hb=2e830e4b7db0b9f41780dab32de8d8b1b0496002">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=2e830e4b7db0b9f41780dab32de8d8b1b0496002;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Fredrik Rinnestam</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=81cfb9814fb48494268f9d233d9f1cc26164f98c" title="[notify] libtiff: updated to 4.0.10. Many security fixes.">[notify] libtiff: updated to 4.0.10. Many security... </a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=81cfb9814fb48494268f9d233d9f1cc26164f98c">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=81cfb9814fb48494268f9d233d9f1cc26164f98c">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=81cfb9814fb48494268f9d233d9f1cc26164f98c;hb=81cfb9814fb48494268f9d233d9f1cc26164f98c">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=81cfb9814fb48494268f9d233d9f1cc26164f98c;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Fredrik Rinnestam</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=c705adb6cbf89b3ce9b343a91616448dc3186ed3">nss: updated to 3.40</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=c705adb6cbf89b3ce9b343a91616448dc3186ed3">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=c705adb6cbf89b3ce9b343a91616448dc3186ed3">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=c705adb6cbf89b3ce9b343a91616448dc3186ed3;hb=c705adb6cbf89b3ce9b343a91616448dc3186ed3">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=c705adb6cbf89b3ce9b343a91616448dc3186ed3;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Fredrik Rinnestam</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=96aff5d4c966a46f9610901af944818803ef2ba2">cmake: updated to 3.12.4</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=96aff5d4c966a46f9610901af944818803ef2ba2">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=96aff5d4c966a46f9610901af944818803ef2ba2">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=96aff5d4c966a46f9610901af944818803ef2ba2;hb=96aff5d4c966a46f9610901af944818803ef2ba2">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=96aff5d4c966a46f9610901af944818803ef2ba2;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Juergen Daubert</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=d2c5a7f583d5640805e870c44371c05f3eed7b25">xfsprogs: update to 4.19.0, enable readline</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=d2c5a7f583d5640805e870c44371c05f3eed7b25">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=d2c5a7f583d5640805e870c44371c05f3eed7b25">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=d2c5a7f583d5640805e870c44371c05f3eed7b25;hb=d2c5a7f583d5640805e870c44371c05f3eed7b25">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=d2c5a7f583d5640805e870c44371c05f3eed7b25;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=5d373be1c833e9387388268f6ec753a0f81cbd8a">python3-pyparsing: 2.2.0 -&gt; 2.3.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=5d373be1c833e9387388268f6ec753a0f81cbd8a">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=5d373be1c833e9387388268f6ec753a0f81cbd8a">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=5d373be1c833e9387388268f6ec753a0f81cbd8a;hb=5d373be1c833e9387388268f6ec753a0f81cbd8a">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=5d373be1c833e9387388268f6ec753a0f81cbd8a;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=08850c24c869cdceee3fb3c7f12f7076f6c56f2e">python-pyparsing: 2.2.0 -&gt; 2.3.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=08850c24c869cdceee3fb3c7f12f7076f6c56f2e">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=08850c24c869cdceee3fb3c7f12f7076f6c56f2e">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=08850c24c869cdceee3fb3c7f12f7076f6c56f2e;hb=08850c24c869cdceee3fb3c7f12f7076f6c56f2e">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=08850c24c869cdceee3fb3c7f12f7076f6c56f2e;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=774cba368d0e21e4f7a079b418be5e4b7617a499">python-cairo: 1.17.1 -&gt; 1.18.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=774cba368d0e21e4f7a079b418be5e4b7617a499">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=774cba368d0e21e4f7a079b418be5e4b7617a499">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=774cba368d0e21e4f7a079b418be5e4b7617a499;hb=774cba368d0e21e4f7a079b418be5e4b7617a499">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=774cba368d0e21e4f7a079b418be5e4b7617a499;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=c26b3cc9b8a92d0dbdfb747ff68330faa040298e">python3-cairo: 1.17.1 -&gt; 1.18.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=c26b3cc9b8a92d0dbdfb747ff68330faa040298e">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=c26b3cc9b8a92d0dbdfb747ff68330faa040298e">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=c26b3cc9b8a92d0dbdfb747ff68330faa040298e;hb=c26b3cc9b8a92d0dbdfb747ff68330faa040298e">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=c26b3cc9b8a92d0dbdfb747ff68330faa040298e;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="dark">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=1459c4e3a45ed6123ae089af9828c5cc849a9ca8">python3-packaging: 17.1 -&gt; 18.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=1459c4e3a45ed6123ae089af9828c5cc849a9ca8">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=1459c4e3a45ed6123ae089af9828c5cc849a9ca8">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=1459c4e3a45ed6123ae089af9828c5cc849a9ca8;hb=1459c4e3a45ed6123ae089af9828c5cc849a9ca8">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=1459c4e3a45ed6123ae089af9828c5cc849a9ca8;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr class="light">
+<td title="2018-11-10"><i>4 days ago</i></td>
+<td class="author">Danny Rawlins</td><td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=commit;h=a9d51d17480836bf4f75e8d912a67e00596711e8">python-packaging: 17.1 -&gt; 18.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=commit;h=a9d51d17480836bf4f75e8d912a67e00596711e8">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=commitdiff;h=a9d51d17480836bf4f75e8d912a67e00596711e8">commitdiff</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=a9d51d17480836bf4f75e8d912a67e00596711e8;hb=a9d51d17480836bf4f75e8d912a67e00596711e8">tree</a> | <a href="/gitweb/?p=ports/opt.git;a=snapshot;h=a9d51d17480836bf4f75e8d912a67e00596711e8;sf=tgz" title="in format: tar.gz">snapshot</a></td>
+</tr>
+<tr>
+<td colspan="4"><a href="/gitweb/?p=ports/opt.git;a=shortlog">...</a></td>
+</tr>
+</table>
+<div class="header">
+<a class="title" href="/gitweb/?p=ports/opt.git;a=tags">tags</a>
+</div>
+<table class="tags">
+<tr class="dark">
+<td><i>6 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=eaf2ec7eb036710389037c532942b003e340c39e">release-3.4</a></td>
+<td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=tag;h=f51a084d9921c36713a5e50c0248cc9910f77214">CRUX-3.4</a></td>
+<td class="selflink"><a href="/gitweb/?p=ports/opt.git;a=tag;h=f51a084d9921c36713a5e50c0248cc9910f77214">tag</a></td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=eaf2ec7eb036710389037c532942b003e340c39e">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/release-3.4">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/release-3.4">log</a></td>
+</tr><tr class="light">
+<td><i>6 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=8ba92f4bd11dbc174951157a522c0922d66fbcff">3.4-rc2</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=8ba92f4bd11dbc174951157a522c0922d66fbcff">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.4-rc2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.4-rc2">log</a></td>
+</tr><tr class="dark">
+<td><i>7 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=769d08f87c2ef1910129e117f456d2b0cc335334">3.4-rc1</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=769d08f87c2ef1910129e117f456d2b0cc335334">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.4-rc1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.4-rc1">log</a></td>
+</tr><tr class="light">
+<td><i>21 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=85f9a8dc00a8577a30d3da8775c19444bf8ea744">release-3.3</a></td>
+<td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=tag;h=0da429ebd5f16f51c3890f3ecfb1f600b08f2711">CRUX-3.3</a></td>
+<td class="selflink"><a href="/gitweb/?p=ports/opt.git;a=tag;h=0da429ebd5f16f51c3890f3ecfb1f600b08f2711">tag</a></td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=85f9a8dc00a8577a30d3da8775c19444bf8ea744">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/release-3.3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/release-3.3">log</a></td>
+</tr><tr class="dark">
+<td><i>21 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=85f9a8dc00a8577a30d3da8775c19444bf8ea744">3.3-rc4</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=85f9a8dc00a8577a30d3da8775c19444bf8ea744">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.3-rc4">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.3-rc4">log</a></td>
+</tr><tr class="light">
+<td><i>21 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=61c55da42814df609d044d0d512f0885955fcf22">3.3-rc3</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=61c55da42814df609d044d0d512f0885955fcf22">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.3-rc3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.3-rc3">log</a></td>
+</tr><tr class="dark">
+<td><i>22 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=562245d4990a512f008f8e4a0ed7fbc1b86e1209">3.3-rc2</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=562245d4990a512f008f8e4a0ed7fbc1b86e1209">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.3-rc2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.3-rc2">log</a></td>
+</tr><tr class="light">
+<td><i>23 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=0a7ce655846ab3b1b181e3fccb6a0d9eb77334c7">3.3-rc1</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=0a7ce655846ab3b1b181e3fccb6a0d9eb77334c7">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.3-rc1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.3-rc1">log</a></td>
+</tr><tr class="dark">
+<td><i>2 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=688d4cf90daa165e54f98c8ddac05cf031ed9c88">release-3.2</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=688d4cf90daa165e54f98c8ddac05cf031ed9c88">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/release-3.2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/release-3.2">log</a></td>
+</tr><tr class="light">
+<td><i>2 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=688d4cf90daa165e54f98c8ddac05cf031ed9c88">3.2-rc5</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=688d4cf90daa165e54f98c8ddac05cf031ed9c88">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.2-rc5">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.2-rc5">log</a></td>
+</tr><tr class="dark">
+<td><i>3 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=159ac81220f7d94ee92942b478c5a28548675053">3.2-rc4</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=159ac81220f7d94ee92942b478c5a28548675053">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.2-rc4">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.2-rc4">log</a></td>
+</tr><tr class="light">
+<td><i>3 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=28ab6138c06cd1719b0376da663fb09bd132d48b">3.2-rc3</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=28ab6138c06cd1719b0376da663fb09bd132d48b">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.2-rc3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.2-rc3">log</a></td>
+</tr><tr class="dark">
+<td><i>3 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=e26fc2792ded57e7e3483655f60bbd2b33f3ddb0">3.2-rc2</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=e26fc2792ded57e7e3483655f60bbd2b33f3ddb0">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.2-rc2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.2-rc2">log</a></td>
+</tr><tr class="light">
+<td><i>3 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=bb4610908a7661afca20b922d938a8356525e8bb">3.2-rc1</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=bb4610908a7661afca20b922d938a8356525e8bb">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.2-rc1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.2-rc1">log</a></td>
+</tr><tr class="dark">
+<td><i>4 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=cf2a7efb6497083bb90e43bd1fe951efdaea155e">release-3.1</a></td>
+<td><a class="list subject" href="/gitweb/?p=ports/opt.git;a=tag;h=1fc5ce19c2f05aec09d2ddee4727ef1686a25aca">CRUX 3.1</a></td>
+<td class="selflink"><a href="/gitweb/?p=ports/opt.git;a=tag;h=1fc5ce19c2f05aec09d2ddee4727ef1686a25aca">tag</a></td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=cf2a7efb6497083bb90e43bd1fe951efdaea155e">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/release-3.1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/release-3.1">log</a></td>
+</tr><tr class="light">
+<td><i>4 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=commit;h=4e49218c6a35efe9d04834e5bed17e97655f8bfe">3.1-rc3</a></td>
+<td></td>
+<td class="selflink">&nbsp;</td>
+<td class="link"> | <a href="/gitweb/?p=ports/opt.git;a=commit;h=4e49218c6a35efe9d04834e5bed17e97655f8bfe">commit</a> | <a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/tags/3.1-rc3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/tags/3.1-rc3">log</a></td>
+</tr><tr>
+<td colspan="5"><a href="/gitweb/?p=ports/opt.git;a=tags">...</a></td>
+</tr>
+</table>
+<div class="header">
+<a class="title" href="/gitweb/?p=ports/opt.git;a=heads">heads</a>
+</div>
+<table class="heads">
+<tr class="dark">
+<td><i>28 hours ago</i></td>
+<td class="current_head"><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.4">3.4</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.4">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.4">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.4;hb=refs/heads/3.4">tree</a></td>
+</tr><tr class="light">
+<td><i>5 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.3">3.3</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.3">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.3;hb=refs/heads/3.3">tree</a></td>
+</tr><tr class="dark">
+<td><i>6 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.5">3.5</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.5">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.5">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.5;hb=refs/heads/3.5">tree</a></td>
+</tr><tr class="light">
+<td><i>20 months ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.2">3.2</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.2">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.2;hb=refs/heads/3.2">tree</a></td>
+</tr><tr class="dark">
+<td><i>2 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.1">3.1</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.1">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.1;hb=refs/heads/3.1">tree</a></td>
+</tr><tr class="light">
+<td><i>3 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.0">3.0</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/3.0">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/3.0">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/3.0;hb=refs/heads/3.0">tree</a></td>
+</tr><tr class="dark">
+<td><i>5 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.8">2.8</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.8">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.8">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.8;hb=refs/heads/2.8">tree</a></td>
+</tr><tr class="light">
+<td><i>6 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.7">2.7</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.7">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.7">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.7;hb=refs/heads/2.7">tree</a></td>
+</tr><tr class="dark">
+<td><i>8 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.6">2.6</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.6">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.6">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.6;hb=refs/heads/2.6">tree</a></td>
+</tr><tr class="light">
+<td><i>9 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.5">2.5</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.5">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.5">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.5;hb=refs/heads/2.5">tree</a></td>
+</tr><tr class="dark">
+<td><i>9 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.4">2.4</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.4">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.4">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.4;hb=refs/heads/2.4">tree</a></td>
+</tr><tr class="light">
+<td><i>10 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.3">2.3</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.3">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.3">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.3;hb=refs/heads/2.3">tree</a></td>
+</tr><tr class="dark">
+<td><i>11 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.2">2.2</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.2">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.2">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.2;hb=refs/heads/2.2">tree</a></td>
+</tr><tr class="light">
+<td><i>12 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.1">2.1</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/2.1">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/2.1">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/2.1;hb=refs/heads/2.1">tree</a></td>
+</tr><tr class="dark">
+<td><i>12 years ago</i></td>
+<td><a class="list name" href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/master">master</a></td>
+<td class="link"><a href="/gitweb/?p=ports/opt.git;a=shortlog;h=refs/heads/master">shortlog</a> | <a href="/gitweb/?p=ports/opt.git;a=log;h=refs/heads/master">log</a> | <a href="/gitweb/?p=ports/opt.git;a=tree;h=refs/heads/master;hb=refs/heads/master">tree</a></td>
+</tr></table>
+</div>
+<div class="page_footer">
+<div class="page_footer_text">CRUX opt ports</div>
+<a class="rss_logo" href="/gitweb/?p=ports/opt.git;a=rss" title="log RSS feed">RSS</a>
+<a class="rss_logo" href="/gitweb/?p=ports/opt.git;a=atom" title="log Atom feed">Atom</a>
+</div>
+<script type="text/javascript" src="gitweb.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+};
+</script>
+</body>
+</html>

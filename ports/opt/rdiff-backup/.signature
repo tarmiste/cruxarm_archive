@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fS0Zky0evhwgpWnrz2BfCHoaComSQVf7m0E8PtI4I1I/EoI0b4AZ83jYquXHXnmppMkWIOtPLj+Od1ifBagnQs=
+SHA256 (Pkgfile) = 473295d9b664852801d82ea42366d4587f02a4707d6810accf7925d4a86ee118
+SHA256 (.footprint) = 7222aafa8353bef2044c8fed98887ec2616ea2a7e28312a3149288574254d668
+SHA256 (rdiff-backup-1.2.8.tar.gz) = 0d91a85b40949116fa8aaf15da165c34a2d15449b3cbe01c8026391310ac95db

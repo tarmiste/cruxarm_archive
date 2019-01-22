@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeqkYLGWezT7GX0D2GphQF/qh1QptxjkgNt4RSFznA8ZgMGXDPKy1pYn07kMaZBLYFpqSZrKtJFePqeY6/ig+fsgo=
+SHA256 (Pkgfile) = 58fce641d9bf9e3439e211dce45ac3f95877e403d2146723be3831d69e356000
+SHA256 (.footprint) = f82a9d98226269f143bad33baff4bd73c5473e19c9dea2792382c13d1bc44b34
+SHA256 (usbutils-010.tar.xz) = 61c7364bb4986fb05e5067e4ac5585b1299b664c57f761caecd2e9e724794a19
+SHA256 (lsusb.py.patch) = d509a72aa47445e86722ad8b7419400858af1ff2cc08bce23a9276dd46428f06
+SHA256 (usb.ids.xz) = 270ca62f1df3f30f7c4bdd30d29345cc42dccc1b8a12aff31a6c4e9cda4b1c06

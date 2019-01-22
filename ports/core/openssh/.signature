@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeqh/5l9mXUVHkgalsQ5Cwa+YDc8w3lOCkjVbtP23XeCFrVEqpARDrlYWRfYlCt93PAg31KIVzAaImIHnpfYVoQwQ=
+SHA256 (Pkgfile) = 7dabfc94184cee52c6dacf3138b06dac42fbcdf176abb26e261989bdbe35cdd7
+SHA256 (.footprint) = 49ebea9770f893cbe403018d12a23303ae4652d2af3f1128b25c23df27282324
+SHA256 (openssh-7.9p1.tar.gz) = 6b4b3ba2253d84ed3771c8050728d597c91cfce898713beb7b64a305b6f11aad
+SHA256 (sshd) = 59cb8cff9890e9f5c617c5bd4e5a15e5e4bcc4bf35eb73a80322825db60bbfd4
+SHA256 (CVE-2018-20685.patch) = 310347b0173cd97c996a63f703040be07d87ea1a5f4cbe81a3cbdf409b36f7e2

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WnBWR2OVYC+MkBrQbcq0hP46nafzpE9uYtZBJEXokO9h/DyVQW8JptA4ZH66toeq7dfSEIbQLE+i5OJ13MBCQw=
+SHA256 (Pkgfile) = 45fbb795feb12ad65759e76f2fb356d319a05917434d6e282e8abd7526691c21
+SHA256 (.footprint) = 1d837cd69f27519ae3e938eaa13c68acef246c875226e0a956dfac914737430c
+SHA256 (gftp-2.0.19.tar.bz2) = 5306a46be96d6f4d23906cb1836fb3d732039621a6c7fcfa921acc21ac110bfd

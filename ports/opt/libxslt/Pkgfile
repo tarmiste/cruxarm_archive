@@ -1,0 +1,30 @@
+# Description: XSL Transformations library.
+# URL: http://xmlsoft.org/XSLT/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: libxml2
+
+name=libxslt
+version=1.1.30
+release=1
+source=(http://xmlsoft.org/sources/$name-$version.tar.gz
+	libxslt-1.1.30-glibc226.patch)
+
+build() {
+	cd $name-$version
+
+	# https://github.com/GNOME/libxslt/commit/8b4babb8f742a1a189df4c4569e68eda308df68f
+	patch -p1 -i $SRC/libxslt-1.1.30-glibc226.patch
+	autoreconf
+
+	./configure \
+		--prefix=/usr \
+		--without-python \
+		--without-crypto
+
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}

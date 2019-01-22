@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/UKiBJL6haPBHqJqaAqI/qU2bcmfpXRpgUvkVrKHEAFF+cJf2XYhNxxJ1Z/xLdZs/u4SKD0r/znp9Wc/V/XvMwU=
+SHA256 (Pkgfile) = df1abe16580342f1ed5ce1a202d88c5a7fdb8f65552ccb430fb58eb1c49f2e01
+SHA256 (.footprint) = 45f4a206e671da070fa98a884f19778b0e6c0261d0ab0a0aea606bd6e7389cbf
+SHA256 (liboil-0.3.17.tar.gz) = 105f02079b0b50034c759db34b473ecb5704ffa20a5486b60a8b7698128bfc69

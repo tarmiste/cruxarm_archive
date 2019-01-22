@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/XmmyG+wrn+JyjXZK6J2ZNr4v5v7X6+uHf/MHtVALWdg1j7dOTO/lQibDumntPCRgrJ5lY9xjtOzb4CIWGKB9Qc=
+SHA256 (Pkgfile) = 9ff06855125d5e450ee262950f2604ad459d4c36362fc837c350adbb61e97c5c
+SHA256 (.footprint) = 40fa0a104999c90b74335e617aebe00964d7575c850421c8b732d300684808fc
+SHA256 (sysstat-12.0.2.tar.xz) = 2d30947c8fabbb5015c229fbc149f2891db4926cdf165e5f099310795d8dac80

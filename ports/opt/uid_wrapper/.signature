@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TQi/ywxIWerlHRlwzZGEySdiafUzVbLCwJX7ApOnC49uMJLhPuXgGUCvLhCTz/I4jDWWd96S2beXg+5QbvciAA=
+SHA256 (Pkgfile) = 740ea1dd77c0e69a0432a8ea91603a2814ba0e7d642c9b0ecef0ca7aa8243e05
+SHA256 (.footprint) = af6d03b4fb5b3cfce90a1c860b2bbbd4d2b35af45aa950c81b329c104188a713
+SHA256 (uid_wrapper-1.2.1.tar.gz) = 827c8290d9982385f18d5e0e5908a790ce1cb45d93e49727651abe9928c2df7a

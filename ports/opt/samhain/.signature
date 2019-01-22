@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/b4wL1lLcRXOAsH6UYhYw1ktNdI6tuzQWH6d4i+SCIgyU8wITOF33qvrFF9et0Wjoblq548GmbvL2uUHUyhTCQs=
+SHA256 (Pkgfile) = 191866930ef192fa2c9f2fd8b11e483fd99b567ba84d34b15396d9c01b66f71e
+SHA256 (.footprint) = f610f3827e9a899df9a6d0c6d32cad6be2431494be3f891fbd0ed08d6ce98670
+SHA256 (samhain_signed-4.3.2.tar.gz) = 0582864ef56ab796031e8e611ed66c48adeb3a30ec34e1a8d0088572442035fc

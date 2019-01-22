@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fooKSNuZCJyKPKHqqJCbCdZumLFZy8JjB6qEoSIpdftBYWD1AU5VOaIU6J3q70esgen3bC5te90btC9Dgs17wY=
+SHA256 (Pkgfile) = d473da8c1545f86137072aef59d27a313d07fd1ed516ebbe4d50a03b89853d85
+SHA256 (.footprint) = 0117e08d642d5fc06734d5e1cb2745e0a79d7c6300ec88ff914087064c1c179b
+SHA256 (ghostscript-9.26.tar.xz) = 90ed475f37584f646e9ef829932b2525d5c6fc2e0147e8d611bc50aa0e718598
+SHA256 (ghostscript-fonts-std-8.11.tar.gz) = 0eb6f356119f2e49b2563210852e17f57f9dcc5755f350a69a46a0d641a0c401

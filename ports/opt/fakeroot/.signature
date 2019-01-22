@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/cE+QW+t0GBB14UvjZASXZJeboPxriPKgWPqCFloxhMAkPlIEbB2RAm/iZiYu28848BYOeoDAqDBALlfmC5XtwE=
+SHA256 (Pkgfile) = 5082591b827b01ca0f6840cc1aa1344ec269d173311a3a7e2d4e9716483a84f9
+SHA256 (.footprint) = b372fbdfe6daf9611f08a5152cfd9b73e68dddf464ddfcd88820ad00fe061043
+SHA256 (fakeroot_1.23.orig.tar.xz) = 009cd6696a931562cf1c212bb57ca441a4a2d45cd32c3190a35c7ae98506f4f6
+SHA256 (silence-dlerror.patch) = 347f6496c93ed0d91dcb554db92602b50520a16308e3b8bc33822bd69966267b

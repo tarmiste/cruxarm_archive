@@ -1,0 +1,33 @@
+# Description: Library for manipulating sound files.
+# URL: http://www.mega-nerd.com/libsndfile
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: alsa-lib flac libvorbis
+# Optional: sqlite3
+
+name=libsndfile
+version=1.0.28
+release=1
+source=(http://www.mega-nerd.com/$name/files/$name-$version.tar.gz
+	0001-FLAC-Fix-a-buffer-read-overrun.patch
+	0002-src-flac.c-Fix-a-buffer-read-overflow.patch
+	0010-src-aiff.c-Fix-a-buffer-read-overflow.patch
+	0020-src-common.c-Fix-heap-buffer-overflows-when-writing.patch)
+
+build() {
+	cd $name-$version
+
+	patch -p1 -i $SRC/0001-FLAC-Fix-a-buffer-read-overrun.patch
+	patch -p1 -i $SRC/0002-src-flac.c-Fix-a-buffer-read-overflow.patch
+	patch -p1 -i $SRC/0010-src-aiff.c-Fix-a-buffer-read-overflow.patch
+	patch -p1 -i $SRC/0020-src-common.c-Fix-heap-buffer-overflows-when-writing.patch
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--with-pic
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}

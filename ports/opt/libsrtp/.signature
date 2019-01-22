@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Xhx0W8uyorQtDnRqjE7hTOOh25OVIZuO7wxuD0Ecwyp4SIr3Hrnbr3A2ahSMOUBg90S8VFOTjW8yayCooBshwE=
+SHA256 (Pkgfile) = 93e504550028bf5b3b7db33529e90ff8b7331528c85c224dd3f650ef61ee30c7
+SHA256 (.footprint) = fabc707f1116030242e30b486c63df519ada5d4b12231e1fb04e6d100f269f45
+SHA256 (srtp-git20150922.tar.gz) = a5c2c9329e9869b5c19c0f827a60068376161605931c1a99093b1fecf3846405

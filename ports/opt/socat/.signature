@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/YgDcjZ7/RPvbeT37ZjhMgXqa0VK2flKcBkr16lhfRaQTUkrT9E/ImRzARAen/vUHSK6SrnnMI/VJdlh0bG8HAs=
+SHA256 (Pkgfile) = 5a8c3bd8137490ec5e242c99e4cd7b280be0efa7de5b852e053116a1a365eb6c
+SHA256 (.footprint) = 89674cf5f4f155af5e864485c8dc94dff3b370c1f06555edf28d959cd516e691
+SHA256 (socat-1.7.3.2.tar.bz2) = e3561f808739383eb10fada1e5d4f26883f0311b34fd0af7837d0c95ef379251

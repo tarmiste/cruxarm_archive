@@ -1,0 +1,18 @@
+# Description: High productivity build system.
+# URL: http://mesonbuild.com/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: python3-setuptools
+
+name=meson
+version=0.49.0
+release=1
+source=(https://github.com/mesonbuild/meson/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr --root=$PKG --optimize=1
+}

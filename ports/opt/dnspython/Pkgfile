@@ -1,0 +1,15 @@
+# Description: A DNS toolkit for Python
+# URL: http://www.dnspython.org/
+# Maintainer: Jose V Beneyto, sepen at crux dot nu
+# Packager: Jose V Beneyto, sepen at crux dot nu
+# Depends on: python-setuptools
+
+name=dnspython
+version=1.15.0
+release=1
+source=(http://www.dnspython.org/kits/$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  python setup.py install --root=$PKG
+}

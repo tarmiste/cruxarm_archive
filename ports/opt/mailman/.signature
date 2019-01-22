@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TBOjFyofcdnTW2NOqlWgTLVVoAcwCaz4Fr4/dIfRS4Ozl6Hn4aJSJXdAXeFFVY+qtj8eWOhFqGOE3MqfIgNyAM=
+SHA256 (Pkgfile) = 3508bff65bf187a8cf8e800452300c43a3978fa482f78c98fdd45949cd62546b
+SHA256 (.footprint) = d37fe5ae82935771e02ac3ce38f057f886bb42ddd807d0ab8167d470cfa5e7b4
+SHA256 (mailman-2.1.23.tgz) = b022ca6f8534621c9dbe50c983948688bc4623214773b580c2c78e4a7ae43e69
+SHA256 (mailman.rc) = 93a408d75bcbdaed7f37669f005276101d2855ea16ee83fc2d0975ae2e2948af

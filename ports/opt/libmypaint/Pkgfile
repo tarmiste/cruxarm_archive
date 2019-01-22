@@ -1,0 +1,29 @@
+# Description: libmypaint is a library for making brushstrokes
+# URL:         https://github.com/mypaint/libmypaint
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Depends on:  json-c python gegl gobject-introspection
+
+name=libmypaint
+version=1.3.0
+release=1
+source=(https://github.com/mypaint/$name/archive/v$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+  sed -i 's|gegl-0.3|gegl-0.4|g' gegl/libmypaint-gegl.pc.in gegl/Makefile.am configure.ac
+  sed -i 's|Gegl-0.3|Gegl-0.4|g' gegl/Makefile.am
+  sed -i 's|po/Makefile\.in|po/Makefile|g' configure.ac
+  echo -e '# INTLTOOL_MAKEFILE\nall:\ninstall:' > po/Makefile.in
+
+  autoreconf -i
+
+  ./configure --prefix=/usr \
+    --enable-gegl \
+    --disable-nls
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -rf $PKG/usr/share/locale
+}

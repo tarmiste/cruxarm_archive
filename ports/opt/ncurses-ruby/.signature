@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dF0o0U80ggo+wAaItaUscJgg1IB8QmtslgnaGt2xcBvNgJ0fkrteeqmIAbBH6k/aLliEM4U7mer706xdxIUkgs=
+SHA256 (Pkgfile) = 786c6a8cd7666d18e696a9dd1434ae15cc68c6827f2406a1089d426ed8f18ac0
+SHA256 (.footprint) = 2ab0bc40cda4ecf4fc9e24d86abb19157ff002ed1ac82f5cd161f72ce037d92b
+SHA256 (ncurses-ruby-20140731.tar.xz) = 56893c1a7245bed8ac041161ae654e5eaaac8ad295a834c2a4608f302b61189b

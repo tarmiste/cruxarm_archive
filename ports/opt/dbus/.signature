@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/SVW5UB4iJIY5wzdmM0LBbbO4cWaJ5DBjQTo8TwmvBkwkxdPb5C3DJcuYEzxUGfTKbL97Tc6CHDF6WhFsOxz6QU=
+SHA256 (Pkgfile) = 5fda25e5cf33b79fadeb04894c2b10fee8f2a24f597c280a6f65b0510d408f8f
+SHA256 (.footprint) = 75d432bb2fb5dc0a8da6aa91ad87c1468563a17bb59e7c9cb3550f0a7fa521a8
+SHA256 (dbus-1.12.8.tar.gz) = e2dc99e7338303393b6663a98320aba6a63421bcdaaf571c8022f815e5896eb3
+SHA256 (rc.dbus) = ccc40d9bcb9d763b914d598390c0868f85c6447d239084dad0fe776a4ce3f23e
+SHA256 (30-dbus.launch) = 18ea1e79698bb876f7f5fb298daae5ff6cd17c56764b087f8da2e1d5809af37a

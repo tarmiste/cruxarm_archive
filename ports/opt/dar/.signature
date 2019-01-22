@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/ZKlq/K5ph3pMBVGIX2TamNrudv683NQnrXkvEF6ml9fl87OYULaailq8749GOHFgMlZbYzo2WrtX6eVA7ueJAA=
+SHA256 (Pkgfile) = 81b5793b7ca7856aff38e0593d26149029fcde441b87c3198c587067a4f6a046
+SHA256 (.footprint) = 8aee3af5d8359199a3d6d6102b12610866997d30cf6c706c48620e4dcf35a512
+SHA256 (dar-2.6.1.tar.gz) = 400083b43c19a6e5fb21387eb94855d37bdd76517f79414adfe7629aa34df480

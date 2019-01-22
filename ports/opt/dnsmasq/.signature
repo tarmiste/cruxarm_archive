@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/XaglDu2wvLyWEq5xcK93toZKyusNKzTB/uTfYrUX1K9xM8CpFoWx6Wt+C921Xuh63YBQ9J9xMOUmmz+FReKbgM=
+SHA256 (Pkgfile) = 06e6dc57c0fcba339335054cf47cee9165088eb5673dabab458fb7328021a2b6
+SHA256 (.footprint) = a9b2926c49f21dee91cc4b4186a4abc2494b610a40941467c281573e2f9c76d9
+SHA256 (dnsmasq-2.80.tar.xz) = cdaba2785e92665cf090646cba6f94812760b9d7d8c8d0cfb07ac819377a63bb
+SHA256 (dnsmasq-config.patch) = be6179b484cd8f37f6bdcdb14c119bcc2ff31901c0e5a22eab8f5feffedf542f
+SHA256 (dnsmasq) = 1550a45a85219d7e286f6c50d72d4794da27e7b78e6b482b8414f4cf8a4dbd7b

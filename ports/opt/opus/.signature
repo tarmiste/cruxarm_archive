@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dBbvCn58Nyz9vcPtyDewJ4MTQezvmSIv0SerTiUa4jVchD0qisOXQXBvoftfVga+cn/T1UdeTdXG8YK2WOqrwg=
+SHA256 (Pkgfile) = aec4248a755997aa8b6c42c773a2ee77f53e8cecabd4a8538c2e274687825d27
+SHA256 (.footprint) = 83b4b250474590787e12031117a7dce8150771e0433938b2379943b1bfd966d8
+SHA256 (opus-1.2.1.tar.gz) = cfafd339ccd9c5ef8d6ab15d7e1a412c054bf4cb4ecbbbcc78c12ef2def70732

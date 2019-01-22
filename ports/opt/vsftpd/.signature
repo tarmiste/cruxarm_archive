@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/V1YuXU/W2YqAa4m4XQN2RAQt3sL45Xqs6KYEy0NiIDQu62czeCsw0vedtsYdbFVYeY+w6YWPpc0OX9vdzhDIwo=
+SHA256 (Pkgfile) = b9332abf68d9111e31bf550ef00c94a73991229df1118265224f0b76a40ebdfe
+SHA256 (.footprint) = 1e3fadf862486a51388e505fbc073b97190793feef90079ea56fc0bd416c6680
+SHA256 (vsftpd-3.0.3.tar.gz) = 9d4d2bf6e6e2884852ba4e69e157a2cecd68c5a7635d66a3a8cf8d898c955ef7
+SHA256 (vsftpd-config.patch) = 5ae1b937e4493ad75f4117f81bb35936ff712fdf8c9cab0d91c01d04d956c9e3
+SHA256 (vsftpd) = a87ac32cfd6d50ebc7a8679c47dfeb349048b0136371b96e2a8a26808f6f4dc7

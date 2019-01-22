@@ -1,0 +1,30 @@
+# Description: HTTP library implementation in C.
+# URL: https://wiki.gnome.org/action/show/Projects/libsoup
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: glib-networking libpsl libxml2
+# Optional: vala
+
+name=libsoup
+version=2.64.0
+release=1
+source=(https://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	local VALA
+	if [ "$(pkginfo -i | grep '^vala ')" ]; then
+		VALA='--enable-vala=yes'
+	else
+		VALA='--enable-vala=no'
+	fi
+
+	./configure $VALA \
+		--prefix=/usr \
+		--disable-gssapi
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{locale,gtk-doc}
+}

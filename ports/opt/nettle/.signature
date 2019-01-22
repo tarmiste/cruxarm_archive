@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fBUDOcP2NBwlES+7kZzMwz1a+cZ6ifs1XIEt4KBADNsVkJGq25JukJRpUW/MbdxXr0bBj9+yl2U3o8Kd+UDSg4=
+SHA256 (Pkgfile) = 18c62551243cc051487bd262c84f5fd7cb66be6e468532f2cabe84437df6333a
+SHA256 (.footprint) = f3d95fc1af7877e66774bce2c910ef53d3a8955e7949b8f3a4d8597a29e21d4d
+SHA256 (nettle-3.4.1.tar.gz) = f941cf1535cd5d1819be5ccae5babef01f6db611f9b5a777bae9c7604b8a92ad

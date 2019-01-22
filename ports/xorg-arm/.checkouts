@@ -1,0 +1,16 @@
+libdrm
+libdrm/.footprint
+libdrm/.signature
+libdrm/Pkgfile
+mesa-demos
+mesa-demos/.footprint
+mesa-demos/.signature
+mesa-demos/Pkgfile
+mesa3d
+mesa3d/.footprint
+mesa3d/.signature
+mesa3d/Pkgfile
+xorg
+xorg/.footprint
+xorg/.signature
+xorg/Pkgfile

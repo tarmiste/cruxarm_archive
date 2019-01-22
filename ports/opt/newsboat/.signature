@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/VFsiwai7U1aZCIrvWlsiGNbV7x83HIDqwP/wY2rgsO5/d6wn7Ea7kAkVkD08nN3mVTzqbXq4Ovi3OnfZOFEeQk=
+SHA256 (Pkgfile) = c647d33c0dbcadee58bb7c8c9007691502eabd15877c980b6ed8f77a4d635232
+SHA256 (.footprint) = 06b39e043d56a32e79bc658c4ff55db7bd7766762838a1983998f9dd2a93bb3c
+SHA256 (newsboat-2.13.tar.xz) = c73613b4f08c875bae2c4e7828e67291e7599e9cabed528089f8378f520b335e
+SHA256 (newsboat.1.gz) = fa2e1e0152f03516523ec7aa9a22d31a71ee1524180c1b25ff3711e4ed82cd6d
+SHA256 (podboat.1.gz) = 5a4a9c6cacb4deec7252dc150f5b99c10d638402a4da61d2848ef9a3e39855f4

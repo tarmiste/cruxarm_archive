@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/UZbVBjO9VO3hh5h89dS1tmjyRcTQ6FHF5oNXossRd1lKk2RkehsaAhnq/dR0ONdH2hUZ5H67gG+YlxQ3zwL4gM=
+SHA256 (Pkgfile) = f696fbd42a600c29ebd836e7157f1c0ff7aa743a96741364bbbdc1bfbb2aedde
+SHA256 (.footprint) = ff8a08c65f5f2c3959c9323c8efb3c3c5d23fd802931a7c76091309aabe7bef0
+SHA256 (conky-1.9.0.tar.bz2) = baf1b550f135fbfb53e5e286a33aadc03a667d63bf6c4d52ba7637366295bb6f

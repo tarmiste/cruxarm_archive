@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WWkOIL9BnWUsSMnspbhzwl7i0EhYGVXCRNcDUeZH3bq7Y2Xk+8DiGC2aGzsgSLqFZ2ptd5LvssrZYPsykX6AAI=
+SHA256 (Pkgfile) = 4c9bfbaf9fd8de240e51483168fa64b5b9d5448de8f8e3133706329462ee4125
+SHA256 (.footprint) = 82e4387df407e523675f70a99072d678b0f9d005c4e575a87d60c1d708a96cc6
+SHA256 (elinks-20170613.tar.xz) = 39ceb54a91d8fe728bfdc4d9d575b63e2a18a63481f1b7d025481cb7be7b16df

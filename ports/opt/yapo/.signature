@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/RQiEcVRzatUqWuxoe6zT0shmrwzyIQvJYzkpU52TRHRjaejY4MtuTruyqhyfL0mjSkvZsNCi3YiCdI02N2VZgc=
+SHA256 (Pkgfile) = e642e0cf0215455ed1ae3a38352b9046b0b06e105f9cbd23d830239d574e9aa7
+SHA256 (.footprint) = 10f67fc4650f031ab001c2e9944e3fa1b61d0db77d3ea84374db8aa0ee968689
+SHA256 (yapo-0.3.2.tar.gz) = 7441a902c910999d8a565d9bc6e67e1628e926fc4c96d58e3d64b0de1b3e4719

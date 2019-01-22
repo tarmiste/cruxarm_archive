@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeqqoMkN1DR4P9xBD/CeqDkCdFNhg+dg5TGTjLeNwXMLlXSO/yaMhVYqdsAlWVDf4r8JwnI1vkK6AWqoxWuFnjQAM=
+SHA256 (Pkgfile) = f0838cd9dcf2243ab04866c1b160d01ad4de8473c9860b4f75ecfa25f0dc2681
+SHA256 (.footprint) = 6e5393db04ff78a26d0c437c32c83245e32319201b373713aadc2f3bbf03ae7d
+SHA256 (pciutils-3.6.2.tar.xz) = db452ec986edefd88af0d222d22f6102f8030a8633fdfe846c3ae4bde9bb93f3

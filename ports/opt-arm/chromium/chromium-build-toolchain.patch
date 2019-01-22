@@ -1,0 +1,20 @@
+--- build/toolchain/linux/BUILD.gn.orig	2016-11-21 01:29:32.000000000 +0100
++++ build/toolchain/linux/BUILD.gn	2016-11-21 01:30:19.000000000 +0100
+@@ -6,7 +6,7 @@
+ import("//build/toolchain/gcc_toolchain.gni")
+ 
+ clang_toolchain("clang_arm") {
+-  toolprefix = "arm-linux-gnueabihf-"
++  toolprefix = ""
+   toolchain_args = {
+     current_cpu = "arm"
+     current_os = "linux"
+@@ -22,7 +22,7 @@
+ }
+ 
+ gcc_toolchain("arm") {
+-  toolprefix = "arm-linux-gnueabihf-"
++  toolprefix = ""
+ 
+   cc = "${toolprefix}gcc"
+   cxx = "${toolprefix}g++"

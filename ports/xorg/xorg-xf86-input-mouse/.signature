@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndF6tcI5GRxG4zhbQCvDeDlb5D5y6lkVz4LkSQjC0rvVSgiVP5E+dd+ZPbwK8Jz08WxHVNlVbqm6oygwp1JZURgU=
+SHA256 (Pkgfile) = fc0a20be21b0f06495248e3d8e6f7ad0dbd38b4c86a4df1b266f5e8d8e735af7
+SHA256 (.footprint) = 966c8593cf72604c3395b01fc17a844b306dae91691f9c4cd3f51859507551f2
+SHA256 (xf86-input-mouse-1.9.3.tar.bz2) = 93ecb350604d05be98b7d4e5db3b8155a44890069a7d8d6b800c0bea79c85cc5

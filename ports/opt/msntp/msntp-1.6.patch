@@ -1,0 +1,69 @@
+diff -Nru msntp-1.6.orig/Makefile msntp-1.6/Makefile
+--- msntp-1.6.orig/Makefile	2016-11-30 13:36:11.403554863 +0100
++++ msntp-1.6/Makefile	2016-11-30 13:36:37.049294512 +0100
+@@ -11,7 +11,7 @@
+ # CC = cc
+ # CFLAGS = -O
+ # LDFLAGS =
+-# LIBS = -lm
++LIBS = -lm
+ 
+ # Compiling this sort of ANSI C under SunOS 4.1 is a mug's game, because Sun's
+ # Unix headers make GNU C vomit even in compatibility mode, but the following
+diff -Nru msntp-1.6.orig/header.h msntp-1.6/header.h
+--- msntp-1.6.orig/header.h	2016-11-30 13:36:11.403554863 +0100
++++ msntp-1.6/header.h	2016-11-30 13:37:07.741518412 +0100
+@@ -19,10 +19,10 @@
+ #define MAX_SOCKETS        10          /* Maximum number of addresses */
+ 
+ #ifndef LOCKNAME
+-    #define LOCKNAME "/etc/msntp.pid"  /* Stores the pid */
++    #define LOCKNAME "/var/run/msntp.pid"  /* Stores the pid */
+ #endif
+ #ifndef SAVENAME
+-    #define SAVENAME "/etc/msntp.state" /* Stores the recovery state */
++    #define SAVENAME "/var/run/msntp.state" /* Stores the recovery state */
+ #endif
+ 
+ 
+@@ -65,7 +65,7 @@
+ 
+ /* Defined in socket.c */
+ 
+-extern void open_sockets (int which, char *hostnames, int timespan);
++extern void open_socket (int which, char *hostnames, int timespan);
+ 
+ extern void write_socket (int which, void *packet, int length);
+ 
+diff -Nru msntp-1.6.orig/msntp.1 msntp-1.6/msntp.1
+--- msntp-1.6.orig/msntp.1	2016-11-30 13:36:11.403554863 +0100
++++ msntp-1.6/msntp.1	2016-11-30 13:36:37.052627724 +0100
+@@ -143,7 +143,7 @@
+ one copy of
+ .I msntp
+ running at once.  The default is installation-dependent, but will usually be
+-.IR /etc/msntp.pid .
++.IR /var/run/msntp.pid .
+ .TP
+ .BI \-e " minerr"
+ sets the maximum ignorable variation between the clocks to
+@@ -214,7 +214,7 @@
+ Note that the file will be created with the default ownerships and permissions,
+ using standard C facilities.  The default is installation-dependent, but will
+ usually be
+-.IR /etc/msntp.state .
++.IR /var/run/msntp.state .
+ .PP
+ .B address(es)
+ are the DNS names or IP numbers of hosts to use for the challenge and response
+diff -Nru msntp-1.6.orig/unix.c msntp-1.6/unix.c
+--- msntp-1.6.orig/unix.c	2016-11-30 13:36:11.403554863 +0100
++++ msntp-1.6/unix.c	2016-11-30 13:37:36.770469102 +0100
+@@ -10,6 +10,7 @@
+ #include "header.h"
+ 
+ #include <sys/types.h>
++#include <signal.h>
+ #include <unistd.h>
+ #include <syslog.h>
+ 

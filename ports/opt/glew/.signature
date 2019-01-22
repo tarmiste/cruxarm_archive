@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fDEnr26IzAdFwR+HmNg2BaGTfynbcoRwszWYN0SYBXLNWrXU7scoOde1fPp/GWobX5Qq5a7h19Koidrt/gODQE=
+SHA256 (Pkgfile) = c1eef393d999b9a690716916b3091071aea4146e8c5b1808c216ea30d65e46ea
+SHA256 (.footprint) = 4ad446f47137ae03381628653c3417bee739fefa7c8d08016b97970af932d6df
+SHA256 (glew-2.1.0.tgz) = 04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95

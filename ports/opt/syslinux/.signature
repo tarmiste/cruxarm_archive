@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/W7yXX5lajHDAHjQZ7lKQwfBzJUR6C1JxvbLY+jOeYsUc4DbOTr8D2ClQdz2TQqIMZbNDFp/+wqbCcw8sv+ghwc=
+SHA256 (Pkgfile) = 4dd9ca986d37176881a3513a78e65782dbed8bf9913e5e5d6cb847a3d0ff8c3a
+SHA256 (.footprint) = 02274dae76db126c9a295d568a7463e86b354cff57a152a164af0a05b95876c8
+SHA256 (syslinux-6.03.tar.xz) = 26d3986d2bea109d5dc0e4f8c4822a459276cf021125e8c9f23c3cca5d8c850e
+SHA256 (syslinux-Makefile.patch) = 433b9311b8aba30f868902d67bb5c7ba68e1fd9faf71bd6e23b1dcb646ac7e7c

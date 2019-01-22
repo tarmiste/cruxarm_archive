@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TVmNnNv84PgsogTBIpgDjsXfjR1KR30pK8eiYfeolN3w1oxHE8u8ejrqhUwF+Zcz9Mf0rBkVDRzXGOXxDA+ZgM=
+SHA256 (Pkgfile) = 59d79833432fb31a1157a0af3de8873b89d5c2d2aff32b1ef76f84bb1243304b
+SHA256 (.footprint) = 28b3a45f7809ec9fe4cc3c0f4b48d291960afd02f9615e0d97c4cbdd1567ecec
+SHA256 (ncdu-1.13.tar.gz) = f4d9285c38292c2de05e444d0ba271cbfe1a705eee37c2b23ea7c448ab37255a

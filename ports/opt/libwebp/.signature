@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/QULFKcBysgTQO8unkqWf2n47kp0E+wVx3rFiQi1jMenNTABK60iQpuZW6boWIZP4NoJ22n0WQAZxuSiscYRDgs=
+SHA256 (Pkgfile) = c4b30dcbabeca249150003be7cb2cb7bfec98066f42349d621c950c55884bb72
+SHA256 (.footprint) = 79eed9afb8c27fd0d4763d7dcb9cf7a81c0d5a3dd257527769d86b9a81dc52b4
+SHA256 (libwebp-1.0.1.tar.gz) = 8c744a5422dbffa0d1f92e90b34186fb8ed44db93fbacb55abd751ac8808d922

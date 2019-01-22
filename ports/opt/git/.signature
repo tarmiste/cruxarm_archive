@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Ws2csFHSbzrYvkxUiFOPukLekRJsI0GsaGNcABQYE5XI3Zy2xFxffeZodSCEZgK3UpPD4vIBpVh6g6pTO6zIgU=
+SHA256 (Pkgfile) = c2bed8e03f4daec2b38874b908469641e9417dd40d428de73a87c83fb67d42c8
+SHA256 (.footprint) = 62bbf0af8ae42a78c354864fa4b8d9dbf55b2cfa4cd05f0f95c268a8bdb81b69
+SHA256 (git-2.19.1.tar.xz) = 345056aa9b8084280b1b9fe1374d232dec05a34e8849028a20bfdb56e920dbb5
+SHA256 (git-manpages-2.19.1.tar.xz) = 27af909c7a43ffc8b1736af19a6a68d8a5b177963ec4ddd2b2f9f0ed53bcc6ee
+SHA256 (git) = 432108f8c5f5abeb429cab25181b43ee42060d46fa7fbe7e4b02790b56f61e8a
+SHA256 (gitd.rc) = 3a7a13fcfbf493890e58a3c1c8a71de08518b35fa6fe6109120a03cd8beeac25

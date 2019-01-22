@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm.pub
+RWQh9Dk2FlLauH6TerDamFhZA9ZBo1Ab6dpLb5+l0vyHkIbmffqLE70v+p9Dw4Xq2IQhWwaJ/u9oGta1sIGfiJgBfDp2T8VlGAA=
+SHA256 (Pkgfile) = 50f1138bd9973d6210edcc0215708ea879ba138a13800d0d8a17b8f74c2c9d74
+SHA256 (.footprint) = 254ff8e725593951bbef43fd94bf7755726daedbacdf7fdc6df9f82d4b50e4c9
+SHA256 (qt-everywhere-opensource-src-4.8.7.tar.gz) = e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0

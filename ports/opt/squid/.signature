@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/d7Ok0ZlGeyikgictaRtzcNRxs5jYwFZ8RZmS60X5imSlO7rzLkMPV+lb68gQ5RWPHOIF+tER+CPS41/foRYmwo=
+SHA256 (Pkgfile) = 8a62159501ca082b46785221c9b8db01b2c709355c97064407c461f43f063bcd
+SHA256 (.footprint) = 952ba99723403df9cdc25db04bd88a343f4b3bba1cac619e80a648ec08cbdfe3
+SHA256 (squid-4.5.tar.xz) = 553edf76d6ee9a1627af9c2be7be850c14cd6836170b3d6c1393fd700d44ccc5
+SHA256 (squid) = d4ff0ac128250907e7cce4a01d6d92d9ca7dde7d59e1c72fe89de72fa5488ec4

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndPdeEC9VMf6Za6a/IRQSM/26jhNwLG8NnKgrZvhAH0SR7FBVw/x7iIwtjC8wJvK+5DSPNIm+XSe33KMWbvafxAU=
+SHA256 (Pkgfile) = 16b0587a981b42bceaae9fb0176bb590aa00a6fe0c8901f7f58a0d629f53bcc0
+SHA256 (.footprint) = 7a06d5800a067820fcf5adaf6b48a805ceb82999f5ae31668a7eb15c88d6d7b0
+SHA256 (libXmu-1.1.2.tar.bz2) = 756edc7c383254eef8b4e1b733c3bf1dc061b523c9f9833ac7058378b8349d0b

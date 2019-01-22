@@ -1,0 +1,49 @@
+#!/bin/sh
+#
+# /etc/rc.d/mailman: start/stop mailman daemon
+#
+
+SSD=/sbin/start-stop-daemon
+PROG=/usr/lib/mailman/bin/mailmanctl
+PID=/var/run/mailman/master-qrunner.pid
+
+fix_log_perms() {
+	local errorlog="/var/log/mailman/error"
+	if [ ! -f $errorlog ]; then
+		touch $errorlog
+		chown root:mailman $errorlog
+		chmod 775 $errorlog
+	fi
+}
+
+case $1 in
+start)
+	fix_log_perms
+	$SSD --start --pidfile $PID --exec $PROG -- -q start
+	;;
+stop)
+	$SSD --start --pidfile $PID --exec $PROG -- -q stop
+	$SSD --stop --retry 10 --pidfile $PID
+	;;
+restart)
+	$0 stop
+	$0 start
+	;;
+reload)
+	$SSD --start --pidfile $PID --exec $PROG -- -q restart
+	;;
+status)
+	$SSD --status --pidfile $PID
+	case $? in
+	0) echo "$PROG is running with pid $(cat $PID)" ;;
+	1) echo "$PROG is not running but the pid file $PID exists" ;;
+	3) echo "$PROG is not running" ;;
+	4) echo "Unable to determine the program status" ;;
+	esac
+	;;
+*)
+	echo "usage: $0 [start|stop|restart|reload|status]"
+	;;
+esac
+
+# End of file

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndFPrUCJZYVhn6EkR0TwwP8/zVoUjNcZlWtO7PAfr11f33oHPtKVbpOdVsPAHPVLNLC79AnOSTYaRU7PxOCptzAE=
+SHA256 (Pkgfile) = 56f2bd12f1e1f3a060d3a1a44a0bd1726c4d82ed8977cfb5bddf3c8f63bb5af8
+SHA256 (.footprint) = a33aa762553d09206023c863d7b530b883546e4bbc5de613c6e3cb322ed8b19f
+SHA256 (libxshmfence-1.3.tar.bz2) = b884300d26a14961a076fbebc762a39831cb75f92bed5ccf9836345b459220c7

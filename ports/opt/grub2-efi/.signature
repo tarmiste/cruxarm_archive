@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/YJmUPwai4w+Twi2eTcGTxxLuh6HExjesdh+URSxqlpP1xWSFwLQ9xl2NyRwC0LMrQZ4S8i+m0oMo7kxShoIMAw=
+SHA256 (Pkgfile) = 4e628b4ad1739b28f0c0935d429bcac90557297cb222adb6ca4e3fcb762aad14
+SHA256 (.footprint) = be3c0c176335de61fb03e01702968798c101216091640b618b61b467dcfd92d8
+SHA256 (grub-2.02.tar.xz) = 810b3798d316394f94096ec2797909dbf23c858e48f7b3830826b8daa06b7b0f

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndOQhSkh/ebJW/xdNDAnN8JJ0Gkssu8DpdcnUlw1GW1doXX6qrUdDOhM0CP1bY8BUxfgZvEcdK7qkJy9zITb58Qg=
+SHA256 (Pkgfile) = b6ca06bd5f1942f78a336fc25939d5d76fc6b18cffdeaadfa987434132dae03f
+SHA256 (.footprint) = ec0d2c4a116e7ae3b39b0c66e2a719dba725f5ce986b5e6de251be40200d144b
+SHA256 (xf86-video-geode-2.11.19.tar.bz2) = c6694c21ee3d9560f6e925925ef1d3818b1988e899b6a0592dbae597c87ac97e

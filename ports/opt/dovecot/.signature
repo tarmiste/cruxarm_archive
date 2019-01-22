@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/XXqxDwpbUF9TQNbaFKdWtsIUofCw0efpAVDo47CU/KkSE8+iuv5ac6Hbl94icJnKPnRbPuSE4jZGwU0X7oJRAs=
+SHA256 (Pkgfile) = 8c871e3f17bc9f0edb43d79a97181bcb590308fc7086d5448d69759c0e39aedc
+SHA256 (.footprint) = 91b2c31015cd401ed15e4934ccfd585da99c0599c89a06fdd15612950af4c497
+SHA256 (dovecot-2.3.4.tar.gz) = d91b76eff8df6185c1799f1b279f780105bdeeea27e3286b42f4cab18efbef05
+SHA256 (dovecot-config.patch) = a6f09e637f1ac15368d2d18736dc353e4a188959c5940dedd5306b689156e91c
+SHA256 (dovecot) = ead06d36290cca8be6be350f2c05edf53a4e9ce8aec5d5d663b1162ae96c17c7

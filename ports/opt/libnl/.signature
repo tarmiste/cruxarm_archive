@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/SwObiqVNN1PHx/YudWh6hpuxDldQdrRGmFD/UpNachBDQn19Gya2iEQpudai2fFkFGw8+aXdOb1wBOi4Jh9Nwk=
+SHA256 (Pkgfile) = 75bc19ce476cf7dde3f563ce272ea89b9fdfbd77fc4e69525761b6b83ee4626c
+SHA256 (.footprint) = ca02800ef8beadba24c40398b396830a937c0592640288a58eb30bc9d495eb9e
+SHA256 (libnl-3.4.0.tar.gz) = b7287637ae71c6db6f89e1422c995f0407ff2fe50cecd61a312b6a9b0921f5bf

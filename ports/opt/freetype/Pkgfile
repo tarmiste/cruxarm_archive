@@ -1,0 +1,19 @@
+# Description: A free and portable TrueType font rendering engine
+# URL: http://www.freetype.org
+# Maintainer: Fredrik Rinnestam, fredrik at crux dot nu
+# Depends on: libpng
+
+name=freetype
+version=2.9.1
+release=2
+source=(http://download.savannah.gnu.org/releases/$name/$name-$version.tar.bz2)
+
+build() {
+    cd freetype-$version
+
+    ./configure --prefix=/usr \
+                --with-zlib --enable-freetype-config # w/o breaks grub2
+
+    make
+    make DESTDIR=$PKG install
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/aM+7JfVX/ufgdnucjBOtE3hupnCq5u0hYoK3fgeEnGQsTJIfdpkN3kb7EPSs3GJHbIY7+sCU8pz8Ve3L4zY3wQ=
+SHA256 (Pkgfile) = 9855e20a27dc919c8c523425b08b2b4b927078cba19a83b8d8a37b61df8b0eed
+SHA256 (.footprint) = 74af71cd421ff299c5677568c30ffe82b358590948b58584ec164397f153335e
+SHA256 (valgrind-3.13.0.tar.bz2) = d76680ef03f00cd5e970bbdcd4e57fb1f6df7d2e2c071635ef2be74790190c3b

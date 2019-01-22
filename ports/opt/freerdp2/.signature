@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/c3RAdT+nDAqEqevCdA7TQLnDqr1O0lUrEGTBwt7l7RddahHGc6i54Z+2kFZIhvUcgcawblHQk9N3iKJhAOvuQs=
+SHA256 (Pkgfile) = e7670224c928270f8037a70cd0841f0a87c9f4b7dac6dcac4dad51cdee4978f8
+SHA256 (.footprint) = 536fd4d60f093dda94a1f949c0782a8d2e2ca548d1904d8c725ae805d80fd323
+SHA256 (freerdp-2.0.0-rc3.tar.gz) = b2b21e0f125c1160210557b9d15b633cce57d265a3fbc918d451ab00af3c2650
+SHA256 (xfreerdp.1) = f87030fcf8a97a97baf973eeb3cd7d344ef7a84b59bc9b05b776f4885afd402c

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WMMkwnUWps4QdhwPBjQ0jaMCri2O8r94OHQWLyBM4/f8+lQoKKhdp/eQDAU+C1CpmewE9uRLJOzHqDrvwb0wAA=
+SHA256 (Pkgfile) = 5912ac1b2651fdf029a291802f45749e5836f164bf21162b646898ac078fb55e
+SHA256 (.footprint) = 17b868cc8d7a0d5ac0525f5eeb7b4f9159d1328d390de73569e31be01eb606f5
+SHA256 (chrony-3.4.tar.gz) = af77e47c2610a7e55c8af5b89a8aeff52d9a867dd5983d848b52d374bc0e6b9f
+SHA256 (chronyd) = 17c2c49c7a5eed9ab0f3e58aa554905f64cf5c95a01d96fc0e0fef5a66241e53

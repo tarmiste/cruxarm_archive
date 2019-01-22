@@ -1,0 +1,18 @@
+# Description:	Secure Realtime transport protocol library
+# URL:		git://git.linphone.org/srtp.git
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	
+
+name=libsrtp
+version=git20150922
+release=1
+source=(http://www.mizrahi.com.ve/crux/dist/srtp-$version.tar.gz)
+
+build() {
+	cd srtp
+	./configure \
+		--prefix=/usr \
+		--disable-debug
+	make
+	make DESTDIR=$PKG install
+}

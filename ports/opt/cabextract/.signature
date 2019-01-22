@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/ewk0DNyfvnPHXZFbbjIUHXccjgT1Fst7KJZsj71n6KAO2lnjv21DaOxk19JL356i5FVaG0qibqKf/T7dvbH2wc=
+SHA256 (Pkgfile) = 815b376dc690a95616fd86373f256bd645c599ed66919b2d5c768b07b40e00a1
+SHA256 (.footprint) = c3227a206980cae2d6e2503fb0b6b31f7b402411428dba5e02c2cb3752f1433b
+SHA256 (cabextract-1.6.tar.gz) = cee661b56555350d26943c5e127fc75dd290b7f75689d5ebc1f04957c4af55fb

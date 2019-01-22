@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/cacE6XTQ56vQKbUbttNeo1DB5t7VdSvLXtFoX16zFcRHxD2u3Y2hfpFXrbIA+lBD+AsaZDpUcZLaWDhphV6CQw=
+SHA256 (Pkgfile) = 6f8b9b73fafbaa0551010596eb4eeb703b7a7251c6f5a08faa45b84bba45cc8b
+SHA256 (.footprint) = 6bb63f162877aad0777820e20c8331d48b8471e5fdcde881dc394c11f1865e11
+SHA256 (firefox-64.0.2.tar.bz2) = 84a0fabd9cd8585622b68fcaf1927028e117963dcbbbb11c12bcc07dbace09a7
+SHA256 (policies.json) = 56ff808cfd4bca85b972cdb4ef6cc6412807475749dc44f0c5d9b42dd9a321b1

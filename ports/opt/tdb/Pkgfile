@@ -1,0 +1,24 @@
+# Description: Trivial DataBase similar to gdbm
+# URL:         https://tdb.samba.org/
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  attr python
+
+name=tdb
+version=1.3.17
+release=1
+source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz
+        $name-man-pages.tar.xz)
+
+build() {
+	cd $name-$version
+
+	sed '/^WAF_BINARY/s|../.||' -i Makefile
+	export PYTHON=python2
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+
+	install -d $PKG/usr/share/man/man8
+	install -m 0644 $SRC/*.8 $PKG/usr/share/man/man8
+}

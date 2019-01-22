@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndJCOdOXbHxkeyZByR1CauiRIlnS0BaFLlk9UeVxA9uk24io6XqaMHz+MFNduqJOzlNQiLbjMq8UI4K57nklPnQM=
+SHA256 (Pkgfile) = 252cfe3553e6c12de5db9f7d8cc6ce59614a83ae8d45cbd9544d2ad1a39cede3
+SHA256 (.footprint) = 62a39905385e53942a853253474e8ca2c64e74455602d38a8f236aa54e2013fe
+SHA256 (xf86-input-joystick-1.6.3.tar.bz2) = 9e7669ecf0f23b8e5dc39d5397cf28296f692aa4c0e4255f5e02816612c18eab

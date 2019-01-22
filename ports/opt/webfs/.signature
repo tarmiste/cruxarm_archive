@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/YSYUu3GbkdS9Ojed4j+MgVxDbHfxc1EeS89pYXwx7/JvO7GrPiMihLzv+EuJyXl8/6FotzSNVTuvAg9i7iOiww=
+SHA256 (Pkgfile) = 19afaa261f90abea8f337ddd997536a75255eb9ccc7f6e0f00b2d9c11bab19a6
+SHA256 (.footprint) = 9a8ccd7c20a9496ffa24d4d964a5534ae6ce37bcbe32c25c762370c2914964b5
+SHA256 (webfs-1.21.tar.gz) = 98c1cb93473df08e166e848e549f86402e94a2f727366925b1c54ab31064a62a
+SHA256 (webfsd) = 5d7054e35724525acf8af6846d37d5053969d22a07e5a9f9ff07dddaa9ebb306

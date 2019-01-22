@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WR8FBeKc/o6kG6v1eKKzLKW38lGy/9ApGPl3p2ce5duWr2kzwSHBCUYkX/N5bEM6vhRAlOQgG1//kddBfKefAg=
+SHA256 (Pkgfile) = 9139e41fac77f104f99a69a86f6070f93d0a373408dd81fca0c47e74bb99f3f3
+SHA256 (.footprint) = f10a391e8c050c0eb34cf9ef4db2a0644c58ae316a07395c7f7ccc0a5263a610
+SHA256 (libunique-1.1.6.tar.bz2) = e5c8041cef8e33c55732f06a292381cb345db946cf792a4ae18aa5c66cdd4fbb
+SHA256 (G_CONST_RETURN.patch) = 0ff78cc325190d0a167257321c9381befaab0769ff829c4dd50ddbaca337407a

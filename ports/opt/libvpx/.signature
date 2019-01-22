@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WtAORPt41Xkk3wVL6AxYNjqjGGONMxKeMbTdfYo3PhWfif9FCKjl/LX5kkBhOd2LGMuZcJYyU0CUbVVV64HrgQ=
+SHA256 (Pkgfile) = 7bb605941700ec294e275f7726c8e13b4bf4bb1fda3e277d6613ca7b314e6029
+SHA256 (.footprint) = f8c24dbceb6d447d1199cd4bd299dff48094272e861966abad59860af48af729
+SHA256 (libvpx-v1.7.0.tar.gz) = 1fec931eb5c94279ad219a5b6e0202358e94a93a90cfb1603578c326abfc1238

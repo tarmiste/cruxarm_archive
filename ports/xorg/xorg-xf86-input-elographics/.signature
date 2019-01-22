@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndMqbw55rc8Nq+mDXRgmvxuXJwXVdsZPlMXmKrB4aK3nam46dgE0J1Culb1+A3RnlotNDy5A8bTS9KnSUcbBalwc=
+SHA256 (Pkgfile) = e625a8dda6f9a50a91c95321dfeafc8edbf6de5c2f769437f2acace6b2ca8cd7
+SHA256 (.footprint) = d18c1e8f6036f68c328d2418692bb6a9e228d198ede6034b8a6d6e221c9ec616
+SHA256 (xf86-input-elographics-1.4.1.tar.bz2) = a21af744d57f158e6dff9d60a68aaac46b8d726d602911940cb61f4d6bb2c6a4

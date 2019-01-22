@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/cXW0okQDvCXarmoluwqNXPGbaF/5ggSywnazLLV/AO8UoaO2fsd0S9qBIqOxDDMU9OfOwW4zYTLcbP+SwQYCAQ=
+SHA256 (Pkgfile) = f4e5f36461301e29fa3a5bcf42e83f6d7fb9dc74a60de4b817542e8648a96cf6
+SHA256 (.footprint) = 337a262a51bfc457279d6f428dcbbb8bb7d563577d407d5ce982e923ef3dd450
+SHA256 (llvm-7.0.0.src.tar.xz) = 8bc1f844e6cbde1b652c19c1edebc1864456fd9c78b8c1bea038e51b363fe222
+SHA256 (llvm-config.h) = 2227b83b904348e5530f3475c978e11cb0f05a85024781dcb49ac86b65582707

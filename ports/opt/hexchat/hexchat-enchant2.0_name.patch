@@ -1,0 +1,24 @@
+From 234fe8698781f149df0e6928e48859f66b5e947b Mon Sep 17 00:00:00 2001
+From: Patrick Griffis <tingping@tingping.se>
+Date: Tue, 6 Feb 2018 16:57:30 -0500
+Subject: [PATCH] Fix Enchant 2.1.3+ support
+
+They changed the lib name yet again...
+
+Closes #2117
+---
+ src/fe-gtk/sexy-spell-entry.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/fe-gtk/sexy-spell-entry.c b/src/fe-gtk/sexy-spell-entry.c
+index bd31d2239..dce19b829 100644
+--- a/src/fe-gtk/sexy-spell-entry.c
++++ b/src/fe-gtk/sexy-spell-entry.c
+@@ -167,6 +167,7 @@ initialize_enchant (void)
+ #ifdef G_OS_UNIX
+         "libenchant.so.1",
+         "libenchant.so.2",
++        "libenchant-2.so.2",
+ #endif
+ #ifdef __APPLE__
+         "libenchant.dylib",

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dQORZovSXNdl6j9wnTUxbYjsmHs/EV8b0sGKfjIWLYaJoBSDJM6uKSkPRONnWmMdYr0NZkw/g5iyWOBYJt1PQo=
+SHA256 (Pkgfile) = 0915f588e024f5bc84acf8ddf17236ec34ea31afe3e5c3651effb3bc8482a913
+SHA256 (.footprint) = ba5036eea7685f8b219cd7ad0ff3184aac77106c65d7c43338be5b991c75dbb6
+SHA256 (lftp-4.8.4.tar.xz) = 4ebc271e9e5cea84a683375a0f7e91086e5dac90c5d51bb3f169f75386107a62

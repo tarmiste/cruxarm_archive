@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndLbsJGDCMRAuRxKNhmG+nPDKO+rC+yqHMZh77CWhQ5SKgZXPZlv/aW/xvx+LlomKAxzFlCpoqIzoF6uj4CiTjQQ=
+SHA256 (Pkgfile) = 050121be5884255f184c2af2e86cab0d8b1186e3ef5b23852160c389ba502123
+SHA256 (.footprint) = 712d10ae79f0cb7246e7f6b0fa8ff96241805cf9c0cf710adc6163d964ab5b2c
+SHA256 (bdftopcf-1.1.tar.bz2) = 4b4df05fc53f1e98993638d6f7e178d95b31745c4568cee407e167491fd311a2

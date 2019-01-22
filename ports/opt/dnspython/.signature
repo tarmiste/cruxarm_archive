@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TN4s+ohAqDmcpvpJHFJtMjCpwljBfRFWDp0Xw8isusQuPMUriQRzXClsPkJu6JsggEM/cX/yfxazeMridmkug4=
+SHA256 (Pkgfile) = bb1ab47746fb9d7bba6960894e1b6564b2e95caecd5cf8ffc81b80cacaf4ff48
+SHA256 (.footprint) = 715a4e58d7073525f12b56450503461f325342920da424b6106b67c41f62658f
+SHA256 (dnspython-1.15.0.tar.gz) = 11598ae5735746e63921f8eebdfdee4a2e7d0ba842ebd57ba02682d4aed8244b

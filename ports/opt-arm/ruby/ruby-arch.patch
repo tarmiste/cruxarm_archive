@@ -1,0 +1,11 @@
+--- configure.orig	2016-01-25 13:26:06.560006183 +0100
++++ configure	2016-01-25 13:26:19.590006189 +0100
+@@ -24785,7 +24785,7 @@
+ _ACEOF
+ 
+ else
+-    arch="${target_cpu}-${target_os}"
++    arch="${target_os}"
+     case "$arch" in #(
+   le32-nacl) :
+     arch="pnacl" ;; #(

@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/eGAvCKwS4CWBMhbIXRYr54yIrlDHtuLao55KmZ92klxXqBelR4C78wBpKAJ3OJxzbgCeQYbvAP+m4PAVV5Y4AM=
+SHA256 (Pkgfile) = 933605ce7f9963a13d120cfed604ba93cedc7e0049eecdb250f3cd5b821e913b
+SHA256 (.footprint) = fffeeef7b3a1acb2a80f4cd1347b7d860d938de123891c70abfa8cbe843306c2
+SHA256 (bitlbee-3.5.1.tar.gz) = 9636d7fd89ebb3756c13a9a3387736ca6d56ccf66ec0580d512f07b21db0fa69
+SHA256 (bitlbee) = 486d33f75c8b9b76204abb629110d3bb8f66b1d5a6be5b13f643915d4aceaf04
+SHA256 (bitlbee.conf) = 5aab076208bbf82bc6ca831e89c6357a84cb520ce85c10cf5ef0a8690a16397e

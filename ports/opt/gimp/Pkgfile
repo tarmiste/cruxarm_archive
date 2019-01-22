@@ -1,0 +1,29 @@
+# Description: The GIMP
+# URL:         http://www.gimp.org/
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Packager:    Simone Rota, sip at crux dot nu
+# Depends on: gexiv2 libart_lgpl libmypaint librsvg mypaint-brushes poppler-data poppler-glib xorg-libxmu xorg-libxpm glib-networking
+# Nice to have: gimp-print, libsdl, ghostscript, libmng
+
+name=gimp
+version=2.10.8
+release=1
+source=(https://download.gimp.org/pub/gimp/v${version%.*}/gimp-$version.tar.bz2 cve-2013-1913)
+
+build() {
+  cd gimp-$version
+  
+  patch -p1 -i ../cve-2013-1913
+
+  sed -i -e '/$(helpbrowser)/d' plug-ins/Makefile.in
+  ./configure --prefix=/usr \
+    --libexecdir=/usr/bin \
+    --disable-static \
+    --disable-python \
+    --disable-nls \
+    --without-webkit LIBS="-lm"
+
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

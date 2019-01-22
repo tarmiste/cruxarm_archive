@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TLwVjMGC0Lm9+3akENLnYMLXdSfQ4LmyQIv+V4qYvgLY9kxSYXSCRJ2TgEdA2+XHQPAyeRksSB2JGI3nOCs/w8=
+SHA256 (Pkgfile) = a89852f9fd4212f8f7653ece84a33a331fe6e92ec88136d0447e7f7c7abdbcb2
+SHA256 (.footprint) = 44daf4a030fc21b41b127e6463340a35cad796fd9fe8b3ae22eeeead1e2938a5
+SHA256 (mtools-4.0.18.tar.bz2) = 59e9cf80885399c4f229e5d87e49c0c2bfeec044e1386d59fcd0b0aead6b2f85

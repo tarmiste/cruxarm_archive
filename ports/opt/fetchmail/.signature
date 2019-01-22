@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Y0n3vcwSPgXj3R4bxyNKLUuwVUz99sDAYw5pKiCqWqyTpKUqO0IhQXny6vBJm1YiVZp8uYkN6ogmdDtxF9/JAA=
+SHA256 (Pkgfile) = f8f9a42c504f55f24f5600c1518d15d1be9a4578a7b9bc5d97b750ea697da0e6
+SHA256 (.footprint) = c52f9b61b3ffbab88aa941546c7721245d6c825056bd4948b84b94966203996d
+SHA256 (fetchmail-6.3.26.tar.xz) = 79b4c54cdbaf02c1a9a691d9948fcb1a77a1591a813e904283a8b614b757e850
+SHA256 (disable-sslv3.patch) = b6494164df52de475930c964ba8b293482deb29a817d31af7ff9816a30db8d31

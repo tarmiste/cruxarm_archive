@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Z50yVQtvZc7zVzk733QQg7fJTixTKk7QxfDG7SFf3X4Thkffdd7nNrrkQETQx3tcHDkOB6vDo5QavitsbyEgAw=
+SHA256 (Pkgfile) = 3ef9f32ff4671401e3dd5077f33730dba01a66755d397b9808ffd020733f477b
+SHA256 (.footprint) = 601439144b68da1dde7ffeaba9656cac5c35c9947407f1f8fd8fd553baa99ee3
+SHA256 (libmpd-11.8.17.tar.gz) = fe20326b0d10641f71c4673fae637bf9222a96e1712f71f170fca2fc34bf7a83
+SHA256 (0001-fix-return-value.patch) = d8f93df567479bca89df17ebbe5db103ce36da01d5574d24184679659b731b97
+SHA256 (0002-include-config.h.patch) = 8f87b7cf45bd57d2d7c7c59f66b60b6c49bebff910dcf0716b82d18905c0846b
+SHA256 (0003-fix-comparison.patch) = f36b2a5bd9e0794a2945b840ac15ad72253874ede4d655282b978598b7a94662

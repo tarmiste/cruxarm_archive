@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/c0ZpDr9ZiseVtwxxAtyHOChZQfimwipRTVWJbPTKUOptHs3XaZ/WzBH86s8A+nH1lCdjzrpZGg2o0zNL8+DiwE=
+SHA256 (Pkgfile) = 17ceba1cdf1d79822bad93a16aff5a6a299838fa955e735cb99539a9c85ad854
+SHA256 (.footprint) = 6dc3e29b9c1a07b3f7cb05ddb460894f8e3c70526cf859a6af9b54eb39616db7
+SHA256 (libwnck-2.31.0.tar.xz) = 83f732d20781fc88b22cdc6aaf2d4f388db6d3d4ff28d1a8fd45be9fb7743a9e

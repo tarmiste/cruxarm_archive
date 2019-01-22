@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndHtEn4KKo+UMNBVLndagIqKgNTPfiA9kmTQnOXURmJaqJwGwRz3yLVRg1poxYgFyDFblTHv/53flA6owKdhEKg0=
+SHA256 (Pkgfile) = 859ce6db845aed9775dbcf043ea9d6dbb76b36fe2d445cabee53db8057b03e28
+SHA256 (.footprint) = e2daaa87a04fd2ac50b7c4725e17c08fe8207c6f748d53746a858654da64067a
+SHA256 (xbacklight-1.2.2.tar.bz2) = 615a1d13e429ed5a0300b2f4508bc199d7cf21b6b9f088a9d8188d3bc957bf5e

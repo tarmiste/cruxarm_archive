@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/bBOrB9E0hj+3Z1ofYrSU8gHit0dUHAzvEEo0xB8vva5lBADZ3UvpWOSweMsB+doke8lcQu/bO2biBVfYzNV/A8=
+SHA256 (Pkgfile) = ada0c4b97a79ca5378c75b3608f004764bac6e360c4d8232c32a6968037c70d9
+SHA256 (.footprint) = 403f893c0b2f2d9ae8ee84962779d0a786ae9a2ee89916a58bf3f134f88054bf
+SHA256 (freerdp-1.0.2.tar.gz) = d519f2dca794366a15825b8c9f751dfd06018fd4fa3890840f3f6c6e0bcfe9d5
+SHA256 (ffmpeg.patch) = b144699f853d757344470555ac029e3e93c68104595734ba66871986ca449be9

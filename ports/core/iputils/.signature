@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeqtd+1fvZLeNQPY6D90zDtAIJq0asn1DJPRtotE9GvvQOu3c0o8a7WELNnrXlxhhNuvdxd2X8KSFhC/OqVrDeOAg=
+SHA256 (Pkgfile) = dff3fb79dab27c51530b0629494def05e76ecf4cf5f9d5ffd69ec6ee4502d069
+SHA256 (.footprint) = 05e349336245cd86102f102ffaa59776b15406264cb25e9063bdbe5c90412507
+SHA256 (iputils-s20180629.tar.gz) = da14105291dd491f28ea91ade854ed10aee8ba019641c80eed233de3908be7c5
+SHA256 (iputils-man-s20180629-1.tar.xz) = fdbee6d088a134d6fb0612be7d8619806ef304d8d614443d5f6fef88b8fb6a85

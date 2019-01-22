@@ -1,0 +1,38 @@
+# Description: Evented I/O for V8 javascript.
+# URL: http://nodejs.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: python c-ares icu
+
+name=nodejs
+version=10.13.0
+release=1
+source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz)
+
+build() {
+	cd node-v$version
+
+	./configure \
+		--prefix=/usr \
+		--without-npm \
+		--with-intl=system-icu \
+		--shared-cares \
+		--shared-zlib
+
+		# https://github.com/nodejs/node/issues/22025
+		# --shared-openssl
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+
+	# clean up
+	find $PKG -type f \( \
+		-name 'README.md' -o \
+		-name 'AUTHORS.md' -o \
+		-name 'INSTALL.md' -o \
+		-name 'TODO.org' -o \
+		-name 'ChangeLog' -o \
+		-name 'NEWS' \) -delete
+
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/UGnz/3LD5M5lVuRWwHun1a+V6eZvMC5rpiT5u10VQYYbuf1jjW6XjZPA8AlgKVLF5ZMqorCXlUnMB9e/KVbigg=
+SHA256 (Pkgfile) = e86ec581689b3caeca77474885b0abf21d3410daba0ba59e7aa7dd34be221fb0
+SHA256 (.footprint) = f3e7d33049bb0539c7f0b3eea673695cd8247f9de858b30c74567ce082e4bff8
+SHA256 (protobuf-3.4.1.tar.gz) = 8e0236242106e680b4f9f576cc44b8cd711e948b20a9fc07769b0a20ceab9cc4

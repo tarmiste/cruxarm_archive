@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/e5xTS5zF7vQw7dWqRE0D7WUqDQiwFClgtqoYD+qpGo3GWxCztjDAMxDiKW0aSvQ5VtD5gk57Uy3xJQj4QkqSgA=
+SHA256 (Pkgfile) = 530d6b85529e0515938e6a334873f4bfceeb2560472d9e8395e824d4a3ed633d
+SHA256 (.footprint) = 1ddf9f1f75433e98fa2bfaae830f7115428f650b285ebc3e845da09a84290502
+SHA256 (rpcbind-1.2.5.tar.bz2) = 2ce360683963b35c19c43f0ee2c7f18aa5b81ef41c3fdbd15ffcb00b8bffda7a
+SHA256 (rpcbind) = b8173ec0b927705100eab42f24797ac36ea7c5987475cba47474b5c73a117f1a

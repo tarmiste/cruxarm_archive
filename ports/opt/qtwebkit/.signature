@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/QdnLhnu9ynAqdarcdUeq5oYYfX+augnoIJ9T5+nxN0peqiAYCv2+mJny0ApXMVO/8wHP3E5WqGxhIHa3fv7cAQ=
+SHA256 (Pkgfile) = 592374714bd7b3f5fca2d4ea3e7a2794d3eca8d6a69a1a8b80923d1905e67d62
+SHA256 (.footprint) = ed0c315f99b71f4f3ef3e2a9379ab90dbb8f86a507a7e9b24fee8ea85842c2a7
+SHA256 (qtwebkit-5.212.0-alpha2.tar.xz) = f8f901de567e11fc5659402b6b827eac75505ff9c5072d8e919aa306003f8f8a
+SHA256 (qt5-webkit-gcc7.patch) = f108833562d766d4c086026f9202b2ebc8c19e97fddedce952afed78df3c0720
+SHA256 (qt5-webkit-null-pointer-dereference.patch) = 510e1f78c2bcd76909703a097dbc1d5c9c6ce4cd94883c26138f09cc10121f43
+SHA256 (qt5-webkit-trojita-1.patch) = bd22bd7842d5ad1cb1f5a4b6acb2674509732274d5f9dc51943144dff76996ae
+SHA256 (qt5-webkit-trojita-2.patch) = b42b70fd2a4a36b0ff48fc4e0dc386b3dda373e6fec18f3be9f5e2d3b04e0aa3
+SHA256 (qt5-webkit-cmake3.10.patch) = b4e6c85fcb062e7cc141b0e34977bcc4f9c8677c773fc4b310151b85f51e7189

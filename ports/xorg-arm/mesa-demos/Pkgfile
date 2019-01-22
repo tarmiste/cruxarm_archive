@@ -1,0 +1,23 @@
+# Description: Mesa 3D demos
+# URL: http://www.mesa3d.org
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: glew glu
+
+name=mesa-demos
+version=8.4.0
+release=1
+source=(https://mesa.freedesktop.org/archive/demos/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+
+  ./configure --prefix=/usr
+
+  make -C src/xdemos/ glxinfo glxgears
+  make -C src/egl/eglut/
+  make -C src/egl/opengles2/ es2_info es2gears_x11
+
+  install -d $PKG/usr/bin
+  install -m 0755 -t $PKG/usr/bin src/{egl/opengles2/{es2_info,es2gears_x11},xdemos/glx{gears,info}}
+}

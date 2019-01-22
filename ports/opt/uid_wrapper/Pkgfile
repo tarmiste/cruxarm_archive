@@ -1,0 +1,21 @@
+# Description:	Wrapper for Unix user and group functions
+# URL:		https://cwrap.org/uid_wrapper.html
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	cmake
+
+name=uid_wrapper
+version=1.2.1
+release=1
+source=(https://ftp.samba.org/pub/cwrap/$name-$version.tar.gz)
+
+build() {
+
+	mkdir build; cd build
+
+	cmake ../$name-$version \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

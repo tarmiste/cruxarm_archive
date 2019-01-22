@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/U1WsCGM9mVFaS+chP2ngXR9MFHq2ly/N6JFR7UvwcYPqyKT+dmg+LHyGECcVXPQ5mVRZByEk2xuEyZcvGneKAc=
+SHA256 (Pkgfile) = 3984e8e46b9aebf17eed46ba2cda9c0bd333b095ce38f0642313c84712bac2d5
+SHA256 (.footprint) = 5be3b3d66028dc2cb65669e82789ccac5fec6fbc7bab98c5cf8a058b9ab185d6
+SHA256 (tcsh-6.20.00.tar.gz) = b89de7064ab54dac454a266cfe5d8bf66940cb5ed048d0c30674ea62e7ecef9d
+SHA256 (csh.login) = d8b9070db817356c533ae528e54c2885116ce6a900af777c87c784565e3bbbc0
+SHA256 (csh.logout) = 0168e96978ee004d743889e6ef6cb1306dea9ffd4fe0d3b3c2e68e2945cd581f
+SHA256 (csh.cshrc) = 3e2b81c00ab0cf406ef39b598581bfcc0eb9429ba84699f8cc4357cad79455b3

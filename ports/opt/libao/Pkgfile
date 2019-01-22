@@ -1,0 +1,21 @@
+# Description: Cross-platform audio output library and plugins.
+# URL: http://www.xiph.org/ao/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Olle Gustafsson, ogg at linux dot se
+# Depends on: alsa-lib
+
+name=libao
+version=1.2.0
+release=1
+source=(http://downloads.xiph.org/releases/ao/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}

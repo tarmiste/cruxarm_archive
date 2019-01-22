@@ -1,0 +1,25 @@
+# Description: Virtual Terminal Emulator widget for use with GTK3
+# URL: https://wiki.gnome.org/action/show/Apps/Terminal/VTE
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: gnutls gtk3 libpcre2 util-linux
+
+name=vte3
+version=0.54.1
+release=1
+source=(https://download.gnome.org/sources/vte/${version%.*}/vte-$version.tar.xz)
+
+build() {
+	cd vte-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/vte \
+		--disable-static \
+		--disable-gtk-doc \
+		--enable-vala=no
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{gtk-doc,locale}
+}

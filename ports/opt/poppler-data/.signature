@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/aZWr5pJlLUfBzVW/nln0FFAMmI15aPxM9KlzleXFLw755ArVXYIsSBZSKExfVPnBHhYe9uFd/BbB3sIglUKHgw=
+SHA256 (Pkgfile) = 52af7f91069281e347bb39bd4203b615a168d4718b477b787889c557998ad58e
+SHA256 (.footprint) = dab8a5f761f95fae6c59313d2dc77c77e3350724942ae34ee91982c833184dac
+SHA256 (poppler-data-0.4.9.tar.gz) = 1f9c7e7de9ecd0db6ab287349e31bf815ca108a5a175cf906a90163bdbe32012

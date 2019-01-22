@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fYoSjOlXrVgdVZjSJWCm9ISaxGKVH365kFEj0OWUVRz5fTnuy3CfkroLhr8DzWaVMFqavELeCW0PE2EXJhHpwc=
+SHA256 (Pkgfile) = 6e5947b4c0a75449ab2677121757588e436f4420278b90f2427ddf43f2a338f2
+SHA256 (.footprint) = 62bfe7191a20fcd5f6ec3511c951dee47aefdae734f7d616302e6bfc3a0c1923
+SHA256 (dropbear-2018.76.tar.bz2) = f2fb9167eca8cf93456a5fc1d4faf709902a3ab70dd44e352f3acbc3ffdaea65
+SHA256 (dropbear) = def8d4ebda5759a3bc55055957235fa47f7e40216badf07830f487f05e7fbd42
+SHA256 (CVE-2018-15599.diff) = 42b5720cf6c888638cfb84fdd862fc0d323b2e023cbe5f9ccdaa2e0c35b6873e

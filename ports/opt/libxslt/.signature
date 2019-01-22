@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Tl5XxV/D7ikkdubmktWcV8dDtLHLBg0AsrLE5KEbDbCj5QhVttn+moscdFBepHn/HTXInl5tvZAr+AHbSw1tgQ=
+SHA256 (Pkgfile) = 9c835558dde3f7b4cc52fa79f4a7940d2fed847fcf6c6466e9f9157b8edfad50
+SHA256 (.footprint) = acaef843f07c72002d37bc8629061fe5119bc814741fde66f4f6017118aa0aac
+SHA256 (libxslt-1.1.30.tar.gz) = ba65236116de8326d83378b2bd929879fa185195bc530b9d1aba72107910b6b3
+SHA256 (libxslt-1.1.30-glibc226.patch) = 02a57690c9e2d6c941877304a16f14e3bc6c82d002b7a043fa7461a5562f070e

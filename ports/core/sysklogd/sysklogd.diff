@@ -1,0 +1,36 @@
+diff -Nru sysklogd-1.5.1.orig/Makefile sysklogd-1.5.1/Makefile
+--- sysklogd-1.5.1.orig/Makefile	2016-08-27 17:05:36.783075199 +0200
++++ sysklogd-1.5.1/Makefile	2016-08-27 17:05:52.512526347 +0200
+@@ -20,7 +20,8 @@
+ CC= gcc
+ #SKFLAGS= -g -DSYSV -Wall
+ #LDFLAGS= -g
+-SKFLAGS= $(RPM_OPT_FLAGS) -O3 -DSYSV -fomit-frame-pointer -Wall -fno-strength-reduce
++RPM_OPT_FLAGS ?= -O2
++SKFLAGS= $(RPM_OPT_FLAGS) -DSYSV  -Wall
+ # -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE
+ # -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE
+ # $(shell getconf LFS_SKFLAGS)
+diff -Nru sysklogd-1.5.1.orig/ksym_mod.c sysklogd-1.5.1/ksym_mod.c
+--- sysklogd-1.5.1.orig/ksym_mod.c	2016-08-27 17:05:36.783075199 +0200
++++ sysklogd-1.5.1/ksym_mod.c	2016-08-27 17:05:52.512526347 +0200
+@@ -189,7 +189,6 @@
+ 		else
+ 			Syslog(LOG_ERR, "Error loading kernel symbols " \
+ 			       "- %s\n", strerror(errno));
+-		fclose(ksyms);
+ 		return(0);
+ 	}
+ 
+diff -Nru sysklogd-1.5.1.orig/syslogd.c sysklogd-1.5.1/syslogd.c
+--- sysklogd-1.5.1.orig/syslogd.c	2016-08-27 17:05:36.783075199 +0200
++++ sysklogd-1.5.1/syslogd.c	2016-08-27 17:08:12.964223932 +0200
+@@ -2094,7 +2094,7 @@
+ 	(void) signal(SIGCHLD, reapchild);	/* reset signal handler -ASP */
+ 	wait ((int *)0);
+ #else
+-	union wait status;
++	int status;
+ 
+ 	while (wait3(&status, WNOHANG, (struct rusage *) NULL) > 0)
+ 		;

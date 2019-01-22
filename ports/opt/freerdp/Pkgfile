@@ -1,0 +1,27 @@
+# Description:	Remote desktop protocol implementation
+# URL:		http://www.freerdp.com/
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	xorg-libx11 xorg-libxrender xorg-libxcursor xorg-libxext
+# Optional:	ffmpeg alsa-lib cups directfb neon pulseaudio xmlto
+
+name=freerdp
+version=1.0.2
+release=2
+source=(http://pub.freerdp.com/releases/freerdp-$version.tar.gz ffmpeg.patch)
+
+build() {
+	# fix build with different versions of ffmpeg
+	patch -p1 -i $SRC/ffmpeg.patch -d $name-$version
+
+	mkdir build; cd build
+
+	cmake ../$name-$version \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_SKIP_RPATH=ON \
+		-DWITH_PULSEAUDIO=$([ -f /usr/include/pulse/pulseaudio.h ] && echo "ON" || echo "OFF") \
+		-DWITH_SERVER=OFF \
+		-DWITH_CLIENT=ON
+	make
+	make DESTDIR=$PKG install
+}

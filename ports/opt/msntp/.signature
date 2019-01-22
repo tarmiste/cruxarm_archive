@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/VWTVAjtQ4UlkBNSIRoE6Jcht96O6yp//G25Qsf1by/vsly3U6Oj399IxK6YcSm+qVLtIzuHp6EgF2WLmMsn1gE=
+SHA256 (Pkgfile) = 46efc23033120de27a7ee8941f776caad223b97135e0a2e4c20baea46a7115ca
+SHA256 (.footprint) = d4cb1d3a9a0ae554ebc0bc81fa18cf63e6626bf276c811d2d517a02342cf5578
+SHA256 (msntp-1.6.tar.gz) = 30d170734d5ef8e7a5ba68ec2add4206a2133b43e3c7150100689304cf6528e5
+SHA256 (msntp-1.6.patch) = ff1acb783afbdca64f979ec0aed9017f17fde8b0deb9c34a7cd2942a81da971c

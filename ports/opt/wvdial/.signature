@@ -1,0 +1,11 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/VuV3BVTxOuSKR88kyH0dxR22HoBpMvKRyA8fDI6x9tEq0xuiC9rq+K3+AeU1BycDgI1GgGaWXMyoAugP8kD2w4=
+SHA256 (Pkgfile) = 4e8d66d2271654e18cec732fb5c19d41196b6de2e7d51ab99ee417c70ff7ea4f
+SHA256 (.footprint) = da2e272efbd29ba47e1977735e8cd01722db61ba7a42726f0c4286c3efa9fd64
+SHA256 (wvdial-1.61.tar.gz) = 4fffab9652c760199c074533d1d3929bea55ab4233b11e735b0f1856d1ceec57
+SHA256 (wvstreams-4.6.1.tar.gz) = 8403f5fbf83aa9ac0c6ce15d97fd85607488152aa84e007b7d0621b8ebc07633
+SHA256 (wvdial-1.61.patch) = e42a16403a259e152234389f14434fc8be0d1dfce66454cd3bc4f756dfb78dcc
+SHA256 (wvstreams-4.6.1-openssl.patch) = 12557e00efc1de8e121d2eb02ab2febd7eb14313b6c7f0b17ccdcb07afff332b
+SHA256 (wvstreams-4.6.1-include_stat.patch) = 9a6e3885a2c88e5f01ff30e09417af170567d970037874842c9ed7dc4f571ed1
+SHA256 (wvstreams-4.6.1-gcc47.patch) = 8177359dc0aefa2e17f41b47f11694dd0fbc9fbd7dcba095b662322bedc4437d
+SHA256 (wvstreams-4.6.1-use-explicit-cast.patch) = d29756fdbc17d4b92512e767a1eeb99899c442746c7fc07370a3012966d8d895

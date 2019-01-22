@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/core.pub
+RWRJc1FUaeVeqjGmuOWkG2RNsl5L4uriHI3cSAzyZrGLh6SP7HuSQVXqFj6oy2G7s6TfnaRCEVP2ZUHsEpXrwjYVjtbJ7CnfyAo=
+SHA256 (Pkgfile) = ed5969cac6210500d80f18f6395a1cc617e3945b46ce26e761b5b5bec715bcae
+SHA256 (.footprint) = 79491872e3f3d7fcf8b9bb31cccdf16a41987da60df1d6d451d9b62f0335d7d5
+SHA256 (openrdate-1.2.tar.gz) = 2921fc96d4ca676190d6ffd45fa80e107c1fe12291c0c4f64827c29639863332
+SHA256 (rdate) = b050a5e063a5b0b8ce6dde657729335ce7dc3eb02e002fb35f37aa0ef71d3aa1
+SHA256 (ntpleaps.patch) = 4ff6eb862397e05c70713897b3e80dba19160fea3cf8ec608b3d680e3e690a02

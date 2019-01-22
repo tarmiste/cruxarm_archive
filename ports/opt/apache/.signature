@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/fcLYDkpP2CULe4GB7u3jKnDBVUV/pfBcXMwajj7a16RbcgCvhcg3rrCScLsO7IyVsnocukUXtA29a9RVHl1Gwg=
+SHA256 (Pkgfile) = 3ffe357132bbb17cca3f071a173e2afb4b0a2e00c807cb4d308c725600c08b9a
+SHA256 (.footprint) = 00ca737a837b307f25dfcbe557eeafdbe236617bcfcbdcef5dcc3a26c141ee91
+SHA256 (httpd-2.4.37.tar.bz2) = 3498dc5c6772fac2eb7307dc7963122ffe243b5e806e0be4fb51974ff759d726
+SHA256 (crux.layout) = cf555f92cdc9a078d9e89035819da1ac0d2e248f0d31637b9e8f48fc8d3f42cf
+SHA256 (apache) = f4ff530751a937bead9030e15689a3b19591f790095b46bddc073efc82f756dd

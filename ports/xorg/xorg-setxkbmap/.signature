@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndIblQuCPPDo5n/3gurMO76LRXzYz+dYzIIdU50tXJs7RXDOtD/mxlbYOOiU50cAwRwX0Yevod5s5j5osisqJEQA=
+SHA256 (Pkgfile) = fe6c25b2a8f71b61a002e5ec218a45f12714b97360fe302c68b4099bf9d4caac
+SHA256 (.footprint) = fdb09204add65fdbf0ae7a04be9cfbd70bec8f30cb6745261ffc42c07444ca39
+SHA256 (setxkbmap-1.3.1.tar.bz2) = a9ddb3963f263ba13f0ea105d8c45a531832140530217cc559587bb94f02d3e1

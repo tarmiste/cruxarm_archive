@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/R81PbAme1SpgBpkqTGvKc6zrYIapRGSCGndvu+8j/914P9n8xN33VwdqGVoVznEvA1+NQQEqCwePcJbwm6lCgc=
+SHA256 (Pkgfile) = eba80fceea3eb8f91829b8c87b55f450100748303c586a23134c79315ee0597d
+SHA256 (.footprint) = ff570ea53102e4a156623698c1090e2bbb49470243f8e1e1e15157435fb99fa9
+SHA256 (screen-4.6.2.tar.gz) = 1b6922520e6a0ce5e28768d620b0f640a6631397f95ccb043b70b91bb503fa3a

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/Y4pTHSHl8QoJ06NQsiMO3bZQUY8vwN2fp8+2u42mw6TNroMK7Au3ELm+GLgxOXm2h5gQjES/kY6hBdk7vJSIws=
+SHA256 (Pkgfile) = ec764b5766ed89fa93214794feff6fc7b4df9b8af5970b2c79a0474ba2f0a783
+SHA256 (.footprint) = 596414448e63223d87bffe74553cae70f96ebbc677042a10a7d5896e9fef530a
+SHA256 (fuse-2.9.9.tar.gz) = d0e69d5d608cc22ff4843791ad097f554dd32540ddc9bed7638cc6fea7c1b4b5

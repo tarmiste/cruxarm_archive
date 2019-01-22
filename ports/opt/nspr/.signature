@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/TU48XbCgbJSvaflEmrNg3j3rYX30vAdhVgU/gmle5Jf5smbNgnZNSEnzMcCBhd6D1kq1tXLJzOnxsttnNF0wg8=
+SHA256 (Pkgfile) = 9a9378fa22f72e29b4483a0fb2f92faf6aedecb6a8aff0bf78cab533383347e7
+SHA256 (.footprint) = ca5a9f3ef9c25bbb9276ddaf58e30935286f63deee679e7268d602e09f9934af
+SHA256 (nspr-4.20.tar.gz) = 2c8964913da89ffbaf464d49ce44d79e8804e1794ef9a8c52a7bff7224d1556e
+SHA256 (nspr.pc.in) = 57a655d034221760ce10278d2050bbe040b1db55be3db6e3a30f04a570877b71

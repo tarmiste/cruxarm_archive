@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/VDO9hpMnO/IH8sa9Db9L3/0HM/kSCBSy3TEQuRqfe7NIRkYj/liuiN28lDwIsrM4m/cY9KnEV0fHEmhKnvZiwU=
+SHA256 (Pkgfile) = 6d65e215a66ad70401efcd8ec97ab77a8f086ad927f97e605a830713c867a855
+SHA256 (.footprint) = 254ff8e725593951bbef43fd94bf7755726daedbacdf7fdc6df9f82d4b50e4c9
+SHA256 (qt-everywhere-opensource-src-4.8.7.tar.gz) = e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
+SHA256 (qt-everywhere-opensource-src-4.8.7-gcc6.patch) = 57b67e6c860f11a876aaf93111728d67842dccaa23cb919826038b4fd88fd6ca
+SHA256 (0001-Fix-exclusion-of-anonymous-ciphers.patch) = 932664d39436b33f2f763866dbd45d6dfffefd8c07d420a19fc2c75f8d91f575
+SHA256 (fix_assistant_segfault_QTBUG-25324.patch) = da01fcf0ed5c519a1d52f0142408c5fcc299183736c9cb1c216f82e0dbac172f
+SHA256 (fix-moc-parsing-with-glibc-2.25.patch) = 84c42fc1b756b18dafd52b61baef5340f39e02b6acb0fc90419928849b5b2268
+SHA256 (fix-medium-font.diff) = 7c909f2cf38897ae8537e0f37d2d9d0d97f37d1d7f2910115222004f49bb2d27

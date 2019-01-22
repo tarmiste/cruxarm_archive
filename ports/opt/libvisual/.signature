@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/dNzngYrYq5D1b0i/i43aGsI8ZOVM4LJW7rZ5V4JmthGQjJeIfPgD9pDCrJaCwvUvWzYmXH3qdmwZ3upeyTsLw8=
+SHA256 (Pkgfile) = 3b8d8d554eb22156ca59a1fefde5f6983241324e48a7b78ef040d1215932a574
+SHA256 (.footprint) = 7292b7f74fc3f23b64b103ffe3b8ab2f03389e1ee6e8d5d684415c7b26cda683
+SHA256 (libvisual-0.4.0.tar.bz2) = 78f38d3ce857edde5482aa4415b504bbcd4d4a688fd4de09ec2131ad08174279
