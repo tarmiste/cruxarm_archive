@@ -4,7 +4,7 @@
 # Arch Maintainer: CRUX-ARM System Team. devel at crux-arm dot nu
 
 name=nspr
-version=4.20
+version=4.21
 release=1
 source=(https://ftp.mozilla.org/pub/nspr/releases/v$version/src/$name-$version.tar.gz
         $name.pc.in)

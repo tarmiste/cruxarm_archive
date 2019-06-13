@@ -41,9 +41,9 @@ drwxr-xr-x	root/root	usr/include/ruby-2.5/ruby/backward/
 -rw-r--r--	root/root	usr/include/ruby-2.5/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-2.5/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.2.5.3
-lrwxrwxrwx	root/root	usr/lib/libruby.so.2.5 -> libruby.so.2.5.3
--rwxr-xr-x	root/root	usr/lib/libruby.so.2.5.3
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.2.5.5
+lrwxrwxrwx	root/root	usr/lib/libruby.so.2.5 -> libruby.so.2.5.5
+-rwxr-xr-x	root/root	usr/lib/libruby.so.2.5.5
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-2.5.pc
 drwxr-xr-x	root/root	usr/lib/ruby/

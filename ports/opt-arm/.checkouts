@@ -52,7 +52,6 @@ nss/nss-config.in
 nss/nss.pc.in
 python
 python/.footprint
-python/.md5sum
 python/.signature
 python/CVE-2018-1000030.patch
 python/Pkgfile
