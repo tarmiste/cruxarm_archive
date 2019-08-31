@@ -5,7 +5,7 @@
 
 name=clang-ccache-bindings
 version=1
-release=1
+release=2
 source=()
 
 build() {

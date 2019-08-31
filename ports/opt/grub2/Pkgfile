@@ -5,11 +5,11 @@
 
 name=grub2
 version=2.02
-release=1
+release=2
 source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz \
 	http://jaeger.morpheus.net/linux/crux/files/unifont-9.0.06.pcf.gz \
 	$name-00_header.diff $name-10_linux.diff grub.cfg.sample \
-	$name-intel-ucode.diff)
+	$name-intel-ucode.diff $name-xfs.patch)
 
 build() {
 	export CFLAGS="${CFLAGS} -Wno-error"
@@ -21,6 +21,7 @@ build() {
 	patch -i $SRC/$name-00_header.diff util/grub.d/00_header.in
 	patch -i $SRC/$name-10_linux.diff util/grub.d/10_linux.in
 	patch -i $SRC/$name-intel-ucode.diff util/grub.d/10_linux.in
+	patch -p1 -i $SRC/$name-xfs.patch
 
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \

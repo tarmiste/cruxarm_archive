@@ -2,24 +2,27 @@
 # URL: https://wiki.gnome.org/action/show/Apps/Terminal/VTE
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: gnutls gtk3 libpcre2 util-linux
+# Optional: vala
 
 name=vte3
-version=0.54.1
+version=0.56.3
 release=1
 source=(https://download.gnome.org/sources/vte/${version%.*}/vte-$version.tar.xz)
 
 build() {
 	cd vte-$version
 
-	./configure \
+	prt-get isinst vala || PKGMK_VTE+=' --enable-vala=no'
+
+	./configure ${PKGMK_VTE} \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/vte \
-		--disable-static \
-		--disable-gtk-doc \
-		--enable-vala=no
+		--disable-gtk-doc
+
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{gtk-doc,locale}
+	rm -r $PKG/usr/share/{gtk-doc,locale} $PKG/usr/etc/profile.d/vte.sh
 }

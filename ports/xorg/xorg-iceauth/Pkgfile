@@ -6,7 +6,7 @@
 name=xorg-iceauth
 version=1.0.8
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/app/iceauth-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/iceauth-$version.tar.bz2)
 
 build() {
 	cd iceauth-$version

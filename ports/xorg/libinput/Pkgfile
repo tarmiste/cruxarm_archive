@@ -4,7 +4,7 @@
 # Depends on:  mtdev xorg-libevdev meson ninja
 
 name=libinput
-version=1.12.6
+version=1.13.2
 release=1
 source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 

@@ -3,7 +3,7 @@
 # Maintainer:  CRUX System Team, core-ports at crux dot nu
 
 name=sysvinit
-version=2.93
+version=2.94
 release=1
 source=(http://download.savannah.gnu.org/releases/$name/$name-$version.tar.xz)
 
@@ -20,6 +20,10 @@ build() {
     # Provided by procps
     rm $PKG/bin/pidof
     rm $PKG/usr/share/man/man8/pidof.8
+
+    # Provided by e2fsprogs
+    rm $PKG/sbin/logsave
+    rm $PKG/usr/share/man/man8/logsave.8
 
     install -d $PKG/var/log
     touch $PKG/var/log/wtmp

@@ -1,11 +1,11 @@
 # Description: A library for a new image format comparable to JPEG.
 # URL: https://developers.google.com/speed/webp/
 # Maintainer: Danny Rawlins, crux at romster dot me
-# Depends on: libpng libtiff xz
+# Depends on: libpng libtiff
 # Optional: freeglut giflib libsdl
 
 name=libwebp
-version=1.0.1
+version=1.0.2
 release=1
 source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/$name-$version.tar.gz)
 

@@ -4,7 +4,7 @@
 # Depends on:  libsdl glib xorg-libpixman
  
 name=qemu-agent
-version=3.1.0
+version=4.0.0
 release=1
 source=(http://wiki.qemu-project.org/download/qemu-$version.tar.bz2 qemu-agent)
 

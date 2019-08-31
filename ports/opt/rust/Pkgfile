@@ -2,14 +2,14 @@
 # URL: http://www.rust-lang.org/
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: llvm python3
-# Optional: sccache
+# Optional: sccache llvm-32
 
 name=rust
-version=1.29.2
+version=1.35.0
 ##cat src/stage0.txt
-_date=2018-08-02
-_rustc=1.28.0
-_cargo=0.29.0
+_date=2019-05-14
+_rustc=1.34.2
+_cargo=0.35.0
 ##
 
 release=1
@@ -28,13 +28,13 @@ build() {
 	cp $PKGMK_SOURCE_DIR/rustc-$_rustc-x86_64-unknown-linux-gnu.tar.gz build/cache/$_date/
 	cp $PKGMK_SOURCE_DIR/cargo-$_cargo-x86_64-unknown-linux-gnu.tar.gz build/cache/$_date/
 
-	if [ -n "$(pkginfo -i | grep '^sccache ')" ]; then
-		export RUSTC_WRAPPER=/usr/bin/sccache
-	fi
+	prt-get isinst sccache && export RUSTC_WRAPPER=/usr/bin/sccache
 
 cat <<- EOF > $SRC/config.toml
 	[llvm]
+	ninja = true
 	targets = "X86"
+	experimental-targets = ""
 	link-shared = true
 
 	[install]
@@ -44,30 +44,48 @@ cat <<- EOF > $SRC/config.toml
 	channel = "stable"
 	rpath = false
 	codegen-tests = false
-
-	[target.x86_64-unknown-linux-gnu]
-	llvm-config = "/usr/bin/llvm-config"
+	backtrace-on-ice = true
 
 	[build]
+	docs = false
 	extended = true
 	python = "python3"
 EOF
-
-	if [ -e '/usr/bin/rustc' ]; then
+	# part of [build] options
+        if [ -e '/usr/bin/rustc' ]; then
+		if [ -z "$(/usr/bin/ldd /usr/lib/rustlib/x86_64-unknown-linux-gnu/codegen-backends/librustc_codegen_llvm-llvm.so | egrep '.*libLLVM-.*.so => not found')" ]; then
 cat <<- EOF >> $SRC/config.toml
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
-	#local-rebuild = true
+EOF
+		else
+			echo 'llvm broken symlink detected, not using system rust to bootstrap'
+		fi
+        fi
+
+cat <<- EOF >> $SRC/config.toml
+	[target.x86_64-unknown-linux-gnu]
+	llvm-config = "/usr/bin/llvm-config"
+EOF
+
+	if [ -e '/usr/bin/llvm-config-32' ]; then
+cat <<- EOF >> $SRC/config.toml
+	[target.i686-unknown-linux-gnu]
+	llvm-config = "/usr/bin/llvm-config-32"
 EOF
 	fi
 
 	cat $SRC/config.toml
 
-	export CARGO_HOME="$PKGMK_SOURCE_DIR"
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
 	export RUSTFLAGS="$RUSTFLAGS -C link-args=-lffi"
-	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml -j ${JOBS-1}
+	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml --exclude src/tools/miri -j ${JOBS-1}
+
+	export LIBSSH2_SYS_USE_PKG_CONFIG=1
 	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
+	unset LIBSSH2_SYS_USE_PKG_CONFIG
 
 	#cleanup
 	rm -r $PKG/usr/share/doc

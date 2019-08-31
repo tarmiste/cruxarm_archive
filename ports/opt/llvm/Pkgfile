@@ -4,9 +4,9 @@
 # Depends on:  cmake libffi ninja
 
 name=llvm
-version=7.0.0
-release=2
-source=(https://llvm.org/releases/$version/$name-$version.src.tar.xz
+version=7.0.1
+release=1
+source=(https://releases.llvm.org/$version/$name-$version.src.tar.xz
   llvm-config.h)
 
 build() {

@@ -1,10 +1,10 @@
 # Description: GNU Midnight Commander
 # URL:         http://www.midnight-commander.org
 # Maintainer:  Juergen Daubert, jue at crux dot nu
-# Depends on:  util-linux glib
+# Depends on:  glib
 
 name=mc
-version=4.8.22
+version=4.8.23
 release=1
 source=(http://ftp.osuosl.org/pub/midnightcommander/$name-$version.tar.xz)
 

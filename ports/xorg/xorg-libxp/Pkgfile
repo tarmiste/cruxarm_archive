@@ -1,12 +1,12 @@
 # Description: X11 X Print Library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxext printproto
+# Depends on: xorg-libxext xorg-xorgproto
 
 name=xorg-libxp
 version=1.0.3
-release=2
-source=(http://xorg.freedesktop.org/releases/individual/lib/libXp-$version.tar.bz2)
+release=3
+source=(https://www.x.org/releases/individual/lib/libXp-$version.tar.bz2)
 
 build() {
 	cd libXp-$version

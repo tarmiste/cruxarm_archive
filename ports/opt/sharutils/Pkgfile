@@ -1,19 +1,19 @@
 # Description: GNU shar (encoding/decoding) utilities
-# URL: http://www.gnu.org/software/sharutils/sharutils.html
-# Maintainer: Jose V Beneyto, sepen at crux dot nu
-# Packager:  Antti Nykanen, aon at iki dot fi
+# URL:         http://www.gnu.org/software/sharutils/sharutils.html
+# Maintainer:  UNMAINTAINED
 # Depends on: 
 
 name=sharutils
 version=4.15.2
-release=2
-source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.xz)
+release=3
+source=(https://ftp.gnu.org/gnu/$name/$name-$version.tar.xz)
 
 build(){
   cd $name-$version
 
-  ./configure --prefix=/usr \
-              --disable-nls
+  ./configure --prefix=/usr --disable-nls
+
+  sed 's/FUNC_FFLUSH_STDIN/-1/g' -i lib/fseeko.c
 
   make
   make DESTDIR=$PKG install

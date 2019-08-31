@@ -6,7 +6,7 @@
 name=xorg-sessreg
 version=1.1.1
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/app/sessreg-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/sessreg-$version.tar.bz2)
 
 build() {
 	cd sessreg-$version

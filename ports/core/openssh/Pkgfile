@@ -4,15 +4,13 @@
 # Depends on:  openssl zlib
 
 name=openssh
-version=7.9p1
-release=2
+version=8.0p1
+release=1
 source=(http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$name-$version.tar.gz
-        sshd CVE-2018-20685.patch)
+        sshd)
 
 build() {
     cd $name-$version
-
-    patch -p1 -i $SRC/CVE-2018-20685.patch
 
     ./configure --prefix=/usr \
                 --libexecdir=/usr/lib/ssh \

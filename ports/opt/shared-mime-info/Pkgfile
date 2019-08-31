@@ -4,7 +4,7 @@
 # Depends on: glib libxml2 intltool
 
 name=shared-mime-info
-version=1.9
+version=1.10
 release=1
 source=(https://freedesktop.org/~hadess/$name-$version.tar.xz)
 

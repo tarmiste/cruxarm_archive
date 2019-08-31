@@ -4,12 +4,15 @@
 # Depends on:  openssl ncurses
 
 name=mailx
-version=14.9.11
+version=14.9.13
 release=1
-source=(https://www.sdaoden.eu/downloads/s-nail-$version.tar.xz)
+source=(https://www.sdaoden.eu/downloads/s-nail-$version.tar.xz
+        s-nail-$version.diff)
 
 build() {
     cd s-nail-$version
+
+    patch -p1 -i $SRC/s-nail-$version.diff
 
     make config \
          VAL_SID= \

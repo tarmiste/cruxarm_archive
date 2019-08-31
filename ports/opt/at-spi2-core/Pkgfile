@@ -5,15 +5,19 @@
 
 name=at-spi2-core
 version=2.26.2
-release=1
-source=(http://ftp.gnome.org/pub/gnome/sources/at-spi2-core/${version:0:4}/at-spi2-core-$version.tar.xz)
+release=3
+source=(http://ftp.gnome.org/pub/gnome/sources/at-spi2-core/${version:0:4}/at-spi2-core-$version.tar.xz \
+	at-spi2-core-meson.patch)
 
 build() {
 	cd $name-$version
+
+	patch -p1 -i $SRC/at-spi2-core-meson.patch	
 
 	meson build --prefix /usr --sysconfdir=/usr/etc --libexecdir=/usr/lib/at-spi2
 
 	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
 
 	rm -r $PKG/usr/share/locale
+	rm -r $PKG/usr/lib/systemd/
 }

@@ -5,8 +5,8 @@
 # Depends on:
 
 name=cabextract
-version=1.6
-release=2
+version=1.9.1
+release=1
 source=(http://www.cabextract.org.uk/$name-$version.tar.gz)
 
 build() {

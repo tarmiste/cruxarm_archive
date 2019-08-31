@@ -2,10 +2,10 @@
 # URL:         http://www.gphoto.org/proj/libgphoto2/
 # Maintainer:  Juergen Daubert, jue at crux dot nu
 # Packager:    Matt Housh, jaeger at crux dot nu
-# Depends on:  libtool libusb-compat libjpeg-turbo libexif
+# Depends on:  libtool libusb
 
 name=libgphoto2
-version=2.5.22
+version=2.5.23
 release=1
 source=(http://downloads.sourceforge.net/project/gphoto/libgphoto/$version/$name-$version.tar.bz2)
 

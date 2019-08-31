@@ -1,7 +1,7 @@
 # Description:	Remote desktop protocol implementation
 # URL:		http://www.freerdp.com/
 # Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	xorg-libx11 xorg-libxrender xorg-libxcursor xorg-libxext
+# Depends on:	cmake xorg-libx11 xorg-libxrender xorg-libxcursor xorg-libxext
 # Optional:	ffmpeg alsa-lib cups directfb neon pulseaudio xmlto
 
 name=freerdp
@@ -11,7 +11,12 @@ source=(http://pub.freerdp.com/releases/freerdp-$version.tar.gz ffmpeg.patch)
 
 build() {
 	# fix build with different versions of ffmpeg
-	patch -p1 -i $SRC/ffmpeg.patch -d $name-$version
+	patch -p0 -i $SRC/ffmpeg.patch
+
+	# fix for even newer ffmpeg
+	sed -ri \
+		's/([^a-zA-Z_+])(CODEC_CAP_TRUNCATED|CODEC_FLAG_TRUNCATED|CODEC_FLAG_LOOP_FILTER)/\1AV_\2/g' \
+		$name-$version/channels/drdynvc/tsmf/ffmpeg/tsmf_ffmpeg.c
 
 	mkdir build; cd build
 
@@ -20,6 +25,11 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_SKIP_RPATH=ON \
 		-DWITH_PULSEAUDIO=$([ -f /usr/include/pulse/pulseaudio.h ] && echo "ON" || echo "OFF") \
+		-DWITH_CUPS=$([ -f /usr/include/cups/cups.h ] && echo "ON" || echo "OFF") \
+		-DWITH_ALSA=$([ -f /usr/include/alsa/version.h ] && echo "ON" || echo "OFF") \
+		-DWITH_FFMPEG=$([ -f /usr/include/libavcodec/avcodec.h ] && echo "ON" || echo "OFF") \
+		-DWITH_SSE2=$(grep -q '\bsse2\b' /proc/cpuinfo && echo ON || echo OFF) \
+		-DWITH_SSE2_TARGET=$(grep -q '\bsse2\b' /proc/cpuinfo && echo ON || echo OFF) \
 		-DWITH_SERVER=OFF \
 		-DWITH_CLIENT=ON
 	make

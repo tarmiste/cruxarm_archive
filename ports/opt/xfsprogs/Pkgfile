@@ -4,7 +4,7 @@
 # Depends on:  util-linux readline
 
 name=xfsprogs
-version=4.19.0
+version=5.0.0
 release=1
 source=(https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/$name-$version.tar.xz)
 

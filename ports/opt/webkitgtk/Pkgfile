@@ -2,10 +2,10 @@
 # URL: https://www.webkitgtk.org/
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: gst-plugins-base gtk gtk3 harfbuzz-icu hyphen libsecret libsoup libwebp ruby woff2 xorg-libxt
-# Optional: enchant libnotify geoclue
+# Optional: enchant libnotify geoclue openjpeg2
 
 name=webkitgtk
-version=2.22.5
+version=2.24.2
 release=1
 source=(https://webkitgtk.org/releases/$name-$version.tar.xz)
 
@@ -14,35 +14,16 @@ build() {
 	cd $name-$version
 
 	# setting CC and CXX breaks compilation
-	if [ -n "$(pkginfo -i | grep '^ccache ')" ]; then
-		unset CC CXX
-		export PATH="/usr/lib/ccache/:$PATH"
-	fi
+	prt-get isinst ccache && unset CC CXX; export PATH="/usr/lib/ccache/:$PATH"
 
-	local SPELLCHECK
-	if [ "$(pkginfo -i | grep '^enchant ')" ]; then
-		SPELLCHECK=''
-	else
-		SPELLCHECK='-DENABLE_SPELLCHECK=OFF'
-        fi
-
-	local NOTIFY
-        if [ "$(pkginfo -i | grep '^libnotify ')" ]; then
-                NOTIFY='-DUSE_LIBNOTIFY=ON'
-        else
-                NOTIFY='-DUSE_LIBNOTIFY=OFF'
-        fi
-
-	local GEOLOCATION
-        if [ "$(pkginfo -i | grep '^geoclue ')" ]; then
-                GEOLOCATION='-DENABLE_GEOLOCATION=ON'
-        else
-                GEOLOCATION='-DENABLE_GEOLOCATION=OFF'
-        fi
+	prt-get isinst openjpeg2 || PKGMK_WEBKITGTK+=' -DUSE_OPENJPEG=OFF'
+	prt-get isinst enchant || PKGMK_WEBKITGTK+=' -DENABLE_SPELLCHECK=OFF'
+	prt-get isinst libnotify && PKGMK_WEBKITGTK+=' -DUSE_LIBNOTIFY=ON' || PKGMK_WEBKITGTK+=' -DUSE_LIBNOTIFY=OFF'
+	prt-get isinst geoclue && PKGMK_WEBKITGTK+=' -DENABLE_GEOLOCATION=ON' || PKGMK_WEBKITGTK+=' -DENABLE_GEOLOCATION=OFF'
 
 	cd ../build
 
-	cmake ../$name-$version \
+	cmake ../$name-$version ${PKGMK_WEBKITGTK} \
 		-G Ninja \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
@@ -52,7 +33,7 @@ build() {
 		-DPORT=GTK \
 		-DENABLE_MINIBROWSER=ON \
 		-DUSE_SYSTEM_MALLOC=ON \
-		-Wno-dev $GEOLOCATION $SPELLCHECK $NOTIFY
+		-Wno-dev
 
 	ninja -j ${JOBS-1}
 	DESTDIR=$PKG ninja install

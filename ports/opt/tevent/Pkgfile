@@ -4,14 +4,13 @@
 # Depends on:  talloc
 
 name=tevent
-version=0.9.38
+version=0.9.39
 release=1
 source=(https://www.samba.org/ftp/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	sed '/^WAF_BINARY/s|../.||' -i Makefile
 	export PYTHON=python2
 
 	./configure \

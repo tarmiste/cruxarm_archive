@@ -4,9 +4,9 @@
 # Depends on:  llvm
 
 name=clang
-version=7.0.0
+version=7.0.1
 release=1
-source=(https://llvm.org/releases/$version/{llvm,cfe}-$version.src.tar.xz)
+source=(https://releases.llvm.org/$version/{llvm,cfe}-$version.src.tar.xz)
 
 build() {
   mv cfe-$version.src llvm-$version.src/tools/clang

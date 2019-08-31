@@ -1,10 +1,10 @@
 # Description:	A unit testing framework for C
-# URL:		http://check.sourceforge.net/
+# URL:		http://libcheck.github.io/check/
 # Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
 # Depends on:	
 
 name=check
-version=0.10.0
+version=0.12.0
 release=1
 source=(https://github.com/libcheck/check/releases/download/$version/$name-$version.tar.gz)
 

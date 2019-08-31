@@ -5,11 +5,14 @@
 
 name=grub2-efi
 version=2.02
-release=1
-source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz)
+release=2
+source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz \
+    grub2-xfs.patch)
 
 build() {
     export CFLAGS="${CFLAGS} -Wno-error"
+
+    patch -d grub-$version -p1 -i $SRC/grub2-xfs.patch
 
     # fix for glibc 'gets' removal
     sed -i -e '/gets is a/d' grub-$version/grub-core/gnulib/stdio.in.h

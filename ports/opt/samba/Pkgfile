@@ -4,7 +4,7 @@
 # Depends on:  libarchive libcap popt tdb tevent
 
 name=samba
-version=4.9.4
+version=4.9.9
 release=1
 source=(https://www.samba.org/samba/ftp/stable/$name-$version.tar.gz \
         samba)

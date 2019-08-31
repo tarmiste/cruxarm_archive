@@ -1,12 +1,12 @@
 # Description: xorg font font-mutt-misc
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-mkfontdir, xorg-mkfontscale, xorg-bdftopcf, xorg-font-util
+# Depends on: xorg-mkfontscale, xorg-bdftopcf, xorg-font-util
 
 name=xorg-font-mutt-misc
 version=1.0.3
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/font/font-mutt-misc-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/font/font-mutt-misc-$version.tar.bz2)
 
 build() {
 	cd font-mutt-misc-$version

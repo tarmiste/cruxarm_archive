@@ -4,7 +4,7 @@
 # Depends on:
 
 name=hunspell
-version=1.6.1
+version=1.7.0
 release=2
 source=(https://github.com/hunspell/$name/archive/v$version/$name-v$version.tar.gz)
 
@@ -16,8 +16,9 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--disable-nls
-	make
+
 	make prefix=$PKG/usr install
 
+	ln -s libhunspell-1.7.so.0.0.1 $PKG/usr/lib/libhunspell.so
 	rm -rf $PKG/usr/share/man/hu
 }

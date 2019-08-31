@@ -4,11 +4,11 @@
 # Depends on:  readline zlib
 
 name=sqlite3
-version=3.26.0
+version=3.28.0
 release=1
 _version=$(printf "%i%.2i%.2i%.2i" ${version//./ })
 
-source=(http://www.sqlite.org/2018/sqlite-autoconf-${_version}.tar.gz)
+source=(http://www.sqlite.org/2019/sqlite-autoconf-${_version}.tar.gz)
 
 build () {
     cd sqlite-autoconf-${_version}

@@ -4,9 +4,9 @@
 # Depends on: xorg-xorgproto xorg-xtrans
 
 name=xorg-libfs
-version=1.0.7
+version=1.0.8
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/lib/libFS-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libFS-$version.tar.bz2)
 
 build() {
 	cd libFS-$version

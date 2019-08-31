@@ -5,20 +5,14 @@
 # Optional: vala docbook-xsl
 
 name=libsecret
-version=0.18.5
+version=0.18.8
 release=1
 source=(https://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	local MAN
-	if [ "$(pkginfo -i | grep '^docbook-xsl ')" ]; then
-		MAN=''
-	else
-		MAN='--disable-manpages'
-	fi
-
+prt-get isinst docbook-xsl && local MAN='' || local MAN='-disable-manpages'
 
 	./configure \
 		--prefix=/usr \
@@ -28,5 +22,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{gtk-doc,locale}
+	rm -r $PKG/usr/share/gtk-doc
 }

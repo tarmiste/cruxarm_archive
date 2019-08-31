@@ -1,10 +1,10 @@
 # Description: Event notification library
 # URL:         http://www.monkey.org/~provos/libevent/
 # Maintainer:  Juergen Daubert, jue at crux dot nu
-# Packager:    Robert McMeekin, rrm3 at rrm3 dot org
+# Depends on:  openssl
 
 name=libevent
-version=2.1.8
+version=2.1.10
 release=1
 source=(https://github.com/libevent/libevent/releases/download/release-$version-stable/$name-$version-stable.tar.gz)
 

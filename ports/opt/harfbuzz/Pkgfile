@@ -4,18 +4,19 @@
 # Depends on:  cairo
 
 name=harfbuzz
-version=2.3.0
+version=2.5.1
 release=1
-source=(http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-$version.tar.bz2)
+source=(http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	./configure --prefix=/usr \
-	            --with-glib \
-	            --with-freetype \
-	            --with-cairo \
-	            --with-icu=no
+	./configure	--prefix=/usr \
+			--with-glib \
+			--with-freetype \
+			--with-cairo \
+			--with-icu=no \
+			--with-graphite2=auto
 
 	make
 	make DESTDIR=$PKG install

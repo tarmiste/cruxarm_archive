@@ -4,7 +4,7 @@
 # Depends on:  db libcap libtool expat libxml2
 
 name=squid
-version=4.5
+version=4.7
 release=1
 source=(http://www.squid-cache.org/Versions/v4/$name-$version.tar.xz
         squid)

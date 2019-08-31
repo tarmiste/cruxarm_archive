@@ -4,7 +4,7 @@
 # Depends on:  gtk
 
 name=scite
-version=4.1.3
+version=4.1.7
 release=1
 source=(http://downloads.sourceforge.net/project/scintilla/SciTE/$version/$name${version//./}.tgz)
 

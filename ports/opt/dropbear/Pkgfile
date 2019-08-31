@@ -4,15 +4,13 @@
 # Depends on:  zlib
 
 name=dropbear
-version=2018.76
-release=2
+version=2019.78
+release=1
 source=(http://matt.ucc.asn.au/$name/releases/$name-$version.tar.bz2 \
-        $name CVE-2018-15599.diff)
+        $name)
 
 build () {
     cd $name-$version
-
-    patch -p1 -i $SRC/CVE-2018-15599.diff
 
     echo '#define SFTPSERVER_PATH "/usr/lib/ssh/sftp-server"' > localoptions.h
 

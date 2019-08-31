@@ -2,29 +2,20 @@
 # URL: https://wiki.gnome.org/action/show/Projects/libsoup
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Depends on: glib-networking libpsl libxml2
-# Optional: vala
+# Optional: vala krb5
 
 name=libsoup
-version=2.64.0
+version=2.66.2
 release=1
 source=(https://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
+	prt-get isinst vala && PKGMK_LIBSOUP+=' -Dvapi=true' || PKGMK_LIBSOUP+=' -Dvapi=false'
+	prt-get isinst krb5 && PKGMK_LIBSOUP+=' -Dgssapi=true' || PKGMK_LIBSOUP+=' -Dgssapi=false'
 
-	local VALA
-	if [ "$(pkginfo -i | grep '^vala ')" ]; then
-		VALA='--enable-vala=yes'
-	else
-		VALA='--enable-vala=no'
-	fi
+	meson setup build $name-$version --prefix=/usr ${PKGMK_LIBSOUP}
+	ninja -j ${JOBS-1} -C build
+	DESTDIR=$PKG meson install -C build
 
-	./configure $VALA \
-		--prefix=/usr \
-		--disable-gssapi
-
-	make
-	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/{locale,gtk-doc}
+	rm -r $PKG/usr/share/locale
 }

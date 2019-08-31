@@ -4,14 +4,14 @@
 # Depends on:  libusb
 
 name=usbutils
-version=010
+version=012
 release=1
 source=(http://www.kernel.org/pub/linux/utils/usb/$name/$name-$version.tar.xz
-        lsusb.py.patch usb.ids.xz)
+        usb.ids.xz)
 
 build() {
     cd $name-$version
-    patch -p1 -i $SRC/lsusb.py.patch
+    ./autogen.sh
     ./configure --prefix=/usr --disable-zlib
     make
     make DESTDIR=$PKG install

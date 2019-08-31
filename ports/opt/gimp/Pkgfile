@@ -3,7 +3,7 @@
 # Maintainer:  Thomas Penteker, tek at serverop dot de
 # Packager:    Simone Rota, sip at crux dot nu
 # Depends on: gexiv2 libart_lgpl libmypaint librsvg mypaint-brushes poppler-data poppler-glib xorg-libxmu xorg-libxpm glib-networking
-# Nice to have: gimp-print, libsdl, ghostscript, libmng
+# Optional: gimp-print libsdl ghostscript libmng
 
 name=gimp
 version=2.10.8

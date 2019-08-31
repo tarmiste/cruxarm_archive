@@ -5,7 +5,7 @@
 
 name=hunspell-en
 version=2017.01.22
-release=1
+release=2
 source=(
 http://downloads.sourceforge.net/wordlist/speller/$version/hunspell-en_AU-$version.zip
 http://downloads.sourceforge.net/wordlist/speller/$version/hunspell-en_US-$version.zip
@@ -21,6 +21,8 @@ build() {
 	mkdir -p $PKG/usr/share/hunspell
 
 	cp $SRC/*.aff $SRC/*.dic $PKG/usr/share/hunspell/
+	mv $PKG/usr/share/hunspell/{en_GB-ise.aff,en_GB.aff}
+	mv $PKG/usr/share/hunspell/{en_GB-ise.dic,en_GB.dic}
 
 	# Replace duplicate files with symbolic links
 	pushd $PKG/usr/share/hunspell
@@ -41,9 +43,7 @@ build() {
 	# Create symbolic links for missing dictionaries
 	pushd $PKG/usr/share/hunspell
 	for lang in ${!missing[@]}; do
-		echo "source language is $lang"
 		for new in ${missing[$lang]}; do
-			echo "new language is $new"
 			ln -s $lang.aff $new.aff
 			ln -s $lang.dic $new.dic
 		done

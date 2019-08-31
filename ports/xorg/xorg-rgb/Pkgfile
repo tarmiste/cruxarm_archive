@@ -6,7 +6,7 @@
 name=xorg-rgb
 version=1.0.6
 release=2
-source=(http://xorg.freedesktop.org/releases/individual/app/rgb-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/rgb-$version.tar.bz2)
 
 build() {
 	cd rgb-$version

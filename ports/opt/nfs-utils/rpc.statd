@@ -5,6 +5,7 @@
 
 SSD=/sbin/start-stop-daemon
 PROG=/usr/sbin/rpc.statd
+NAME=rpc.statd
 PID=/var/run/rpc.statd.pid
 OPTS="--no-notify"
 
@@ -13,14 +14,14 @@ start)
 	$SSD --start --pidfile $PID --exec $PROG -- $OPTS
 	;;
 stop)
-	$SSD --stop --retry 10 --pidfile $PID
+	$SSD --stop --retry 10 --pidfile $PID --name $NAME
 	;;
 restart)
 	$0 stop
 	$0 start
 	;;
 status)
-	$SSD --status --pidfile $PID
+	$SSD --status --pidfile $PID --name $NAME
 	case $? in
 	0) echo "$PROG is running with pid $(cat $PID)" ;;
 	1) echo "$PROG is not running but the pid file $PID exists" ;;

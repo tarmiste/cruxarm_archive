@@ -1,5 +1,5 @@
 # Description: System call tracing utility (like trace, truss, etc)
-# URL:         http://sourceforge.net/projects/strace/
+# URL:         https://strace.io
 # Maintainer:  Thomas Penteker, tek at serverop dot de
 # Packager:    Tilman Sauerbeck, tilman at crux dot nu
 

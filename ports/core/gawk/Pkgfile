@@ -4,7 +4,7 @@
 # Depends on:  readline libmpfr
 
 name=gawk
-version=4.2.1
+version=5.0.1
 release=1
 source=(http://ftpmirror.gnu.org/gnu/$name/$name-$version.tar.xz)
 

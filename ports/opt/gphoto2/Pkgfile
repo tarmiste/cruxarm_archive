@@ -4,7 +4,7 @@
 # Depends on:  readline popt libgphoto2
 
 name=gphoto2
-version=2.5.20
+version=2.5.23
 release=1
 source=(http://downloads.sourceforge.net/project/gphoto/gphoto/$version/$name-$version.tar.bz2)
 

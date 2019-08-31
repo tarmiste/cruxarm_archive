@@ -5,7 +5,7 @@
 # Depends on:
 
 name=php-ftp
-version=7.2.14
+version=7.2.19
 release=1
 source=(http://www.php.net/distributions/php-$version.tar.xz)
 

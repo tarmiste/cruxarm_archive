@@ -1,11 +1,11 @@
 # Description: Very powerfull shell
-# URL: http://www.zsh.org/
+# URL:         http://www.zsh.org/
 # Maintainer:  Thomas Penteker, tek at serverop dot de
-# Packager: Tilman Sauerbeck, tilman at crux dot nu
-# Depends on: libpcre
+# Packager:    Tilman Sauerbeck, tilman at crux dot nu
+# Depends on:  libpcre
 
 name=zsh
-version=5.6.2
+version=5.7.1
 release=1
 source=(http://www.zsh.org/pub/zsh-${version}.tar.xz _prt-get zsh-lovers.1)
 
@@ -26,13 +26,12 @@ build() {
       --enable-restricted-r \
       --enable-cap
 
-    # fix a bug in recent glibc versions (2.16)
-    sed -e '/#include "attr.mdh"/d;/#include "attr.pro/d' \
-        -e 's|\(#include <sys/xattr.h>\)|\1\n#include "attr.mdh"\n#include "attr.pro"|g' \
-        -i Src/Modules/attr.c
-
+    # fix paths for kbd and usbutils
+    sed -i 's|/usr/share/keymaps|/usr/share/kbd/keymaps|g' Completion/Unix/Command/_loadkeys
+    sed -i 's|/usr/share/misc/usb.ids|/usr/share/usb.ids|g' Completion/Linux/Command/_lsusb
+ 
     make
-    make DESTDIR=$PKG install 
+    make DESTDIR=$PKG install
 
     install -m 644 $SRC/zsh-lovers.1 $PKG/usr/share/man/man1/
 
@@ -46,5 +45,5 @@ build() {
     # so remove them for now (see bug #381).
     rm $PKG/usr/share/zsh/$version/functions/Completion/Unix/_pkg{add,rm,info}
 
-    install -m 644 -t $PKG/usr/share/zsh/site-functions $SRC/_prt-get 
+    install -m 644 -t $PKG/usr/share/zsh/site-functions $SRC/_prt-get
 }

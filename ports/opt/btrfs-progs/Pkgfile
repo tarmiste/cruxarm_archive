@@ -4,7 +4,7 @@
 # Depends on:  lzo zstd
 
 name=btrfs-progs
-version=4.20
+version=5.1.1
 release=1
 source=(https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v$version.tar.xz)
 

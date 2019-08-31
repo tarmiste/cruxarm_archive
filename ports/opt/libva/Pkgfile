@@ -1,13 +1,12 @@
 # Description: Video Acceleration API to enable hardware accelerated video decode/encode.
-# URL: http://freedesktop.org/wiki/Software/vaapi
+# URL: https://01.org/linuxmedia/vaapi
 # Maintainer: Danny Rawlins, crux at romster dot me
-# Packager: Tilman Sauerbeck, tilman at crux dot nu
 # Depends on: mesa3d
 
 name=libva
-version=1.7.3
+version=2.4.0
 release=1
-source=(https://www.freedesktop.org/software/vaapi/releases/$name/$name-$version.tar.bz2)
+source=(https://github.com/intel/libva/releases/download/$version/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version

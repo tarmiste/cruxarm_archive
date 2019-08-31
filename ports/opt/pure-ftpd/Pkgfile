@@ -4,7 +4,7 @@
 # Depends on:  openssl
 
 name=pure-ftpd
-version=1.0.47
+version=1.0.49
 release=1
 source=(http://download.pureftpd.org/$name/releases/$name-$version.tar.bz2 \
         pure-ftpd pure-ftpd.conf)
@@ -27,4 +27,6 @@ build () {
 
     install -m 755 $SRC/pure-ftpd $PKG/etc/rc.d
     install -m 644 $SRC/pure-ftpd.conf $PKG/etc
+
+    rm -r $PKG/usr/share/doc
 }

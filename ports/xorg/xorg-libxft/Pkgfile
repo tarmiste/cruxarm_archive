@@ -4,9 +4,9 @@
 # Depends on: harfbuzz
 
 name=xorg-libxft
-version=2.3.2
-release=2
-source=(http://xorg.freedesktop.org/releases/individual/lib/libXft-$version.tar.bz2)
+version=2.3.3
+release=1
+source=(https://www.x.org/releases/individual/lib/libXft-$version.tar.bz2)
 
 build() {
 	cd libXft-$version

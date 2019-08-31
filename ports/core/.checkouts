@@ -227,10 +227,6 @@ iptables
 iptables/.footprint
 iptables/.signature
 iptables/Pkgfile
-iputils
-iputils/.footprint
-iputils/.signature
-iputils/Pkgfile
 kbd
 kbd/.footprint
 kbd/.signature
@@ -339,7 +335,6 @@ openrdate/rdate
 openssh
 openssh/.footprint
 openssh/.signature
-openssh/CVE-2018-20685.patch
 openssh/Pkgfile
 openssh/sshd
 openssl
@@ -482,7 +477,6 @@ usbutils
 usbutils/.footprint
 usbutils/.signature
 usbutils/Pkgfile
-usbutils/lsusb.py.patch
 usbutils/usb.ids.xz
 util-linux
 util-linux/.footprint

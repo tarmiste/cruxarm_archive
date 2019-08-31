@@ -1,11 +1,10 @@
 # Description: GNU pico clone (a tiny text editor)
 # URL:         http://www.nano-editor.org
 # Maintainer:  Juergen Daubert, jue at crux dot nu
-# Packager:    Simone Rota, sip at crux dot nu
 # Depends on:  file ncurses
 
 name=nano
-version=3.2
+version=4.3
 release=1
 source=(http://www.nano-editor.org/dist/v${version%.*}/$name-$version.tar.xz)
 

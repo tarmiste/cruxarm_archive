@@ -4,7 +4,7 @@
 # Depends on: cyrus-sasl
 
 name=postfix
-version=2.11.10
+version=3.1.12
 release=1
 source=(ftp://ftp.porcupine.org/mirrors/postfix-release/official/$name-$version.tar.gz \
         aliases postfix.rc postfix.patch)
@@ -14,8 +14,9 @@ build() {
 
     patch -p1 < $SRC/postfix.patch
 
-    # enable building on 4.x kernels
-    sed -i 's:\(Linux.3\*\)):\1|Linux.4*):1' makedefs
+    # enable building on recent kernels
+    sed -i 's:\(Linux\.\[34\):\15:1' makedefs
+    sed -i 's:\(|| defined(LINUX4)\):\1 || defined(LINUX5):g' src/util/sys_defs.h
     
     _CCARGS="$CCARGS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DUSE_TLS -I/usr/include/openssl"
     _AUXLIBS="-L/usr/lib -lsasl2 -lssl -lcrypto"

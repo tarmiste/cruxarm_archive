@@ -45,10 +45,6 @@ polyglotman
 polyglotman/.footprint
 polyglotman/.signature
 polyglotman/Pkgfile
-printproto
-printproto/.footprint
-printproto/.signature
-printproto/Pkgfile
 xkeyboard-config
 xkeyboard-config/.footprint
 xkeyboard-config/.signature
@@ -437,10 +433,6 @@ xorg-makedepend
 xorg-makedepend/.footprint
 xorg-makedepend/.signature
 xorg-makedepend/Pkgfile
-xorg-mkfontdir
-xorg-mkfontdir/.footprint
-xorg-mkfontdir/.signature
-xorg-mkfontdir/Pkgfile
 xorg-mkfontscale
 xorg-mkfontscale/.footprint
 xorg-mkfontscale/.signature
@@ -657,10 +649,6 @@ xorg-xf86-video-vmware
 xorg-xf86-video-vmware/.footprint
 xorg-xf86-video-vmware/.signature
 xorg-xf86-video-vmware/Pkgfile
-xorg-xf86rushproto
-xorg-xf86rushproto/.footprint
-xorg-xf86rushproto/.signature
-xorg-xf86rushproto/Pkgfile
 xorg-xfontsel
 xorg-xfontsel/.footprint
 xorg-xfontsel/.signature

@@ -6,7 +6,7 @@
 name=xorg-libxcb
 version=1.13
 release=1
-source=(http://xcb.freedesktop.org/dist/libxcb-$version.tar.bz2)
+source=(https://xcb.freedesktop.org/dist/libxcb-$version.tar.bz2)
 
 build() {
 	cd libxcb-$version

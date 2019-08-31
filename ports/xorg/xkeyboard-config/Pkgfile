@@ -6,7 +6,7 @@
 name=xkeyboard-config
 version=2.24
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/data/$name/$name-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version

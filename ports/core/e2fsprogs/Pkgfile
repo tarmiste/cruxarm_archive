@@ -4,7 +4,7 @@
 # Depends on:  util-linux
 
 name=e2fsprogs
-version=1.44.5
+version=1.45.2
 release=1
 source=(https://www.kernel.org/pub/linux/kernel/people/tytso/$name/v$version/$name-$version.tar.xz)
 
@@ -26,7 +26,7 @@ build() {
     make
     make -j1 DESTDIR=$PKG install install-libs
 
-    rm -r $PKG/usr/share/info
+    rm -r $PKG/{usr/share/info,etc/cron.d}
 
     chmod +w -R $PKG
 }

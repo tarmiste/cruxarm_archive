@@ -4,7 +4,7 @@
 # Depends on: python3-setuptools
 
 name=meson
-version=0.49.0
+version=0.51.0
 release=1
 source=(https://github.com/mesonbuild/meson/releases/download/$version/$name-$version.tar.gz)
 

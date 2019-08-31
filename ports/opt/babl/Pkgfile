@@ -5,7 +5,7 @@
 # Depends on:
 
 name=babl
-version=0.1.60
+version=0.1.62
 release=1
 source=(http://ftp.gtk.org/pub/babl/${version%.*}/$name-$version.tar.bz2)
 

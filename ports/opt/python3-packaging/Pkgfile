@@ -4,7 +4,7 @@
 # Depends on: python3-pyparsing python3-six
 
 name=python3-packaging
-version=18.0
+version=19.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*-}/${name#*-}-$version.tar.gz)
 

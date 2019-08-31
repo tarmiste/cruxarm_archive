@@ -1,7 +1,7 @@
 # Description: Adwaita Icon Theme
 # URL:         https://git.gnome.org/browse/adwaita-icon-theme/
 # Maintainer:  Fredrik Rinnestam, fredrik at rinnestam dot se
-# Depends On:  librsvg
+# Depends On:  librsvg-compat
 
 name=adwaita-icon-theme
 version=3.30.1

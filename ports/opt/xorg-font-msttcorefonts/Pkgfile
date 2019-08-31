@@ -2,7 +2,7 @@
 # Description: Microsoft's Web Fonts (truetype)
 # Maintainer: Danny Rawlins, crux at romster dot me
 # Packager: Matt Housh, jaeger at morpheus dot net
-# Depends on: fontconfig xorg-mkfontdir xorg-mkfontscale cabextract
+# Depends on: fontconfig xorg-mkfontscale cabextract
 
 name=xorg-font-msttcorefonts
 version=1.4

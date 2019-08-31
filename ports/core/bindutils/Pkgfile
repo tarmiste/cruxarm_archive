@@ -1,10 +1,10 @@
 # Description: Bind tools
 # URL:         http://www.isc.org/software/bind
 # Maintainer:  CRUX System Team, core-ports at crux dot nu
-# Depends on:  openssl
+# Depends on:  openssl zlib
 
 name=bindutils
-version=9.12.3
+version=9.12.4
 release=1
 source=(https://ftp.isc.org/isc/bind9/$version/bind-$version.tar.gz)
 
@@ -15,7 +15,8 @@ build() {
                 --disable-linux-caps \
                 --with-libxml2=no \
                 --with-libjson=no \
-                --with-gssapi=no
+                --with-gssapi=no \
+                --with-python=no
 
     make -C lib
     make -C bin/dig

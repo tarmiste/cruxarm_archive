@@ -1,12 +1,12 @@
 # Description: Tools for the Linux quota system
 # URL:         http://sourceforge.net/projects/linuxquota/
 # Maintainer:  Juergen Daubert, jue at crux dot nu
-# Depends on:  e2fsprogs
+# Depends on:  e2fsprogs libtirpc
 
 name=quota
-version=20160809
+version=4.04
 release=1
-source=(http://crux.s3.amazonaws.com/dist/$name-$version.tar.xz)
+source=(https://downloads.sourceforge.net/sourceforge/linuxquota/$name-$version.tar.gz)
 
 build(){
     cd $name-$version

@@ -4,7 +4,7 @@
 # Depends on:  libpcre libxml2 curl db gdbm
 
 name=php
-version=7.2.14
+version=7.2.19
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz)
 

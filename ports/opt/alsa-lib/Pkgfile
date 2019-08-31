@@ -3,7 +3,7 @@
 # Maintainer: Matt Housh, jaeger at crux dot ninja
 
 name=alsa-lib
-version=1.1.7
+version=1.1.9
 release=1
 source=(ftp://ftp.alsa-project.org/pub/lib/$name-$version.tar.bz2)
 

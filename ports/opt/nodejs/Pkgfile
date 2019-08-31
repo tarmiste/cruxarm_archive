@@ -1,20 +1,22 @@
 # Description: Evented I/O for V8 javascript.
 # URL: http://nodejs.org/
 # Maintainer: Danny Rawlins, crux at romster dot me
-# Depends on: python c-ares icu
+# Depends on: python c-ares
+# Optional: icu
 
 name=nodejs
-version=10.13.0
+version=10.15.3
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz)
 
 build() {
 	cd node-v$version
 
-	./configure \
+	[ -e '/usr/lib/pkgconfig/icu-i18n.pc' ] && PKGMK_NODEJS+=' --with-intl=system-icu'
+
+	./configure ${PKGMK_NODEJS} \
 		--prefix=/usr \
 		--without-npm \
-		--with-intl=system-icu \
 		--shared-cares \
 		--shared-zlib
 

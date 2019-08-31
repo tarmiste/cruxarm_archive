@@ -6,7 +6,7 @@
 name=xorg-xcursorgen
 version=1.0.7
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/app/xcursorgen-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/xcursorgen-$version.tar.bz2)
 
 build() {
 	cd xcursorgen-$version

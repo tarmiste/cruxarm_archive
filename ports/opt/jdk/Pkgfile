@@ -1,37 +1,32 @@
-# Description: Java 8 Software Development Kit
-# URL: http://java.sun.com
-# Maintainer: CRUX System Team, core-ports at crux dot nu
-# Depends on: util-linux gtk3 gtk alsa-lib
+# Description: Java 8 Software Development Kit (amazon-corretto)
+# URL:         https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/what-is-corretto-8.html
+# Maintainer:  CRUX System Team, core-ports at crux dot nu
+# Depends on:  util-linux gtk alsa-lib
 
 name=jdk
-version=1.8.0_202
+version=8.212.04.1
 release=1
-source=(file:///$name-8u${version##*_}-linux-x64.tar.gz)
+source=(https://d3pxv6yz143wms.cloudfront.net/$version/java-1.8.0-amazon-corretto-devel-1.8.0_212.b04-1.x86_64.rpm)
 
 build(){
-	rm -rf $SRC/jdk*/{man/ja,jre/lib/{locale,deploy/messages_},db/lib/derbyLocale*}*
-	rm -rf $SRC/jdk*/jre/lib/fontconfig.{RedHat,SuSE,Sun,Turbo}.*
-	rm -rf $SRC/jdk*/{,jre/}[A-Z]*
+    cd $SRC/usr/lib/jvm/java-1.8.0-amazon-corretto
 
-	install -d $PKG/usr/{lib,share}
-	mv $SRC/jdk* $PKG/usr/lib/$name
-	mv $PKG/usr/lib/jdk*/man $PKG/usr/share
+    install -d $PKG/usr/{bin,lib/jdk,share/man}
 
-	cd $PKG/usr/lib
-	export GLOBIGNORE="*/src.zip"
-	for i in jdk/* jdk/jre/*; do
-	  test -f $i && rm -rf $i;
-	done
-	
-	ln -s $name $PKG/usr/lib/java
+    rm ASSEMBLY_EXCEPTION LICENSE THIRD_PARTY_README
+    mv man $PKG/usr/share/
+    mv *   $PKG/usr/lib/jdk/
 
-	# generate classes.jsa
-	cd $PKG/usr/lib/java
-	./bin/java -server -Xshare:dump
-	./bin/java -client -Xshare:dump
+    # symlinks
+    ln -s jdk $PKG/usr/lib/java
+    ln -s ../lib/jdk/bin/java    $PKG/usr/bin/java
+    ln -s ../lib/jdk/bin/javac   $PKG/usr/bin/javac
+    ln -s ../lib/jdk/bin/javah   $PKG/usr/bin/javah
+    ln -s ../lib/jdk/bin/javap   $PKG/usr/bin/javap
+    ln -s ../lib/jdk/bin/jar     $PKG/usr/bin/jar
+    ln -s ../lib/jdk/bin/keytool $PKG/usr/bin/keytool
 
-	mkdir -p $PKG/usr/bin && cd $PKG/usr/bin
-	for j in java javac javah javap javaws jar keytool; do
-		ln -s ../lib/java/bin/$j
-	done
+    # revdep
+    install -d $PKG/etc/revdep.d
+    printf '%s\n%s\n%s\n' /usr/lib/jdk/{lib/amd64,jre/lib/amd64{,/server}} > $PKG/etc/revdep.d/jdk
 }

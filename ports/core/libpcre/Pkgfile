@@ -3,7 +3,7 @@
 # Maintainer:  CRUX System Team, core-ports at crux dot nu
 
 name=libpcre
-version=8.42
+version=8.43
 release=1
 source=(https://ftp.pcre.org/pub/pcre/pcre-$version.tar.bz2)
 

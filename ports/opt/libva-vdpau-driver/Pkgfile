@@ -1,21 +1,22 @@
 # Description: VDPAU back-end for NVIDIA and VIA chipsets.
 # URL: http://freedesktop.org/wiki/Software/vaapi
 # Maintainer: Danny Rawlins, crux at romster dot me
-# Packager: Danny Rawlins, crux at romster dot me
 # Depends on: libva
 
 name=libva-vdpau-driver
 version=0.7.4
-release=4
-source=(http://www.freedesktop.org/software/vaapi/releases/$name/$name-$version.tar.bz2
-	glx.patch libva.patch vdpau.patch)
+release=5
+source=(https://www.freedesktop.org/software/vaapi/releases/$name/$name-$version.tar.bz2
+	libva-vdpau-driver-0.7.4-glext-missing-definition.patch
+	libva-vdpau-driver-0.7.4-libvdpau-0.8.patch
+	libva-vdpau-driver-0.7.4-VAEncH264VUIBufferType.patch)
 
 build() {
 	cd $name-$version
 
-	patch -p1 -i $SRC/glx.patch
-	patch -p1 -i $SRC/libva.patch
-	patch -p1 -i $SRC/vdpau.patch
+	patch -p1 -i $SRC/libva-vdpau-driver-0.7.4-glext-missing-definition.patch
+	patch -p1 -i $SRC/libva-vdpau-driver-0.7.4-libvdpau-0.8.patch
+	patch -p1 -i $SRC/libva-vdpau-driver-0.7.4-VAEncH264VUIBufferType.patch
 
 	./configure \
 		--prefix=/usr \
